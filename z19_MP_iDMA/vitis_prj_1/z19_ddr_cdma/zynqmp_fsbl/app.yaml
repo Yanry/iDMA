@@ -1,0 +1,4 @@
+domain_path: /home/yanry/dma/z19_MP_iDMA/vitis_prj_1/z19_ddr_cdma/zynqmp_fsbl/zynqmp_fsbl_bsp
+app_src_dir: /home/data/tools/Xilinx24/Vitis/2024.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl
+template: zynqmp_fsbl
+lang: c

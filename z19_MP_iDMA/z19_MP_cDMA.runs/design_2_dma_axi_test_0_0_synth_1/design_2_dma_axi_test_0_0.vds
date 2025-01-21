@@ -1,0 +1,451 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Jan 17 17:59:48 2025
+# Process ID         : 689201
+# Current directory  : /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/design_2_dma_axi_test_0_0_synth_1
+# Command line       : vivado -log design_2_dma_axi_test_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_dma_axi_test_0_0.tcl
+# Log file           : /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/design_2_dma_axi_test_0_0_synth_1/design_2_dma_axi_test_0_0.vds
+# Journal file       : /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/design_2_dma_axi_test_0_0_synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 127986 MB
+#-----------------------------------------------------------
+source design_2_dma_axi_test_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_dma_axi_test_0_0
+Command: synth_design -top design_2_dma_axi_test_0_0 -part xczu19eg-ffvc1760-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 689394
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2808.871 ; gain = 137.859 ; free physical = 102183 ; free virtual = 114573
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_2_dma_axi_test_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ip/design_2_dma_axi_test_0_0/synth/design_2_dma_axi_test_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'dma_axi_test' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dma_axi_test_slave_full_v1_0_S00_AXI' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:266]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:336]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axi_test_slave_full_v1_0_S00_AXI' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'dma_axi_test' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_2_dma_axi_test_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ip/design_2_dma_axi_test_0_0/synth/design_2_dma_axi_test_0_0.v:53]
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLOCK in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWREGION[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWREGION[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWREGION[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWREGION[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[15] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[14] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[13] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[12] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[11] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[10] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[9] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[8] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[7] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[6] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[5] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[4] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WUSER[-1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WUSER[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLOCK in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARQOS[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARQOS[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARQOS[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARQOS[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARREGION[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARREGION[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARREGION[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARREGION[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[15] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[14] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[13] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[12] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[11] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[10] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[9] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[8] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[7] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[6] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[5] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[4] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[3] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[2] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[1] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARUSER[0] in module dma_axi_test_slave_full_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2887.840 ; gain = 216.828 ; free physical = 101839 ; free virtual = 114230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2887.840 ; gain = 216.828 ; free physical = 101827 ; free virtual = 114218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2887.840 ; gain = 216.828 ; free physical = 101827 ; free virtual = 114218
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2887.840 ; gain = 0.000 ; free physical = 101821 ; free virtual = 114212
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3009.441 ; gain = 0.000 ; free physical = 101637 ; free virtual = 114030
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3033.254 ; gain = 23.812 ; free physical = 101634 ; free virtual = 114028
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3033.254 ; gain = 362.242 ; free physical = 101414 ; free virtual = 113808
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3041.258 ; gain = 370.246 ; free physical = 101413 ; free virtual = 113807
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3041.258 ; gain = 370.246 ; free physical = 101412 ; free virtual = 113806
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'dma_axi_test_slave_full_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'dma_axi_test_slave_full_v1_0_S00_AXI'
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[1].data_out was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[2].data_out was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[3].data_out was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[0].data_out_rep was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[0].data_out_rep was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+WARNING: [Synth 8-6014] Unused sequential element BRAM_GEN[0].BYTE_BRAM_GEN[0].data_out_rep was removed.  [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v:522]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'dma_axi_test_slave_full_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'dma_axi_test_slave_full_v1_0_S00_AXI'
+INFO: [Synth 8-6904] The RAM "dma_axi_test_slave_full_v1_0_S00_AXI:/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "dma_axi_test_slave_full_v1_0_S00_AXI:/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "dma_axi_test_slave_full_v1_0_S00_AXI:/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "dma_axi_test_slave_full_v1_0_S00_AXI:/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3041.258 ; gain = 370.246 ; free physical = 101384 ; free virtual = 113779
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   3 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 7     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	              128 Bit	(16 X 8 bit)          RAMs := 4     
++---Muxes : 
+	   3 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   6 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 6     
+	   4 Input    6 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 15    
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+WARNING: [Synth 8-7129] Port s00_axi_awsize[2] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awsize[1] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awsize[0] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awlock in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awcache[3] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awcache[2] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awcache[1] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awcache[0] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awqos[3] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awqos[2] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awqos[1] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awqos[0] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awregion[3] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awregion[2] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awregion[1] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awregion[0] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[15] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[14] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[13] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[12] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[11] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[10] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[9] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[8] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awuser[7] in module design_2_dma_axi_test_0_0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "design_2_dma_axi_test_0_0/inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg" of size (depth=16 x width=8) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3041.258 ; gain = 370.246 ; free physical = 101355 ; free virtual = 113750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|Module Name               | RTL Object                                                                               | Inference | Size (Depth x Width) | Primitives    | 
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3646.629 ; gain = 975.617 ; free physical = 102295 ; free virtual = 114700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 3646.629 ; gain = 975.617 ; free physical = 102293 ; free virtual = 114699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|Module Name               | RTL Object                                                                               | Inference | Size (Depth x Width) | Primitives    | 
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
+|design_2_dma_axi_test_0_0 | inst/dma_axi_test_slave_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM32M16 x 1  | 
++--------------------------+------------------------------------------------------------------------------------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 3657.652 ; gain = 986.641 ; free physical = 102279 ; free virtual = 114685
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101757 ; free virtual = 114163
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101757 ; free virtual = 114163
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101757 ; free virtual = 114162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101757 ; free virtual = 114162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101757 ; free virtual = 114162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101756 ; free virtual = 114162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |     4|
+|2     |LUT1     |     2|
+|3     |LUT2     |     9|
+|4     |LUT3     |    13|
+|5     |LUT4     |    47|
+|6     |LUT5     |    17|
+|7     |LUT6     |    38|
+|8     |MUXF7    |     1|
+|9     |RAM32M16 |     4|
+|10    |FDRE     |    54|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101756 ; free virtual = 114162
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 77 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 3826.465 ; gain = 1010.039 ; free physical = 101695 ; free virtual = 114101
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3826.465 ; gain = 1155.453 ; free physical = 101695 ; free virtual = 114101
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3826.465 ; gain = 0.000 ; free physical = 101843 ; free virtual = 114248
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3826.465 ; gain = 0.000 ; free physical = 100588 ; free virtual = 112993
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 4 instances
+
+Synth Design complete | Checksum: d360c362
+INFO: [Common 17-83] Releasing license: Synthesis
+45 Infos, 123 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:33 . Memory (MB): peak = 3826.465 ; gain = 2348.398 ; free physical = 100585 ; free virtual = 112990
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2756.938; main = 2756.938; forked = 198.206
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4358.258; main = 3808.664; forked = 914.852
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3832.672 ; gain = 0.000 ; free physical = 100579 ; free virtual = 112985
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/design_2_dma_axi_test_0_0_synth_1/design_2_dma_axi_test_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_2_dma_axi_test_0_0, cache-ID = 07c9757246a508b0
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3832.672 ; gain = 0.000 ; free physical = 100512 ; free virtual = 112918
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/design_2_dma_axi_test_0_0_synth_1/design_2_dma_axi_test_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_2_dma_axi_test_0_0_utilization_synth.rpt -pb design_2_dma_axi_test_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 17 18:00:32 2025...

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7590396418773156378  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 8 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_19 -L axi_bram_ctrl_v4_1_11 -L blk_mem_gen_v8_4_9 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dma_axi_tb_behav xil_defaultlib.dma_axi_tb xil_defaultlib.glbl" , 
+    buildDate : "Nov  8 2024" , 
+    buildTime : "22:36:55" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/dma_axi_tb_behav/xsimk\"   \"xsim.dir/dma_axi_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_2.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_3.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_4.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_5.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_6.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_7.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_8.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_9.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_10.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_11.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_12.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_13.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_14.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_15.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_16.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_17.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_18.lnx64.o\" \"xsim.dir/dma_axi_tb_behav/obj/xsim_19.lnx64.o\" -L\"/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o\" -lxv_simulator_kernel    -L/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -Wl,--disable-new-dtags -Wl,-rpath=/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/../../tps/lnx64/gcc-9.3.0/bin/../lib64 -lxv_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

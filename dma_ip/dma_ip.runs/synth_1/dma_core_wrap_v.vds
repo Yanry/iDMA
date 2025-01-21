@@ -1,0 +1,935 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jan 16 14:49:32 2025
+# Process ID         : 149413
+# Current directory  : /home/yanry/dma/dma_ip/dma_ip.runs/synth_1
+# Command line       : vivado -log dma_core_wrap_v.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dma_core_wrap_v.tcl
+# Log file           : /home/yanry/dma/dma_ip/dma_ip.runs/synth_1/dma_core_wrap_v.vds
+# Journal file       : /home/yanry/dma/dma_ip/dma_ip.runs/synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 131348 MB
+#-----------------------------------------------------------
+source dma_core_wrap_v.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental /home/yanry/dma/dma_ip/dma_ip.srcs/utils_1/imports/synth_1/dma_core_wrap_v.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/yanry/dma/dma_ip/dma_ip.srcs/utils_1/imports/synth_1/dma_core_wrap_v.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top dma_core_wrap_v -part xczu19eg-ffvc1760-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 149520
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1875.926 ; gain = 439.066 ; free physical = 116455 ; free virtual = 124291
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11067] parameter 'BlockAw' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:10]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_SRC_ADDR_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:95]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_DST_ADDR_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:96]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_NUM_BYTES_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:97]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_CONF_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:98]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_STATUS_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:99]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_NEXT_ID_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:100]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_DONE_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:101]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_STRIDE_SRC_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:102]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_STRIDE_DST_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:103]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_NUM_REPETITIONS_OFFSET' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:104]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_STATUS_RESVAL' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:107]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_NEXT_ID_RESVAL' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:108]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_DONE_RESVAL' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:109]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_2D_FRONTEND_PERMIT' declared inside package 'idma_reg64_2d_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_2d_frontend_reg_pkg.sv:126]
+WARNING: [Synth 8-11067] parameter 'BlockAw' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:10]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_SRC_ADDR_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:80]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_DST_ADDR_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:81]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_NUM_BYTES_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:82]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_CONF_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:83]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_STATUS_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:84]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_NEXT_ID_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:85]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_DONE_OFFSET' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:86]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_STATUS_RESVAL' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:89]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_NEXT_ID_RESVAL' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:90]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_DONE_RESVAL' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:91]
+WARNING: [Synth 8-11067] parameter 'IDMA_REG64_FRONTEND_PERMIT' declared inside package 'idma_reg64_frontend_reg_pkg' shall be treated as localparam [/home/yanry/dma/src/idma_reg64_frontend_reg_pkg.sv:105]
+INFO: [Synth 8-6157] synthesizing module 'dma_core_wrap_v' [/home/yanry/dma/src/dma_core_wrap_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dma_core_wrap_sv' [/home/yanry/dma/src/dma_core_wrap_sv.sv:6]
+	Parameter AxiAddrWidth bound to: 64 - type: integer 
+	Parameter AxiDataWidth bound to: 64 - type: integer 
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter AxiUserWidth bound to: 1 - type: integer 
+	Parameter AxiSlvIdWidth bound to: 1 - type: integer 
+	Parameter NumAxInFlight bound to: 3 - type: integer 
+	Parameter MemSysDepth bound to: 0 - type: integer 
+	Parameter JobFifoDepth bound to: 0 - type: integer 
+	Parameter RAWCouplingAvail bound to: 1'b1 
+	Parameter IsTwoD bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'dma_core_wrap' [/home/yanry/dma/src/dma_core_wrap.sv:16]
+	Parameter AxiAddrWidth bound to: 64 - type: integer 
+	Parameter AxiDataWidth bound to: 64 - type: integer 
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter AxiUserWidth bound to: 1 - type: integer 
+	Parameter AxiSlvIdWidth bound to: 1 - type: integer 
+	Parameter NumAxInFlight bound to: 3 - type: integer 
+	Parameter MemSysDepth bound to: 0 - type: integer 
+	Parameter JobFifoDepth bound to: 0 - type: integer 
+	Parameter RAWCouplingAvail bound to: 1'b1 
+	Parameter IsTwoD bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'idma_reg64_frontend' [/home/yanry/dma/src/idma_reg64_frontend.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'idma_reg64_frontend_reg_top' [/home/yanry/dma/src/idma_reg64_frontend_reg_top.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg' [/home/yanry/dma/src/prim_subreg.sv:7]
+	Parameter DW bound to: 32'sb00000000000000000000000001000000 
+	Parameter SWACCESS bound to: RW - type: string 
+	Parameter RESVAL bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg_arb' [/home/yanry/dma/src/prim_subreg_arb.sv:7]
+	Parameter DW bound to: 32'sb00000000000000000000000001000000 
+	Parameter SWACCESS bound to: RW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg_arb' (0#1) [/home/yanry/dma/src/prim_subreg_arb.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg' (0#1) [/home/yanry/dma/src/prim_subreg.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg__parameterized0' [/home/yanry/dma/src/prim_subreg.sv:7]
+	Parameter DW bound to: 32'sb00000000000000000000000000000001 
+	Parameter SWACCESS bound to: RW - type: string 
+	Parameter RESVAL bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg_arb__parameterized0' [/home/yanry/dma/src/prim_subreg_arb.sv:7]
+	Parameter DW bound to: 32'sb00000000000000000000000000000001 
+	Parameter SWACCESS bound to: RW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg_arb__parameterized0' (0#1) [/home/yanry/dma/src/prim_subreg_arb.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg__parameterized0' (0#1) [/home/yanry/dma/src/prim_subreg.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg_ext' [/home/yanry/dma/src/prim_subreg_ext.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg_ext' (0#1) [/home/yanry/dma/src/prim_subreg_ext.sv:7]
+INFO: [Synth 8-6157] synthesizing module 'prim_subreg_ext__parameterized0' [/home/yanry/dma/src/prim_subreg_ext.sv:7]
+	Parameter DW bound to: 32'b00000000000000000000000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'prim_subreg_ext__parameterized0' (0#1) [/home/yanry/dma/src/prim_subreg_ext.sv:7]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/idma_reg64_frontend_reg_top.sv:361]
+INFO: [Synth 8-6155] done synthesizing module 'idma_reg64_frontend_reg_top' (0#1) [/home/yanry/dma/src/idma_reg64_frontend_reg_top.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'idma_transfer_id_gen' [/home/yanry/dma/src/idma_transfer_id_gen.sv:9]
+	Parameter IdWidth bound to: 32'b00000000000000000000000001000000 
+INFO: [Synth 8-6155] done synthesizing module 'idma_transfer_id_gen' (0#1) [/home/yanry/dma/src/idma_transfer_id_gen.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'idma_reg64_frontend' (0#1) [/home/yanry/dma/src/idma_reg64_frontend.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'axi_to_reg' [/home/yanry/dma/src/axi_to_reg.sv:17]
+	Parameter ADDR_WIDTH bound to: 64 - type: integer 
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter ID_WIDTH bound to: 1 - type: integer 
+	Parameter USER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_to_axi_lite' [/home/yanry/dma/src/axi_to_axi_lite.sv:18]
+	Parameter AxiAddrWidth bound to: 64 - type: integer 
+	Parameter AxiDataWidth bound to: 64 - type: integer 
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter AxiUserWidth bound to: 1 - type: integer 
+	Parameter AxiMaxWriteTxns bound to: 2 - type: integer 
+	Parameter AxiMaxReadTxns bound to: 2 - type: integer 
+	Parameter FallThrough bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'axi_atop_filter' [/home/yanry/dma/src/axi_atop_filter.sv:37]
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter AxiMaxWriteTxns bound to: 2 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_atop_filter.sv:118]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_atop_filter.sv:268]
+INFO: [Synth 8-6157] synthesizing module 'stream_register' [/home/yanry/dma/src/stream_register.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'stream_register' (0#1) [/home/yanry/dma/src/stream_register.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'axi_atop_filter' (0#1) [/home/yanry/dma/src/axi_atop_filter.sv:37]
+INFO: [Synth 8-6157] synthesizing module 'axi_burst_splitter' [/home/yanry/dma/src/axi_burst_splitter.sv:28]
+	Parameter MaxReadTxns bound to: 2 - type: integer 
+	Parameter MaxWriteTxns bound to: 2 - type: integer 
+	Parameter AddrWidth bound to: 64 - type: integer 
+	Parameter DataWidth bound to: 64 - type: integer 
+	Parameter IdWidth bound to: 1 - type: integer 
+	Parameter UserWidth bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_demux' [/home/yanry/dma/src/axi_demux.sv:40]
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter NoMstPorts bound to: 32'b00000000000000000000000000000010 
+	Parameter MaxTrans bound to: 2 - type: integer 
+	Parameter AxiLookBits bound to: 1 - type: integer 
+	Parameter SpillAw bound to: 1'b0 
+	Parameter SpillW bound to: 1'b0 
+	Parameter SpillB bound to: 1'b0 
+	Parameter SpillAr bound to: 1'b0 
+	Parameter SpillR bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'axi_demux_id_counters' [/home/yanry/dma/src/axi_demux.sv:686]
+	Parameter AxiIdBits bound to: 1 - type: integer 
+	Parameter CounterWidth bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_demux.sv:736]
+INFO: [Synth 8-6157] synthesizing module 'delta_counter' [/home/yanry/dma/src/delta_counter.sv:13]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter' (0#1) [/home/yanry/dma/src/delta_counter.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_demux.sv:736]
+INFO: [Synth 8-6155] done synthesizing module 'axi_demux_id_counters' (0#1) [/home/yanry/dma/src/axi_demux.sv:686]
+INFO: [Synth 8-6157] synthesizing module 'spill_register' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized0' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized0' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized0' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized0' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'counter' [/home/yanry/dma/src/counter.sv:14]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/yanry/dma/src/counter.sv:38]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [/home/yanry/dma/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized1' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized1' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized1' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized1' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized2' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized2' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized2' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized2' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000010 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'lzc' [/home/yanry/dma/src/lzc.sv:15]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000010 
+	Parameter MODE bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'lzc' (0#1) [/home/yanry/dma/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized3' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized3' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized3' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized3' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized4' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized4' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized4' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized4' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized0' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000010 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized0' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'axi_demux' (0#1) [/home/yanry/dma/src/axi_demux.sv:40]
+INFO: [Synth 8-6157] synthesizing module 'axi_err_slv' [/home/yanry/dma/src/axi_err_slv.sv:19]
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter Resp bound to: 2'b10 
+	Parameter ATOPs bound to: 1'b0 
+	Parameter MaxTrans bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized0' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized0' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized1' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized1' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized2' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized2' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [/home/yanry/dma/src/counter.sv:14]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-6157] synthesizing module 'delta_counter__parameterized0' [/home/yanry/dma/src/delta_counter.sv:13]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001000 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter__parameterized0' (0#1) [/home/yanry/dma/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [/home/yanry/dma/src/counter.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'axi_err_slv' (0#1) [/home/yanry/dma/src/axi_err_slv.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'axi_burst_splitter_ax_chan' [/home/yanry/dma/src/axi_burst_splitter.sv:345]
+	Parameter IdWidth bound to: 1 - type: integer 
+	Parameter MaxTxns bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_burst_splitter_counters' [/home/yanry/dma/src/axi_burst_splitter.sv:460]
+	Parameter MaxTxns bound to: 2 - type: integer 
+	Parameter IdWidth bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized1' [/home/yanry/dma/src/counter.sv:14]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001001 
+INFO: [Synth 8-6157] synthesizing module 'delta_counter__parameterized1' [/home/yanry/dma/src/delta_counter.sv:13]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001001 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter__parameterized1' (0#1) [/home/yanry/dma/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized1' (0#1) [/home/yanry/dma/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'id_queue' [/home/yanry/dma/src/id_queue.sv:48]
+	Parameter ID_WIDTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter CAPACITY bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'onehot_to_bin' [/home/yanry/dma/src/onehot_to_bin.sv:13]
+	Parameter ONEHOT_WIDTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'onehot_to_bin' (0#1) [/home/yanry/dma/src/onehot_to_bin.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'id_queue' (0#1) [/home/yanry/dma/src/id_queue.sv:48]
+INFO: [Synth 8-6155] done synthesizing module 'axi_burst_splitter_counters' (0#1) [/home/yanry/dma/src/axi_burst_splitter.sv:460]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_burst_splitter.sv:401]
+INFO: [Synth 8-226] default block is never used [/home/yanry/dma/src/axi_burst_splitter.sv:401]
+INFO: [Synth 8-6155] done synthesizing module 'axi_burst_splitter_ax_chan' (0#1) [/home/yanry/dma/src/axi_burst_splitter.sv:345]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_burst_splitter.sv:187]
+INFO: [Synth 8-226] default block is never used [/home/yanry/dma/src/axi_burst_splitter.sv:187]
+INFO: [Synth 8-6157] synthesizing module 'axi_burst_splitter_ax_chan__parameterized0' [/home/yanry/dma/src/axi_burst_splitter.sv:345]
+	Parameter IdWidth bound to: 1 - type: integer 
+	Parameter MaxTxns bound to: 2 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_burst_splitter.sv:401]
+INFO: [Synth 8-226] default block is never used [/home/yanry/dma/src/axi_burst_splitter.sv:401]
+INFO: [Synth 8-6155] done synthesizing module 'axi_burst_splitter_ax_chan__parameterized0' (0#1) [/home/yanry/dma/src/axi_burst_splitter.sv:345]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_burst_splitter.sv:271]
+INFO: [Synth 8-226] default block is never used [/home/yanry/dma/src/axi_burst_splitter.sv:271]
+INFO: [Synth 8-6155] done synthesizing module 'axi_burst_splitter' (0#1) [/home/yanry/dma/src/axi_burst_splitter.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'axi_to_axi_lite_id_reflect' [/home/yanry/dma/src/axi_to_axi_lite.sv:116]
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter AxiMaxWriteTxns bound to: 2 - type: integer 
+	Parameter AxiMaxReadTxns bound to: 2 - type: integer 
+	Parameter FallThrough bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'axi_to_axi_lite_id_reflect' (0#1) [/home/yanry/dma/src/axi_to_axi_lite.sv:116]
+INFO: [Synth 8-6155] done synthesizing module 'axi_to_axi_lite' (0#1) [/home/yanry/dma/src/axi_to_axi_lite.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'axi_lite_to_reg' [/home/yanry/dma/src/axi_lite_to_reg.sv:15]
+	Parameter ADDR_WIDTH bound to: 64 - type: integer 
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter DECOUPLE_W bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized3' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized3' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized4' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized4' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized5' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized5' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized6' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized6' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'stream_arbiter' [/home/yanry/dma/src/stream_arbiter.sv:16]
+	Parameter N_INP bound to: 2 - type: integer 
+	Parameter ARBITER bound to: rr - type: string 
+INFO: [Synth 8-6157] synthesizing module 'stream_arbiter_flushable' [/home/yanry/dma/src/stream_arbiter_flushable.sv:16]
+	Parameter N_INP bound to: 2 - type: integer 
+	Parameter ARBITER bound to: rr - type: string 
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized1' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 2 - type: integer 
+	Parameter ExtPrio bound to: 1'b0 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized1' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'stream_arbiter_flushable' (0#1) [/home/yanry/dma/src/stream_arbiter_flushable.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'stream_arbiter' (0#1) [/home/yanry/dma/src/stream_arbiter.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'axi_lite_to_reg' (0#1) [/home/yanry/dma/src/axi_lite_to_reg.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'axi_to_reg' (0#1) [/home/yanry/dma/src/axi_to_reg.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'idma_backend' [/home/yanry/dma/src/idma_backend.sv:12]
+	Parameter DataWidth bound to: 64 - type: integer 
+	Parameter AddrWidth bound to: 64 - type: integer 
+	Parameter UserWidth bound to: 1 - type: integer 
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter NumAxInFlight bound to: 3 - type: integer 
+	Parameter BufferDepth bound to: 32'b00000000000000000000000000000011 
+	Parameter TFLenWidth bound to: 64 - type: integer 
+	Parameter MemSysDepth bound to: 0 - type: integer 
+	Parameter RAWCouplingAvail bound to: 1'b1 
+	Parameter MaskInvalidData bound to: 1'b0 
+	Parameter HardwareLegalizer bound to: 1'b1 
+	Parameter RejectZeroTransfers bound to: 1'b1 
+	Parameter ErrorCap bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'idma_legalizer' [/home/yanry/dma/src/idma_legalizer.sv:15]
+	Parameter Protocol bound to: 2'b00 
+	Parameter DataWidth bound to: 64 - type: integer 
+	Parameter AddrWidth bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'idma_legalizer' (0#1) [/home/yanry/dma/src/idma_legalizer.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'idma_stream_fifo' [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+	Parameter Depth bound to: 3 - type: integer 
+	Parameter PrintInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo__parameterized0' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized7' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized7' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo__parameterized0' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'idma_stream_fifo' (0#1) [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'idma_stream_fifo__parameterized0' [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+	Parameter Depth bound to: 32'b00000000000000000000000000000110 
+	Parameter PrintInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo__parameterized1' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000110 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized8' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000110 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized8' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo__parameterized1' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'idma_stream_fifo__parameterized0' (0#1) [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'idma_axi_transport_layer' [/home/yanry/dma/src/idma_axi_transport_layer.sv:10]
+	Parameter DataWidth bound to: 64 - type: integer 
+	Parameter BufferDepth bound to: 32'b00000000000000000000000000000011 
+	Parameter MaskInvalidData bound to: 1'b0 
+	Parameter PrintFifoInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'idma_buffer' [/home/yanry/dma/src/idma_buffer.sv:8]
+	Parameter BufferDepth bound to: 32'b00000000000000000000000000000011 
+	Parameter StrbWidth bound to: 32'b00000000000000000000000000001000 
+	Parameter PrintFifoInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'idma_stream_fifo__parameterized1' [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+	Parameter Depth bound to: 32'b00000000000000000000000000000011 
+	Parameter PrintInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo__parameterized2' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000011 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized9' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized9' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo__parameterized2' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'idma_stream_fifo__parameterized1' (0#1) [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+INFO: [Synth 8-6155] done synthesizing module 'idma_buffer' (0#1) [/home/yanry/dma/src/idma_buffer.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'idma_axi_transport_layer' (0#1) [/home/yanry/dma/src/idma_axi_transport_layer.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'idma_channel_coupler' [/home/yanry/dma/src/idma_channel_coupler.sv:12]
+	Parameter NumAxInFlight bound to: 3 - type: integer 
+	Parameter AddrWidth bound to: 64 - type: integer 
+	Parameter UserWidth bound to: 1 - type: integer 
+	Parameter AxiIdWidth bound to: 1 - type: integer 
+	Parameter PrintFifoInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'idma_stream_fifo__parameterized2' [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+	Parameter Depth bound to: 3 - type: integer 
+	Parameter PrintInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo__parameterized3' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized10' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized10' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo__parameterized3' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'idma_stream_fifo__parameterized2' (0#1) [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'fall_through_register' [/home/yanry/dma/src/fall_through_register.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v2' [/home/yanry/dma/src/fifo_v2.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized11' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized11' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v2' (0#1) [/home/yanry/dma/src/fifo_v2.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fall_through_register' (0#1) [/home/yanry/dma/src/fall_through_register.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'idma_channel_coupler' (0#1) [/home/yanry/dma/src/idma_channel_coupler.sv:12]
+INFO: [Synth 8-6157] synthesizing module 'idma_stream_fifo__parameterized3' [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+	Parameter Depth bound to: 3 - type: integer 
+	Parameter PrintInfo bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'stream_fifo__parameterized4' [/home/yanry/dma/src/stream_fifo.sv:13]
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized12' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter DEPTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized12' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'stream_fifo__parameterized4' (0#1) [/home/yanry/dma/src/stream_fifo.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'idma_stream_fifo__parameterized3' (0#1) [/home/yanry/dma/src/idma_stream_fifo.sv:11]
+INFO: [Synth 8-6157] synthesizing module 'fall_through_register__parameterized0' [/home/yanry/dma/src/fall_through_register.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v2__parameterized0' [/home/yanry/dma/src/fifo_v2.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000001011111 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized13' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DATA_WIDTH bound to: 32'b00000000000000000000000001011111 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized13' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v2__parameterized0' (0#1) [/home/yanry/dma/src/fifo_v2.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fall_through_register__parameterized0' (0#1) [/home/yanry/dma/src/fall_through_register.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'idma_backend' (0#1) [/home/yanry/dma/src/idma_backend.sv:12]
+INFO: [Synth 8-6155] done synthesizing module 'dma_core_wrap' (0#1) [/home/yanry/dma/src/dma_core_wrap.sv:16]
+INFO: [Synth 8-6155] done synthesizing module 'dma_core_wrap_sv' (0#1) [/home/yanry/dma/src/dma_core_wrap_sv.sv:6]
+INFO: [Synth 8-6155] done synthesizing module 'dma_core_wrap_v' (0#1) [/home/yanry/dma/src/dma_core_wrap_v.v:1]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-6014] Unused sequential element write_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:115]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][length] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][src_addr] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][dst_addr] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][axi_id] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][burst] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][cache] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][lock] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][prot] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][qos] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][src][region] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][burst] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][cache] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][lock] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][prot] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][qos] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][dst][region] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][decouple_aw] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][decouple_rw] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][src_max_llen] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][dst_max_llen] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][src_reduce_len] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][beo][dst_reduce_len] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element mem_q_reg[0][opt][last] was removed.  [/home/yanry/dma/src/fifo_v3.sv:132]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized13 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized12 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized10 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_rsp_i[b][id][0] in module idma_axi_transport_layer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_rsp_i[r][id][0] in module idma_axi_transport_layer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_rsp_i[r][user][0] in module idma_axi_transport_layer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port r_dp_req_i[decouple_aw] in module idma_axi_transport_layer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port idma_eh_req_i[0] in module idma_backend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port eh_req_valid_i in module idma_backend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[0] in module rr_arb_tree__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[aw][prot][2] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[aw][prot][1] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[aw][prot][0] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[ar][prot][2] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[ar][prot][1] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port axi_lite_req_i[ar][prot][0] in module axi_lite_to_reg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][7] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][6] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][5] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][4] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][lock] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][region][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][region][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][region][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][region][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][5] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][4] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][atop][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][user][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[w][last] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[w][user][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][7] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][6] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][5] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][4] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][len][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][size][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][size][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][size][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][burst][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][burst][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][lock] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][cache][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][cache][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][cache][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][cache][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][qos][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][qos][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][qos][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][qos][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][region][3] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][region][2] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][region][1] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][region][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[ar][user][0] in module axi_to_axi_lite_id_reflect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][63] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][62] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][61] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][60] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][59] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][58] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][57] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][56] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][55] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][54] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][53] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][52] in module axi_err_slv is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1990.863 ; gain = 554.004 ; free physical = 116312 ; free virtual = 124152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2008.676 ; gain = 571.816 ; free physical = 116312 ; free virtual = 124152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2025.586 ; gain = 588.727 ; free physical = 116312 ; free virtual = 124154
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'r_state_q_reg' in module 'axi_atop_filter'
+INFO: [Synth 8-802] inferred FSM for state register 'w_state_q_reg' in module 'axi_atop_filter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           R_FEEDTHROUGH |                               00 |                               00
+                  R_HOLD |                               01 |                               10
+                INJECT_R |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'r_state_q_reg' using encoding 'sequential' in module 'axi_atop_filter'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           W_FEEDTHROUGH |                              000 |                              000
+                BLOCK_AW |                              001 |                              001
+                ABSORB_W |                              010 |                              010
+                  HOLD_B |                              011 |                              011
+                INJECT_B |                              100 |                              100
+                  WAIT_R |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'w_state_q_reg' using encoding 'sequential' in module 'axi_atop_filter'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2198.023 ; gain = 761.164 ; free physical = 116103 ; free virtual = 123970
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 8     
+	   3 Input   64 Bit       Adders := 2     
+	   3 Input   32 Bit       Adders := 2     
+	   3 Input   12 Bit       Adders := 2     
+	   3 Input   10 Bit       Adders := 4     
+	   3 Input    9 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 5     
+	   2 Input    3 Bit       Adders := 15    
+	   3 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 43    
+	   3 Input    2 Bit       Adders := 6     
+	   2 Input    1 Bit       Adders := 18    
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 23    
+	               10 Bit    Registers := 4     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 39    
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 25    
+	                3 Bit    Registers := 45    
+	                2 Bit    Registers := 61    
+	                1 Bit    Registers := 128   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 30    
+	   3 Input   64 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 5     
+	   2 Input   10 Bit        Muxes := 12    
+	   2 Input    9 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 20    
+	   3 Input    8 Bit        Muxes := 11    
+	   2 Input    6 Bit        Muxes := 2     
+	   3 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 18    
+	   3 Input    4 Bit        Muxes := 3     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 33    
+	   3 Input    3 Bit        Muxes := 7     
+	   2 Input    2 Bit        Muxes := 120   
+	   3 Input    2 Bit        Muxes := 3     
+	   6 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 374   
+	   3 Input    1 Bit        Muxes := 17    
+	   6 Input    1 Bit        Muxes := 23    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 3042.445 ; gain = 1605.586 ; free physical = 115126 ; free virtual = 123117
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 3045.414 ; gain = 1608.555 ; free physical = 115125 ; free virtual = 123117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 3045.414 ; gain = 1608.555 ; free physical = 115125 ; free virtual = 123116
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |    75|
+|3     |LUT1   |   147|
+|4     |LUT2   |   261|
+|5     |LUT3   |   381|
+|6     |LUT4   |   640|
+|7     |LUT5   |   589|
+|8     |LUT6   |   411|
+|9     |MUXF7  |     1|
+|10    |FDCE   |  1746|
+|11    |FDPE   |    11|
+|12    |IBUF   |   190|
+|13    |OBUF   |   353|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------------------------+-------------------------------------------+------+
+|      |Instance                                                     |Module                                     |Cells |
++------+-------------------------------------------------------------+-------------------------------------------+------+
+|1     |top                                                          |                                           |  4806|
+|2     |  i_dma_core_wrap_sv                                         |dma_core_wrap_sv                           |  4262|
+|3     |    i_dma_core_wrap                                          |dma_core_wrap                              |  4262|
+|4     |      \gen_one_d.i_dma_frontend                              |idma_reg64_frontend                        |   812|
+|5     |        i_dma_conf_regs                                      |idma_reg64_frontend_reg_top                |   502|
+|6     |          u_conf_deburst                                     |prim_subreg__parameterized0                |     1|
+|7     |          u_conf_decouple                                    |prim_subreg__parameterized0_37             |     1|
+|8     |          u_conf_serialize                                   |prim_subreg__parameterized0_38             |     1|
+|9     |          u_dst_addr                                         |prim_subreg                                |    65|
+|10    |          u_num_bytes                                        |prim_subreg_39                             |   368|
+|11    |          u_src_addr                                         |prim_subreg_40                             |    66|
+|12    |        i_idma_transfer_id_gen                               |idma_transfer_id_gen                       |   306|
+|13    |      i_axi_translate                                        |axi_to_reg                                 |  1418|
+|14    |        i_axi_lite_to_reg                                    |axi_lite_to_reg                            |   713|
+|15    |          i_fifo_read                                        |fifo_v3__parameterized5                    |   243|
+|16    |          i_fifo_read_resp                                   |fifo_v3__parameterized6                    |   203|
+|17    |          i_fifo_write_req                                   |fifo_v3__parameterized3                    |   236|
+|18    |          i_fifo_write_resp                                  |fifo_v3__parameterized4                    |    14|
+|19    |          i_stream_arbiter                                   |stream_arbiter                             |    17|
+|20    |            i_arb                                            |stream_arbiter_flushable                   |    17|
+|21    |              \gen_rr_arb.i_arbiter                          |rr_arb_tree__parameterized1                |    17|
+|22    |        i_axi_to_axi_lite                                    |axi_to_axi_lite                            |   705|
+|23    |          i_axi_atop_filter                                  |axi_atop_filter                            |    78|
+|24    |            r_resp_cmd                                       |stream_register                            |    30|
+|25    |          i_axi_burst_splitter                               |axi_burst_splitter                         |   596|
+|26    |            i_axi_burst_splitter_ar_chan                     |axi_burst_splitter_ax_chan__parameterized0 |   202|
+|27    |              i_axi_burst_splitter_counters                  |axi_burst_splitter_counters_31             |   146|
+|28    |                \gen_cnt[0].i_cnt                            |counter__parameterized1_32                 |    29|
+|29    |                  i_counter                                  |delta_counter__parameterized1_36           |    29|
+|30    |                \gen_cnt[1].i_cnt                            |counter__parameterized1_33                 |    65|
+|31    |                  i_counter                                  |delta_counter__parameterized1_35           |    65|
+|32    |                i_idq                                        |id_queue_34                                |    52|
+|33    |            i_axi_burst_splitter_aw_chan                     |axi_burst_splitter_ax_chan                 |   228|
+|34    |              i_axi_burst_splitter_counters                  |axi_burst_splitter_counters                |   191|
+|35    |                \gen_cnt[0].i_cnt                            |counter__parameterized1                    |    28|
+|36    |                  i_counter                                  |delta_counter__parameterized1_30           |    28|
+|37    |                \gen_cnt[1].i_cnt                            |counter__parameterized1_29                 |    35|
+|38    |                  i_counter                                  |delta_counter__parameterized1              |    35|
+|39    |                i_idq                                        |id_queue                                   |   125|
+|40    |            i_demux_supported_vs_unsupported                 |axi_demux                                  |    93|
+|41    |              \gen_demux.gen_ar_id_counter.i_ar_id_counter   |axi_demux_id_counters                      |    18|
+|42    |                \gen_counters[0].i_in_flight_cnt             |delta_counter_27                           |     4|
+|43    |                \gen_counters[1].i_in_flight_cnt             |delta_counter_28                           |    11|
+|44    |              \gen_demux.gen_aw_id_counter.i_aw_id_counter   |axi_demux_id_counters_24                   |    28|
+|45    |                \gen_counters[0].i_in_flight_cnt             |delta_counter_25                           |     5|
+|46    |                \gen_counters[1].i_in_flight_cnt             |delta_counter_26                           |    21|
+|47    |              \gen_demux.i_b_mux                             |rr_arb_tree                                |    29|
+|48    |              \gen_demux.i_counter_open_w                    |counter                                    |     2|
+|49    |                i_counter                                    |delta_counter                              |     2|
+|50    |              \gen_demux.i_r_mux                             |rr_arb_tree__parameterized0                |    13|
+|51    |            i_err_slv                                        |axi_err_slv                                |    69|
+|52    |              i_b_fifo                                       |fifo_v3__parameterized1_22                 |    14|
+|53    |              i_r_counter                                    |counter__parameterized0                    |    23|
+|54    |                i_counter                                    |delta_counter__parameterized0              |    23|
+|55    |              i_r_fifo                                       |fifo_v3__parameterized2                    |    19|
+|56    |              i_w_fifo                                       |fifo_v3__parameterized0_23                 |    12|
+|57    |          i_axi_to_axi_lite_id_reflect                       |axi_to_axi_lite_id_reflect                 |    31|
+|58    |            i_ar_id_fifo                                     |fifo_v3__parameterized1                    |    15|
+|59    |            i_aw_id_fifo                                     |fifo_v3__parameterized1_21                 |    16|
+|60    |      i_idma_backend                                         |idma_backend                               |  2031|
+|61    |        \gen_axi_transport_layer.i_idma_axi_transport_layer  |idma_axi_transport_layer                   |   437|
+|62    |          i_idma_buffer                                      |idma_buffer                                |   349|
+|63    |            \gen_fifo_buffer[0].i_byte_buffer                |idma_stream_fifo__parameterized1           |    42|
+|64    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_19             |    42|
+|65    |                fifo_i                                       |fifo_v3__parameterized9_20                 |    42|
+|66    |            \gen_fifo_buffer[1].i_byte_buffer                |idma_stream_fifo__parameterized1_0         |    43|
+|67    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_17             |    43|
+|68    |                fifo_i                                       |fifo_v3__parameterized9_18                 |    43|
+|69    |            \gen_fifo_buffer[2].i_byte_buffer                |idma_stream_fifo__parameterized1_1         |    44|
+|70    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_15             |    44|
+|71    |                fifo_i                                       |fifo_v3__parameterized9_16                 |    44|
+|72    |            \gen_fifo_buffer[3].i_byte_buffer                |idma_stream_fifo__parameterized1_2         |    39|
+|73    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_13             |    39|
+|74    |                fifo_i                                       |fifo_v3__parameterized9_14                 |    39|
+|75    |            \gen_fifo_buffer[4].i_byte_buffer                |idma_stream_fifo__parameterized1_3         |    42|
+|76    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_11             |    42|
+|77    |                fifo_i                                       |fifo_v3__parameterized9_12                 |    42|
+|78    |            \gen_fifo_buffer[5].i_byte_buffer                |idma_stream_fifo__parameterized1_4         |    45|
+|79    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_9              |    45|
+|80    |                fifo_i                                       |fifo_v3__parameterized9_10                 |    45|
+|81    |            \gen_fifo_buffer[6].i_byte_buffer                |idma_stream_fifo__parameterized1_5         |    51|
+|82    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2_7              |    51|
+|83    |                fifo_i                                       |fifo_v3__parameterized9_8                  |    51|
+|84    |            \gen_fifo_buffer[7].i_byte_buffer                |idma_stream_fifo__parameterized1_6         |    43|
+|85    |              \gen_fifo.i_stream_fifo                        |stream_fifo__parameterized2                |    43|
+|86    |                fifo_i                                       |fifo_v3__parameterized9                    |    43|
+|87    |        \gen_hw_legalizer.i_idma_legalizer                   |idma_legalizer                             |   729|
+|88    |        \gen_last_flag_fifo.i_w_last                         |idma_stream_fifo__parameterized0           |    36|
+|89    |          \gen_fifo.i_stream_fifo                            |stream_fifo__parameterized1                |    36|
+|90    |            fifo_i                                           |fifo_v3__parameterized8                    |    36|
+|91    |        \gen_r_aw_coupler.i_idma_channel_coupler             |idma_channel_coupler                       |   322|
+|92    |          i_aw_store                                         |idma_stream_fifo__parameterized2           |   309|
+|93    |            \gen_fifo.i_stream_fifo                          |stream_fifo__parameterized3                |   309|
+|94    |              fifo_i                                         |fifo_v3__parameterized10                   |   309|
+|95    |          i_fall_through_register_decouple_aw_valid          |fall_through_register                      |    10|
+|96    |            i_fifo                                           |fifo_v2                                    |    10|
+|97    |              i_fifo_v3                                      |fifo_v3__parameterized0                    |    10|
+|98    |        \gen_w_dp_fifo.i_w_dp_req                            |idma_stream_fifo                           |   136|
+|99    |          \gen_fifo.i_stream_fifo                            |stream_fifo__parameterized0                |   136|
+|100   |            fifo_i                                           |fifo_v3__parameterized7                    |   136|
+|101   |        i_ar_fall_through_register                           |fall_through_register__parameterized0      |   148|
+|102   |          i_fifo                                             |fifo_v2__parameterized0                    |   148|
+|103   |            i_fifo_v3                                        |fifo_v3__parameterized13                   |   148|
+|104   |        i_r_dp_req                                           |idma_stream_fifo__parameterized3           |   223|
+|105   |          \gen_fifo.i_stream_fifo                            |stream_fifo__parameterized4                |   223|
+|106   |            fifo_i                                           |fifo_v3__parameterized12                   |   223|
++------+-------------------------------------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1087 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.320 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 3055.328 ; gain = 1618.461 ; free physical = 115122 ; free virtual = 123114
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 3083.133 ; gain = 0.000 ; free physical = 115268 ; free virtual = 123262
+INFO: [Netlist 29-17] Analyzing 267 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3231.535 ; gain = 0.000 ; free physical = 115159 ; free virtual = 123166
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 191 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 190 instances
+
+Synth Design complete | Checksum: 61532b3c
+INFO: [Common 17-83] Releasing license: Synthesis
+210 Infos, 157 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 3231.535 ; gain = 1809.617 ; free physical = 115158 ; free virtual = 123165
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2402.547; main = 2329.125; forked = 232.410
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3938.301; main = 3231.539; forked = 914.852
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3255.547 ; gain = 0.000 ; free physical = 115157 ; free virtual = 123165
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/dma_ip/dma_ip.runs/synth_1/dma_core_wrap_v.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file dma_core_wrap_v_utilization_synth.rpt -pb dma_core_wrap_v_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 16 14:50:34 2025...

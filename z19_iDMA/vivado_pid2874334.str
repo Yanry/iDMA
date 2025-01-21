@@ -1,0 +1,1147 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 2874334
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jan 03 14:36:48 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.15.0-91-generic
+OS Architecture: amd64
+Available processors (cores): 20
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: localhost:13.0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: true
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	yanry
+User home directory: /home/yanry
+User working directory: /home/yanry/dma/z19_iDMA
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/data/tools/Xilinx24/Vivado
+HDI_APPROOT: /home/data/tools/Xilinx24/Vivado/2024.2
+RDI_DATADIR: /home/data/tools/Xilinx24/SharedData/2024.2/data:/home/data/tools/Xilinx24/Vivado/2024.2/data
+RDI_BINDIR: /home/data/tools/Xilinx24/Vivado/2024.2/bin
+
+Vivado preferences file: /home/yanry/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/yanry/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/yanry/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/home/data/tools/Xilinx24/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/yanry/dma/z19_iDMA/vivado.log
+Vivado journal file: 	/home/yanry/dma/z19_iDMA/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2874334-dell
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+JAVA_HOME: /home/data/tools/SpinalHDL/jdk1.8.0_411
+JAVA_PATH: /home/data/tools/SpinalHDL/jdk1.8.0_411/bin:/home/data/tools/SpinalHDL/jdk1.8.0_411/jre/bin
+RDI_APPROOT: /home/data/tools/Xilinx24/Vivado/2024.2
+RDI_BASEROOT: /home/data/tools/Xilinx24/Vivado
+RDI_BINROOT: /home/data/tools/Xilinx24/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/data/tools/Xilinx24/SharedData/2024.2/data:/home/data/tools/Xilinx24/Vivado/2024.2/data
+RDI_INSTALLROOT: /home/data/tools/Xilinx24
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/Ubuntu/20:/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/Ubuntu:/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/data/tools/Xilinx24/Vitis/2024.2/bin:/home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/data/tools/Xilinx24/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/yanry/dma/z19_iDMA:dell_1735886189_2874281
+RDI_SHARED_DATA: /home/data/tools/Xilinx24/SharedData/2024.2/data
+RDI_TPS_ROOT: /home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_PLANAHEAD: /home/data/tools/Xilinx24/Vivado/2024.2
+XILINX_SDK: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_VITIS: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_VIVADO: /home/data/tools/Xilinx24/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,516 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/yanry/dma/z19_iDMA/z19_iDMA.xpr", 1); // b.c (PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS)
+// [GUI Memory]: 77 MB (+77813kb) [00:00:13]
+// [Engine Memory]: 1,517 MB (+1439132kb) [00:00:13]
+// Opening Vivado Project: /home/yanry/dma/z19_iDMA/z19_iDMA.xpr. Version: Vivado v2024.2 
+// WARNING: HEventQueue.dispatchEvent() is taking  1012 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,554 MB. GUI used memory: 65 MB. Current time: 1/3/25, 2:36:50 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// Tcl Message: open_project /home/yanry/dma/z19_iDMA/z19_iDMA.xpr 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 103 MB (+24171kb) [00:00:19]
+// [Engine Memory]: 1,617 MB (+25010kb) [00:00:19]
+// [Engine Memory]: 1,964 MB (+278923kb) [00:00:20]
+// [GUI Memory]: 116 MB (+7948kb) [00:00:20]
+// [GUI Memory]: 142 MB (+21141kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  2461 ms.
+// Tcl Message: open_project /home/yanry/dma/z19_iDMA/z19_iDMA.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/ip_repo'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'. INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994. 
+// [Engine Memory]: 2,372 MB (+325590kb) [00:00:22]
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 8150.012 ; gain = 565.379 ; free physical = 83950 ; free virtual = 107242 
+// Project name: z19_iDMA; location: /home/yanry/dma/z19_iDMA; part: xczu19eg-ffvc1760-2-i
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [Engine Memory]: 2,574 MB (+87028kb) [00:00:23]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: open_bd_design {/home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd} 
+// Tcl Message: Reading block design file </home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd>... 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// [GUI Memory]: 154 MB (+4713kb) [00:00:36]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0 Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1514 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1176 ms.
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // x (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// 'bN' command handler elapsed time: 6 seconds
+// No Address Blocks Available for network [Network 0]
+// WARNING: HTimer (Open addressing views timer) is taking 227ms to process. Increasing delay to 1300 ms.
+dismissDialog("Open Block Design"); // bh (Open Block Design Progress)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 22s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 24s
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 756, 271, 1188, 533, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /dma_core_wrap_v_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// [GUI Memory]: 162 MB (+708kb) [00:00:49]
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // an (PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation)
+selectMenu(PAResourceQtoS.SystemBuilderView_PINNING, "Pinning"); // an (PAResourceQtoS.SystemBuilderView_PINNING, Pinning)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // an (PAResourceQtoS.SystemBuilderView_ORIENTATION, Orientation)
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // aq (PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, edit_in_ip_packager_menu)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+selectButton(RDIResource.BaseDialog_OK, "OK", "Edit in IP Packager"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "OK", "Confirm Overwrite"); // JButton (OptionPane.button)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name dma_core_wrap_v_v1_0_project -directory /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project -use_archived_source_project true /home/yanry/dma/ip_repo/component.xml 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1850 ms.
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/yanry/dma/z19_iDMA/.Xil/Vivado-230114-dell/PrjAr/_X_' since last save. INFO: [filemgmt 56-1] IP Repository Path: Directory not found as '/home/ip_repo'; using path '/home/yanry/ip_repo' instead. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Edit in IP Packager"); // bh (Edit in IP Packager Progress)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_ADD_FILES, "Add Files..."); // aq (PAResourceEtoH.FileGroupFacetTable_ADD_FILES)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add IP Files (Product Guide)"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+// [GUI Memory]: 178 MB (+7807kb) [00:01:15]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+setFileChooser("/home/yanry/dma/dma_ip/dma_core_wrap_product_guide_untested.html");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO, "Copy sources into IP Directory", true); // f (PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add IP Files (Product Guide)"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add IP Files (Product Guide)"); // c (dialog1)
+// Tcl Message: file copy /home/yanry/dma/dma_ip/dma_core_wrap_product_guide_untested.html /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/src 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::add_file /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/src/dma_core_wrap_product_guide_untested.html [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]] 
+// Tcl Message: set_property type html [ipx::get_files src/dma_core_wrap_product_guide_untested.html -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "src/dma_core_wrap_product_guide_untested.html ;  ; html ; false ;  ; xilinx_productguide", 4, "src/dma_core_wrap_product_guide_untested.html", 0, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+// [GUI Memory]: 187 MB (+400kb) [00:01:30]
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectButton(PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD, "Addressing and Memory Map Wizard"); // d (PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, (String) null, 1, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+// 't' command handler elapsed time: 8 seconds
+dismissDialog("Addressing and Memory Wizard"); // a (dialog3)
+// Elapsed time: 65 seconds
+selectButton(PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD, "Addressing and Memory Map Wizard"); // d (PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, "axi_mst", 0, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("BACK", "Back", "Addressing and Memory Wizard"); // JButton (BACK)
+selectButton("BACK", "Back", "Addressing and Memory Wizard"); // JButton (BACK)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, "axi_mst", 0, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+expandTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, "axi_mst", 0, false, false, false, false, false, true); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE) - Double Click
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, (String) null, 2, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, (String) null, 2, false, false, false, false, true, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE) - Popup Trigger
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_mst ; xilinx.com:interface:aximm_rtl:1.0 ; master ;  ; false", 2, (String) null, 1, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+selectButton("BACK", "Back", "Addressing and Memory Wizard"); // JButton (BACK)
+// 't' command handler elapsed time: 21 seconds
+dismissDialog("Addressing and Memory Wizard"); // a (dialog4)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Tcl Message: current_project z19_iDMA 
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_cdma_0/M_AXI ;  ;  ;  ;  ; ", 4, "/axi_cdma_0/M_AXI", 0, false, false, false, false, true, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Popup Trigger
+selectMenu("Lock"); // ai
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Map", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectComboBox(PAResourceAtoD.AddressMapPanel_NETWORK_COMBOBOX_PANEL, "Network 1", 1); // d (PAResourceAtoD.AddressMapPanel_NETWORK_COMBOBOX_PANEL)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_cdma_0] 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:12s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:14s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Map", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Network 0 ;  ;  ;  ;  ; ", 0); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 1, "microblaze_riscv_0", 0, true); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Node
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+collapseTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/microblaze_riscv_0/Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 2); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_bram_ctrl_0/S_AXI ; S_AXI ; Mem0 ; 0xC000_0000 ; 512K ; 0xC007_FFFF", 3, "Mem0", 2, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_uartlite_0/S_AXI ; S_AXI ; Reg ; 0x4060_0000 ; 64K ; 0x4060_FFFF", 4, "Reg", 2, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_uartlite_0/S_AXI ; S_AXI ; Reg ; 0x4060_0000 ; 64K ; 0x4060_FFFF", 4, "Reg", 2, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/microblaze_riscv_0_local_memory/dlmb_bram_if_cntlr/SLMB ; SLMB ; Mem ; 0x0 ; 512K ; 0x7_FFFF", 5, "Mem", 2, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Excluded (1) ;  ;  ;  ;  ; ", 6); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ;  ;  ; ", 7, "/dma_core_wrap_v_0/axi_slv", 0, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ;  ;  ; ", 7, "/dma_core_wrap_v_0/axi_slv", 0, false, false, false, false, true, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_INCLUDE_IN_ADDR_SPACE, "Include"); // aq (PAResourceCommand.PACommandNames_INCLUDE_IN_ADDR_SPACE, include_in_addr_space_rsb_menu)
+// Run Command: PAResourceCommand.PACommandNames_INCLUDE_IN_ADDR_SPACE
+// Tcl Message: startgroup 
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_INSERT_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: include_bd_addr_seg [get_bd_addr_segs -excluded microblaze_riscv_0/Data/SEG_dma_core_wrap_v_0_Reg] 
+// Tcl Message: endgroup 
+dismissDialog("Include"); // bh (Include Progress)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ;  ;  ; ", 7, "/dma_core_wrap_v_0/axi_slv", 0, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ;  ;  ; ", 7, "/dma_core_wrap_v_0/axi_slv", 0, false, false, false, false, true, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ASSIGN, "Assign"); // aq (PAResourceQtoS.SystemBuilderMenu_ASSIGN, Assign)
+// Tcl Command: 'assign_bd_address -target_address_space /microblaze_riscv_0/Data [get_bd_addr_segs dma_core_wrap_v_0/axi_slv/Reg] -force'
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: assign_bd_address -target_address_space /microblaze_riscv_0/Data [get_bd_addr_segs dma_core_wrap_v_0/axi_slv/Reg] -force 
+// Tcl Message: Slave segment '/dma_core_wrap_v_0/axi_slv/Reg' is being assigned into address space '/microblaze_riscv_0/Data' at <0x44A0_0000 [ 64K ]>. 
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/microblaze_riscv_0_local_memory/dlmb_bram_if_cntlr/SLMB ; SLMB ; Mem ; 0x0 ; 512K ; 0x7_FFFF", 6, "/microblaze_riscv_0_local_memory/dlmb_bram_if_cntlr/SLMB", 0, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "/dma_core_wrap_v_0/axi_slv", 0, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "axi_slv", 1, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "axi_slv", 1, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "axi_slv", 1, false, false, false, false, false, true); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Double Click
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "/dma_core_wrap_v_0/axi_slv", 0, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "axi_slv", 1, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/dma_core_wrap_v_0/axi_slv ; axi_slv ; Reg ; 0x44A0_0000 ; 64K ; 0x44A0_FFFF", 5, "Reg", 2, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+// Elapsed time: 11 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+// Tcl Message: current_project dma_ip 
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "axi_mst ; master ;  ;  ;  ;  ;  ;  ;  ; ", 0, "axi_mst", 0, true, false, false, false, true, false); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE) - Popup Trigger - Node
+selectMenuItem(PAResourceOtoP.PortAndInterfaceFacetTable_EDIT_INTERFACE, "Edit Interface..."); // aq (PAResourceOtoP.PortAndInterfaceFacetTable_EDIT_INTERFACE)
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // D (PAResourceEtoH.EditInterfaceDialog_TABBED_PANE)
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "Overridden ;  ; ", 0, "Overridden", 0, false); // w (PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE)
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "User Set ;  ; ", 1, "User Set", 0, false); // w (PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE)
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "Optional ;  ; ", 2, "Optional", 0, false); // w (PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE)
+dismissDialog("Edit Interface"); // C (dialog5)
+// [GUI Memory]: 208 MB (+11601kb) [00:05:59]
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "axi_slv ; slave ;  ;  ;  ;  ;  ;  ;  ; ", 1, "axi_slv", 0, true, false, false, false, true, false); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE) - Popup Trigger - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2, "Clock and Reset Signals", 0, true); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ;  ;  ;  ;  ;  ;  ; ", 4, "clk", 0, true, false, false, false, true, false); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE) - Popup Trigger - Node
+selectMenuItem(PAResourceOtoP.PortAndInterfaceFacetTable_EDIT_INTERFACE, "Edit Interface..."); // aq (PAResourceOtoP.PortAndInterfaceFacetTable_EDIT_INTERFACE)
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // D (PAResourceEtoH.EditInterfaceDialog_TABBED_PANE)
+dismissDialog("Edit Interface"); // C (dialog6)
+// [GUI Memory]: 232 MB (+14162kb) [00:06:21]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /dma_core_wrap_v_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Tcl Message: current_project z19_iDMA 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /dma_core_wrap_v_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// Elapsed time: 28 seconds
+selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation", "Re-customize IP"); // C (PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, IP Dialog_ipHelp)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation", "Re-customize IP"); // C (PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, IP Dialog_ipHelp)
+selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation", "Re-customize IP"); // C (PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, IP Dialog_ipHelp)
+dismissDialog("Re-customize IP"); // m (dialog7)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dma_core_wrap_v (dma_core_wrap_v.v)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Tcl Message: current_project dma_ip 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dma_core_wrap_v (dma_core_wrap_v.v)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 42 seconds
+selectCodeEditor("dma_core_wrap_v.v", 691, 272); // ae (dma_core_wrap_v.v)
+// Elapsed time: 17 seconds
+selectCodeEditor("dma_core_wrap_v.v", 297, 21); // ae (dma_core_wrap_v.v)
+typeControlKey((HResource) null, "dma_core_wrap_v.v", 'c'); // ae (dma_core_wrap_v.v)
+// Elapsed time: 11 seconds
+selectCodeEditor("dma_core_wrap_v.v", 30, 157); // ae (dma_core_wrap_v.v)
+typeControlKey((HResource) null, "dma_core_wrap_v.v", 'c'); // ae (dma_core_wrap_v.v)
+// [GUI Memory]: 245 MB (+2293kb) [00:08:29]
+// Elapsed time: 12 seconds
+selectCodeEditor("dma_core_wrap_v.v", 553, 264); // ae (dma_core_wrap_v.v)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 37 seconds
+selectCodeEditor("dma_core_wrap_v.v", 719, 301); // ae (dma_core_wrap_v.v)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "8"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "8"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "8"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "8"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+// Elapsed time: 36 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectButton(PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD, "Addressing and Memory Map Wizard"); // d (PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+dismissDialog("Addressing and Memory Wizard"); // a (dialog8)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, (String) null, 3, true); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Node
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include true [ipx::get_files src/dma_core_wrap_product_guide_untested.html -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "true", 3, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; true ;  ; ", 3, (String) null, 3, true); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Node
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include false [ipx::get_files src/dma_core_wrap_product_guide_untested.html -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "false", 3, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "src/dma_core_wrap_product_guide_untested.html ;  ; html ; false ;  ; xilinx_productguide", 4, "html", 2, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "src/dma_core_wrap_product_guide_untested.html ;  ; html ; false ;  ; xilinx_productguide", 4, "src/dma_core_wrap_product_guide_untested.html", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, true, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_ADD_FILES, "Add Files..."); // aq (PAResourceEtoH.FileGroupFacetTable_ADD_FILES)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add IP Files (Product Guide)"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/yanry/dma/dma_ip/dma_core_wrap_product_guide_untested_version.pdf");
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add IP Files (Product Guide)"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add IP Files (Product Guide)"); // c (dialog9)
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::add_file ../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]] 
+// Tcl Message: set_property type pdf [ipx::get_files ../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; false ;  ; xilinx_productguide", 5, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; false ;  ; xilinx_productguide", 5, (String) null, 3, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include true [ipx::get_files ../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "true", 5, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 16 seconds
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; true ;  ; xilinx_productguide", 5, (String) null, 3, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include false [ipx::get_files ../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "false", 5, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; false ;  ; xilinx_productguide", 5, "../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf", 0, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // aq (PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file ../../../../../../../dma_ip/dma_core_wrap_product_guide_untested_version.pdf [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]] 
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "src/dma_core_wrap_product_guide_untested.html ;  ; html ; false ;  ; xilinx_productguide", 4, "src/dma_core_wrap_product_guide_untested.html", 0, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, "Remove File"); // aq (PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE)
+// TclEventType: PACKAGER_OBJECT_DELETE
+// Tcl Message: ipx::remove_file src/dma_core_wrap_product_guide_untested.html [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]] 
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "UI Layout ;  ;  ; false ;  ; ", 5, "UI Layout", 0, true); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Node
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "UI Layout ;  ;  ; false ;  ; ", 5); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+collapseTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "UI Layout ;  ;  ; false ;  ; ", 5); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3, "Product Guide", 0, false, false, false, false, true, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Popup Trigger
+selectMenuItem(PAResourceEtoH.FileGroupFacetTable_ADD_FILES, "Add Files..."); // aq (PAResourceEtoH.FileGroupFacetTable_ADD_FILES)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add IP Files (Product Guide)"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/yanry/dma/dma_ip/dma_core_wrap_product_guide_untested_version.pdf");
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO, "Copy sources into IP Directory", true); // f (PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO): TRUE
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO, "Copy sources into IP Directory", true); // f (PAResourceQtoS.SrcChooserPanel_MAKE_LOCAL_COPY_OF_THESE_SOURCES_INTO): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Add IP Files (Product Guide)"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Add IP Files (Product Guide)"); // c (dialog11)
+// Tcl Message: file copy /home/yanry/dma/dma_ip/dma_core_wrap_product_guide_untested_version.pdf /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/doc 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: ipx::add_file /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/doc/dma_core_wrap_product_guide_untested_version.pdf [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]] 
+// Tcl Message: set_property type pdf [ipx::get_files doc/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+expandTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; false ;  ; ", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "doc/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; false ;  ; xilinx_productguide", 4, "doc/dma_core_wrap_product_guide_untested_version.pdf", 0, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "doc/dma_core_wrap_product_guide_untested_version.pdf ;  ; pdf ; false ;  ; xilinx_productguide", 4, (String) null, 3, false); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include true [ipx::get_files doc/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "true", 4, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 228 seconds
+selectTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "Product Guide ;  ;  ; true ;  ; ", 3, (String) null, 3, true); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE) - Node
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property is_include false [ipx::get_files doc/dma_core_wrap_product_guide_untested_version.pdf -of_objects [ipx::get_file_groups xilinx_productguide -of_objects [ipx::current_core]]] 
+editTreeTable(PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, "false", 3, "Is Include", 3); // w (PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - dma_core_wrap_v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 336, 347, 1188, 533, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 249, 343, 1188, 533, false, false, false, true, false); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SystemBuilderMenu_ADD_IP, "Add IP..."); // aq (PAResourceQtoS.SystemBuilderMenu_ADD_IP, Add IP...)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "cdma"); // OverlayTextField (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Central Direct Memory Access", 0, "AXI Central Direct Memory Access", 0, false); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Central Direct Memory Access", 0, "AXI Central Direct Memory Access", 0, false); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Central Direct Memory Access", 0); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Central Direct Memory Access", 0, "AXI Central Direct Memory Access", 0, false, false, false, false, false, true); // z (PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// No Address Blocks Available for network [Network 0]
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_cdma:4.1 axi_cdma_0 
+// Tcl Message: endgroup 
+// Tcl Message: startgroup 
+// Tcl Message: current_project z19_iDMA 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_pins /axi_cdma_0/M_AXI_SG]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 15m:26s
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /axi_cdma_0/s_axi_lite_aclk]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /axi_cdma_0/s_axi_lite_aclk]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_pins /axi_cdma_0/s_axi_lite_aclk]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_PIN
+dismissDialog("Customize Pin"); // m (dialog13)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectCheckBox((HResource) null, "Enable Scatter Gather", false); // f: FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK", "Re-customize IP"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Re-customize IP"); // m (dialog14)
+// TclEventType: RSB_PROPERTY_CHANGE
+// No Address Blocks Available for network [Network 0]
+// TclEventType: RSB_SCRIPT_TASK
+// No Address Blocks Available for network [Network 0]
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// No Address Blocks Available for network [Network 0]
+// Tcl Message: set_property CONFIG.C_INCLUDE_SG {0} [get_bd_cells axi_cdma_0] 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+dismissDialog("Customize IP"); // bh (Customize IP Progress)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 15m:46s
+selectButton("OptionPane.button", "OK", "Background Task"); // JButton (OptionPane.button)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h (PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION)
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (0 out of 2 selected)]", 0, true, false, ui.utils.collection.couples.TriState.False); // G.c (PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE) - Node
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected)]", 0, true, true, ui.utils.collection.couples.TriState.True); // G.c (PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK", "Run Connection Automation"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Run Connection Automation"); // G (dialog15)
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {Auto} Clk_slave {/clk_wiz_1/clk_out1 (100 MHz)} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/axi_cdma_0/M_AXI} Slave {/axi_bram_ctrl_0/S_AXI} ddr_seg {Auto} intc_ip {/smartconnect_0} master_apm {0}}  [get_bd_intf_pins axi_cdma_0/M_AXI] 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_UPDATE_GUI_ELEMENT
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-3093] Triggering Legacy Auto Assign Algorithm 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Slave segment '/axi_bram_ctrl_0/S_AXI/Mem0' is being assigned into address space '/axi_cdma_0/Data' at <0xC000_0000 [ 512K ]>. Slave segment '/axi_uartlite_0/S_AXI/Reg' is being assigned into address space '/axi_cdma_0/Data' at <0x4060_0000 [ 64K ]>. 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: Excluding slave segment /axi_uartlite_0/S_AXI/Reg from address space /axi_cdma_0/Data. Slave segment '/dma_core_wrap_v_0/axi_slv/Reg' is being assigned into address space '/axi_cdma_0/Data' at <0x44A0_0000 [ 64K ]>. 
+// Tcl Message: Excluding slave segment /dma_core_wrap_v_0/axi_slv/Reg from address space /axi_cdma_0/Data. 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_1/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_1/clk_out1 (100 MHz)} Master {/microblaze_riscv_0 (Periph)} Slave {/axi_cdma_0/S_AXI_LITE} ddr_seg {Auto} intc_ip {/smartconnect_0} master_apm {0}}  [get_bd_intf_pins axi_cdma_0/S_AXI_LITE] 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_ADDRNETWORK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: XGUI_RESET_GUI_ELEMENT
+// Tcl Message: Slave segment '/axi_cdma_0/S_AXI_LITE/Reg' is being assigned into address space '/axi_cdma_0/Data' at <0x44A1_0000 [ 64K ]>. 
+// Tcl Message: Excluding slave segment /axi_cdma_0/S_AXI_LITE/Reg from address space /axi_cdma_0/Data. Slave segment '/axi_cdma_0/S_AXI_LITE/Reg' is being assigned into address space '/microblaze_riscv_0/Data' at <0x44A1_0000 [ 64K ]>. 
+// Tcl Message: endgroup 
+dismissDialog("Run Connection Automation"); // bh (Run Connection Automation Progress)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_cells /axi_cdma_0]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Network 1 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Network 0 ;  ;  ;  ;  ; ", 0); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "axi_cdma_0 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 3); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_cdma_0/Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 2); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/microblaze_riscv_0/Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 6); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // C (PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, System_regenerate_rsb_layout)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /smartconnect_0_M03_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /smartconnect_0_M00_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /axi_cdma_0_M_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /dma_core_wrap_v_0_axi_mst]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /microblaze_riscv_0_Clk]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /microblaze_riscv_0_M_AXI_DP]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 13, "microblaze_riscv_0", 0, true); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Node
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 13); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/microblaze_riscv_0/Instruction (32 address bits : 4G) ;  ;  ;  ;  ; ", 14); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Excluded (3) ;  ;  ;  ;  ; ", 4); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /axi_cdma_0_M_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_nets /rst_clk_wiz_1_100M_peripheral_aresetn]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "unselect_objects"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /smartconnect_0_M03_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+runTclCommand (PAResourceOtoP.PAViews_SYSTEM, "select_objects [get_bd_intf_nets /smartconnect_0_M01_AXI]"); // gh (PAResourceOtoP.PAViews_SYSTEM, PlanAheadTabSystem)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Map", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Map", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 99 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectButton(PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD, "Addressing and Memory Map Wizard"); // d (PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("BACK", "Back", "Addressing and Memory Wizard"); // JButton (BACK)
+// Elapsed time: 41 seconds
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+// Tcl Message: current_project dma_ip 
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_slv ; xilinx.com:interface:aximm_rtl:1.0 ; slave ;  ; false", 3, (String) null, 1, false, false, false, false, true, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE) - Popup Trigger
+// 't' command handler elapsed time: 69 seconds
+dismissDialog("Addressing and Memory Wizard"); // a (dialog16)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_bram_ctrl_0/S_AXI ; S_AXI ; Mem0 ; 0xC000_0000 ; 512K ; 0xC007_FFFF", 3, "S_AXI", 1, false, false, false, false, true, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Popup Trigger
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_bram_ctrl_0/S_AXI ; S_AXI ; Mem0 ; 0xC000_0000 ; 512K ; 0xC007_FFFF", 3, "S_AXI", 1, false, false, false, false, true, false); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Popup Trigger
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "axi_mst ; master ;  ;  ;  ;  ;  ;  ;  ; ", 0, "axi_mst", 0, true, false, false, false, true, false); // w (PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE, "Add Bus Interface..."); // aq (PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE, packager_add_bus_interface_menu)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("Add Interface"); // C (dialog17)
+// Elapsed time: 97 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization GUI", 6); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+// TclEventType: IP_LOCK_CHANGE
+selectTree(PAResourceEtoH.GUICustomizationTreePanel_TREE, "[root, Window, Component Name]", 1, false); // q (PAResourceEtoH.GUICustomizationTreePanel_TREE)
+selectTree(PAResourceEtoH.GUICustomizationTreePanel_TREE, "[root, Hidden Parameters]", 14, false); // q (PAResourceEtoH.GUICustomizationTreePanel_TREE)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Addressing and Memory", 5); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectButton(PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD, "Addressing and Memory Map Wizard"); // d (PAResourceAtoD.AddressMemoryContentPanel_RUN_ADDRESSING_AND_MEMORY_MAP_WIZARD)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectTreeTable(PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE, "axi_slv ; xilinx.com:interface:aximm_rtl:1.0 ; slave ;  ; false", 3, (String) null, 1, false); // w (PAResourceAtoD.AddressingMemoryWizard_INTERFACE_LIGHT_FACET_TABLE)
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("FINISH", "Finish", "Addressing and Memory Wizard"); // JButton (FINISH)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// 't' command handler elapsed time: 12 seconds
+// Tcl Message: ipx::add_memory_map axi_slv [ipx::current_core] 
+// Tcl Message: set_property slave_memory_map_ref axi_slv [ipx::get_bus_interfaces axi_slv -of_objects [ipx::current_core]] 
+dismissDialog("Addressing and Memory Wizard"); // a (dialog18)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTab(PAResourceAtoD.AddressMemoryContentPanel_ADDRESSING_AND_MEMORY_CONTENT_PANEL, PAResourceAtoD.AddressMemoryContentPanel_MEMORY_MAPS, "Memory Maps (for slaves)", 0); // g (PAResourceAtoD.AddressMemoryContentPanel_ADDRESSING_AND_MEMORY_CONTENT_PANEL)
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP)
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD, "IP Addressing and Memory Wizard..."); // aq (PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD, packager_addressing_memory_wizard_menu)
+// Run Command: PAResourceCommand.PACommandNames_PACKAGER_ADDRESSING_MEMORY_WIZARD
+selectButton("NEXT", "Next", "Addressing and Memory Wizard"); // JButton (NEXT)
+selectButton("CANCEL", "Cancel", "Addressing and Memory Wizard"); // JButton (CANCEL)
+dismissDialog("Addressing and Memory Wizard"); // a (dialog19)
+// [GUI Memory]: 258 MB (+651kb) [00:24:35]
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+selectMenuItem(PAResourceItoN.MemoryMapFacetTable_REMOVE_MEMORY_MAP, "Add Memory Map..."); // aq (PAResourceItoN.MemoryMapFacetTable_REMOVE_MEMORY_MAP)
+setText("PAResourceItoN.MemoryMapFacetTable_ENTER_NAME_OF_NEW_MEMORY_MAP", (String) null); // BasicOptionPaneUI.MultiplexingTextField (PAResourceItoN.MemoryMapFacetTable_ENTER_NAME_OF_NEW_MEMORY_MAP)
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+selectTable(PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP, "axi_slv ;  ; ", 0, "axi_slv", 0, false, false, false, true, false); // s (PAResourceItoN.MemoryMapFacetTable_MEMORY_MAP) - Popup Trigger
+// Elapsed time: 181 seconds
+selectMenuItem(PAResourceItoN.MemoryMapFacetTable_ADD_ADDRESS_BLOCK, "Add Address Block..."); // aq (PAResourceItoN.MemoryMapFacetTable_ADD_ADDRESS_BLOCK)
+setText("PAResourceItoN.MemoryMapFacetTable_ENTER_NAME_OF_NEW_ADDRESS_BLOCK", (String) null); // BasicOptionPaneUI.MultiplexingTextField (PAResourceItoN.MemoryMapFacetTable_ENTER_NAME_OF_NEW_ADDRESS_BLOCK)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // S (PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST)
+selectButton(PAResourceQtoS.ReviewContentPanel_PACKAGE_IP, "Package IP"); // a (PAResourceQtoS.ReviewContentPanel_PACKAGE_IP)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 9 [ipx::current_core] 
+// TclEventType: PROJECT_ARCHIVE_PRE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: ipx::update_source_project_archive -component [ipx::current_core] -include 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Coretcl 2-137] starting archive... INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-2874334-dell' for archiving project 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [Coretcl 2-1211] Creating project copy for archival... 
+// TclEventType: PROJECT_RENAME
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PROJECT_RENAME
+// Tcl Message: INFO: [Coretcl 2-1213] Including run results for 'synth_1' INFO: [Coretcl 2-1213] Including run results for 'impl_1' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CLOSE
+// TclEventType: PROJECT_ARCHIVE_POST
+// Tcl Message: INFO: [Coretcl 2-1209] Adding archive summary file to the project... INFO: [Coretcl 2-1214] Preparing project files for archive... INFO: [Coretcl 2-1210] Compressing project files and data... INFO: [Coretcl 2-1215] Project archived (/home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/ip_project_archive.zip) INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory. 
+// Tcl Message: archive_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 8908.766 ; gain = 0.000 ; free physical = 80239 ; free virtual = 103714 ipx::update_source_project_archive: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 8908.766 ; gain = 0.000 ; free physical = 80239 ; free virtual = 103714 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::check_integrity [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-7067] Note that bus interface 'clk' has a fixed FREQ_HZ of '100000000'. This value will be respected whenever this IP is instantiated in IP Integrator. INFO: [IP_Flow 19-2181] Payment is not required for this core. INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed. 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// Tcl Message: ipx::check_integrity -quiet -xrt [ipx::current_core] 
+// Tcl Message: ipx::archive_core /home/yanry/dma/z19_iDMA/z19_iDMA.tmp/dma_core_wrap_v_v1_0_project/dma_ip/dma_ip.srcs/sources_1/imports/user.org_user_dma_core_wrap_v_1.0.zip [ipx::current_core] 
+// TclEventType: IP_LOCK_CHANGE
+// Elapsed time: 12 seconds
+selectButton("OptionPane.button", "Yes", "Close Project"); // JButton (OptionPane.button)
+// Tcl Message: ipx::move_temp_component_back -component [ipx::current_core] 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,490 MB. GUI used memory: 136 MB. Current time: 1/3/25, 3:04:36 PM CST
+// Tcl Message: close_project 
+dismissDialog("Package IP"); // bh (Package IP Progress)
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Tcl Message: update_ip_catalog -rebuild -repo_path /home/yanry/dma/ip_repo 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository '/home/yanry/dma/ip_repo' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 27m:42s
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h (PAResourceQtoS.SystemTab_REPORT_IP_STATUS)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: upgrade_ip -vlnv user.org:user:dma_core_wrap_v:1.0 [get_ips  design_1_dma_core_wrap_v_0_2] -log ip_upgrade.log 
+// TclEventType: RUN_RESET
+// Tcl Message: Upgrading '/home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded design_1_dma_core_wrap_v_0_2 (dma_core_wrap_v_v1_0 1.0) from revision 8 to revision 9 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd>  Wrote  : </home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/yanry/dma/z19_iDMA/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_dma_core_wrap_v_0_2] -no_script -sync -force -quiet 
+selectButton("OptionPane.button", "OK", "Upgrade IP"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 27m:48s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 27m:50s
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate", "Generate Output Products"); // a (PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY)
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: generate_target all [get_files  /home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_CLOSE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [xilinx.com:ip:microblaze_riscv:1.0-9] /microblaze_riscv_0: Setting C_BASE_VECTORS to 0x00000000. INFO: [xilinx.com:ip:microblaze_riscv:1.0-23] /microblaze_riscv_0: Setting C_PC_WIDTH to 32. 
+// Tcl Message: INFO: [xilinx.com:ip:clk_wiz:6.0-1] /clk_wiz_1 clk_wiz propagate 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: Wrote  : </home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: Verilog Output written to : /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/synth/design_1.v 
+// Tcl Message: Verilog Output written to : /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/sim/design_1.v Verilog Output written to : /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,629 MB. GUI used memory: 120 MB. Current time: 1/3/25, 3:05:04 PM CST
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: Exporting to file /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/hw_handoff/design_1_smartconnect_0_0.hwh Generated Hardware Definition File /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/ip/design_1_smartconnect_0_0/bd_0/synth/design_1_smartconnect_0_0.hwdef 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block smartconnect_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block dma_core_wrap_v_0 . 
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: COMPOSITE_FILE_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_cdma_0 . 
+// Tcl Message: Exporting to file /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Hardware Definition File /home/yanry/dma/z19_iDMA/z19_iDMA.gen/sources_1/bd/design_1/synth/design_1.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 8908.766 ; gain = 0.000 ; free physical = 80119 ; free virtual = 103606 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_smartconnect_0_0] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_smartconnect_0_0 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_dma_core_wrap_v_0_2] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_dma_core_wrap_v_0_2 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_axi_cdma_0_1] } 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_cdma_0_1 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/yanry/dma/z19_iDMA/z19_iDMA.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs design_1_axi_cdma_0_1_synth_1 design_1_dma_core_wrap_v_0_2_synth_1 design_1_smartconnect_0_0_synth_1 -jobs 18 
+// Tcl Message: INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_cdma_0_1 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_dma_core_wrap_v_0_2 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_smartconnect_0_0 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jan  3 15:05:12 2025] Launched design_1_axi_cdma_0_1_synth_1, design_1_dma_core_wrap_v_0_2_synth_1, design_1_smartconnect_0_0_synth_1... Run output will be captured here: design_1_axi_cdma_0_1_synth_1: /home/yanry/dma/z19_iDMA/z19_iDMA.runs/design_1_axi_cdma_0_1_synth_1/runme.log design_1_dma_core_wrap_v_0_2_synth_1: /home/yanry/dma/z19_iDMA/z19_iDMA.runs/design_1_dma_core_wrap_v_0_2_synth_1/runme.log design_1_smartconnect_0_0_synth_1: /home/yanry/dma/z19_iDMA/z19_iDMA.runs/design_1_smartconnect_0_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: RUN_STATUS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,681 MB. GUI used memory: 120 MB. Current time: 1/3/25, 3:05:19 PM CST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/W.b': 45s
+// Elapsed time: 50 seconds
+selectButton("OptionPane.button", "OK", "Generate Output Products"); // JButton (OptionPane.button)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 28m:44s
+// Elapsed time: 15 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog21)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // f (PAResourceItoN.MsgView_INFORMATION_MESSAGES): FALSE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Network 0 ;  ;  ;  ;  ; ", 0, "Network 0", 0, true); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL) - Node
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Network 0 ;  ;  ;  ;  ; ", 0); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "axi_cdma_0 ;  ;  ;  ;  ; ", 1); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "microblaze_riscv_0 ;  ;  ;  ;  ; ", 3); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "/axi_cdma_0/Data (32 address bits : 4G) ;  ;  ;  ;  ; ", 2); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)
+expandTreeTable(PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL, "Excluded (2) ;  ;  ;  ;  ; ", 4); // q (PAResourceAtoD.AddressNetworkTreeTablePanel_ADDRESS_NETWORK_TREE_TABLE_PANEL)

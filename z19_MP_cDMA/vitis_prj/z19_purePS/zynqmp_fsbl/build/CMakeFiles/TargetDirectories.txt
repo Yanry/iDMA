@@ -1,0 +1,3 @@
+/home/wangyt/fpga/z19_MP_cDMA/vitis_prj/z19_purePS/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/wangyt/fpga/z19_MP_cDMA/vitis_prj/z19_purePS/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
+/home/wangyt/fpga/z19_MP_cDMA/vitis_prj/z19_purePS/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir

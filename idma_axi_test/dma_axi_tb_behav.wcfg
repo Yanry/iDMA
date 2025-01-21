@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dma_axi_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="axi_pkg" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="dma_axi_tb" />
+            <top_module name="glbl" />
+            <top_module name="idma_pkg" />
+            <top_module name="idma_reg64_frontend_reg_pkg" />
+            <top_module name="std" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="92.250 ns"></ZoomStartTime>
+      <ZoomEndTime time="508.778 ns"></ZoomEndTime>
+      <Cursor1Time time="175.057 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="149"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject type="logic" fp_name="/dma_axi_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dma_axi_tb/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/src_addr_reg">
+      <obj_property name="ElementShortName">src_addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src_addr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/src_addr">
+      <obj_property name="ElementShortName">src_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">src_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/dma_axi_tb/dut/design_1_i/axi_vip_0/M_AXI">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/dma_axi_tb/dut/design_1_i/axi_vip_0/M_AXI.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">M_AXI</obj_property>
+      <obj_property name="ObjectShortName">M_AXI</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/axi_slv">
+      <obj_property name="ElementShortName">axi_slv</obj_property>
+      <obj_property name="ObjectShortName">axi_slv</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/axi_mst">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/axi_mst.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">axi_mst</obj_property>
+      <obj_property name="ObjectShortName">axi_mst</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/S_AXI">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/S_AXI.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
+      <obj_property name="ElementShortName">S_AXI</obj_property>
+      <obj_property name="ObjectShortName">S_AXI</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_en_a">
+      <obj_property name="ElementShortName">bram_en_a</obj_property>
+      <obj_property name="ObjectShortName">bram_en_a</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_we_a">
+      <obj_property name="ElementShortName">bram_we_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_we_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_addr_a">
+      <obj_property name="ElementShortName">bram_addr_a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_a[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_wrdata_a">
+      <obj_property name="ElementShortName">bram_wrdata_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_wrdata_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_rddata_a">
+      <obj_property name="ElementShortName">bram_rddata_a[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_rddata_a[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_en_b">
+      <obj_property name="ElementShortName">bram_en_b</obj_property>
+      <obj_property name="ObjectShortName">bram_en_b</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_we_b">
+      <obj_property name="ElementShortName">bram_we_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_we_b[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_addr_b">
+      <obj_property name="ElementShortName">bram_addr_b[12:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_addr_b[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/axi_bram_ctrl_0/bram_rddata_b">
+      <obj_property name="ElementShortName">bram_rddata_b[63:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_rddata_b[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/burst_req">
+      <obj_property name="ElementShortName">burst_req</obj_property>
+      <obj_property name="ObjectShortName">burst_req</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/i_idma_backend/ar_req_dp">
+      <obj_property name="ElementShortName">ar_req_dp</obj_property>
+      <obj_property name="ObjectShortName">ar_req_dp</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/\gen_one_d.i_dma_frontend /dma_ctrl_req_i">
+      <obj_property name="ElementShortName">dma_ctrl_req_i</obj_property>
+      <obj_property name="ObjectShortName">dma_ctrl_req_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/\gen_one_d.i_dma_frontend /dma_reg2hw">
+      <obj_property name="ElementShortName">dma_reg2hw</obj_property>
+      <obj_property name="ObjectShortName">dma_reg2hw</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/\gen_one_d.i_dma_frontend /dma_hw2reg">
+      <obj_property name="ElementShortName">dma_hw2reg</obj_property>
+      <obj_property name="ObjectShortName">dma_hw2reg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/dma_axi_tb/dut/design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/\gen_one_d.i_dma_frontend /i_idma_transfer_id_gen/next_o">
+      <obj_property name="ElementShortName">next_o[63:0]</obj_property>
+      <obj_property name="ObjectShortName">next_o[63:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,120 @@
+verilog xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/6f8f/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/c854/src" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/f0b6/hdl/verilog" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0127/hdl/verilog" \
+"../../../bd/design_2/ip/design_2_zynq_ultra_ps_e_0_0/sim/design_2_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+
+sv xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/6f8f/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/c854/src" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/f0b6/hdl/verilog" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0127/hdl/verilog" \
+"../../../bd/design_2/ipshared/c854/src/axi_pkg.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_atop_filter.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_burst_splitter.sv" \
+"../../../bd/design_2/ipshared/c854/src/cf_math_pkg.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_demux.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_pkg.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_err_slv.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_intf.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_lite_to_reg.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_to_axi_lite.sv" \
+"../../../bd/design_2/ipshared/c854/src/axi_to_reg.sv" \
+"../../../bd/design_2/ipshared/c854/src/counter.sv" \
+"../../../bd/design_2/ipshared/c854/src/delta_counter.sv" \
+"../../../bd/design_2/ipshared/c854/src/dma_core_wrap.sv" \
+"../../../bd/design_2/ipshared/c854/src/dma_core_wrap_sv.sv" \
+"../../../bd/design_2/ipshared/c854/src/fall_through_register.sv" \
+"../../../bd/design_2/ipshared/c854/src/fifo_v2.sv" \
+"../../../bd/design_2/ipshared/c854/src/fifo_v3.sv" \
+"../../../bd/design_2/ipshared/c854/src/id_queue.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_axi_lite_transport_layer.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_axi_transport_layer.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_backend.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_buffer.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_channel_coupler.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_error_handler.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_legalizer.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_nd_midend.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_obi_transport_layer.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_2d_frontend_reg_pkg.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_2d_frontend.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_2d_frontend_reg_top.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_frontend_reg_pkg.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_frontend.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_reg64_frontend_reg_top.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_stream_fifo.sv" \
+"../../../bd/design_2/ipshared/c854/src/idma_transfer_id_gen.sv" \
+"../../../bd/design_2/ipshared/c854/src/lzc.sv" \
+"../../../bd/design_2/ipshared/c854/src/onehot_to_bin.sv" \
+"../../../bd/design_2/ipshared/c854/src/popcount.sv" \
+"../../../bd/design_2/ipshared/c854/src/prim_subreg.sv" \
+"../../../bd/design_2/ipshared/c854/src/prim_subreg_arb.sv" \
+"../../../bd/design_2/ipshared/c854/src/prim_subreg_ext.sv" \
+"../../../bd/design_2/ipshared/c854/src/reg_intf.sv" \
+"../../../bd/design_2/ipshared/c854/src/rr_arb_tree.sv" \
+"../../../bd/design_2/ipshared/c854/src/spill_register.sv" \
+"../../../bd/design_2/ipshared/c854/src/spill_register_flushable.sv" \
+"../../../bd/design_2/ipshared/c854/src/stream_arbiter.sv" \
+"../../../bd/design_2/ipshared/c854/src/stream_arbiter_flushable.sv" \
+"../../../bd/design_2/ipshared/c854/src/stream_fifo.sv" \
+"../../../bd/design_2/ipshared/c854/src/stream_fork.sv" \
+"../../../bd/design_2/ipshared/c854/src/stream_register.sv" \
+
+verilog xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/6f8f/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/c854/src" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/f0b6/hdl/verilog" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0127/hdl/verilog" \
+"../../../bd/design_2/ipshared/c854/src/dma_core_wrap_v.v" \
+"../../../bd/design_2/ip/design_2_dma_core_wrap_v_0_0/sim/design_2_dma_core_wrap_v_0_0.v" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_0/sim/bd_ebcc_one_0.v" \
+
+sv xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/6f8f/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/c854/src" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/f0b6/hdl/verilog" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0127/hdl/verilog" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_2/sim/bd_ebcc_arsw_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_3/sim/bd_ebcc_rsw_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_4/sim/bd_ebcc_awsw_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_5/sim/bd_ebcc_wsw_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_6/sim/bd_ebcc_bsw_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_7/sim/bd_ebcc_s00mmu_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_8/sim/bd_ebcc_s00tr_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_9/sim/bd_ebcc_s00sic_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_10/sim/bd_ebcc_s00a2s_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_11/sim/bd_ebcc_sarn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_12/sim/bd_ebcc_srn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_13/sim/bd_ebcc_sawn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_14/sim/bd_ebcc_swn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_15/sim/bd_ebcc_sbn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_16/sim/bd_ebcc_s01mmu_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_17/sim/bd_ebcc_s01tr_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_18/sim/bd_ebcc_s01sic_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_19/sim/bd_ebcc_s01a2s_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_20/sim/bd_ebcc_sarn_1.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_21/sim/bd_ebcc_srn_1.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_22/sim/bd_ebcc_sawn_1.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_23/sim/bd_ebcc_swn_1.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_24/sim/bd_ebcc_sbn_1.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_25/sim/bd_ebcc_m00s2a_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_26/sim/bd_ebcc_m00arn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_27/sim/bd_ebcc_m00rn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_28/sim/bd_ebcc_m00awn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_29/sim/bd_ebcc_m00wn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_30/sim/bd_ebcc_m00bn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_31/sim/bd_ebcc_m00e_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_32/sim/bd_ebcc_m01s2a_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_33/sim/bd_ebcc_m01arn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_34/sim/bd_ebcc_m01rn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_35/sim/bd_ebcc_m01awn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_36/sim/bd_ebcc_m01wn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_37/sim/bd_ebcc_m01bn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_38/sim/bd_ebcc_m01e_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_39/sim/bd_ebcc_m02s2a_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_40/sim/bd_ebcc_m02arn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_41/sim/bd_ebcc_m02rn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_42/sim/bd_ebcc_m02awn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_43/sim/bd_ebcc_m02wn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_44/sim/bd_ebcc_m02bn_0.sv" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/ip/ip_45/sim/bd_ebcc_m02e_0.sv" \
+
+verilog xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/6f8f/hdl" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/c854/src" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/f0b6/hdl/verilog" --include "../../../../z19_MP_cDMA.gen/sources_1/bd/design_2/ipshared/0127/hdl/verilog" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/bd_0/sim/bd_ebcc.v" \
+"../../../bd/design_2/ip/design_2_axi_smc_0/sim/design_2_axi_smc_0.v" \
+"../../../bd/design_2/ip/design_2_blk_mem_gen_0_0/sim/design_2_blk_mem_gen_0_0.v" \
+"../../../bd/design_2/ipshared/0073/hdl/dma_axi_test_slave_full_v1_0_S00_AXI.v" \
+"../../../bd/design_2/ipshared/0073/hdl/dma_axi_test.v" \
+"../../../bd/design_2/ip/design_2_dma_axi_test_0_0/sim/design_2_dma_axi_test_0_0.v" \
+"../../../bd/design_2/sim/design_2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

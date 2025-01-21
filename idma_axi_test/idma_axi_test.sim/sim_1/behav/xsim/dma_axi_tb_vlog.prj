@@ -1,0 +1,77 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/9d73/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_atop_filter.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_burst_splitter.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/cf_math_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_demux.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_err_slv.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_intf.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_lite_to_reg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_to_axi_lite.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/axi_to_reg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/counter.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/delta_counter.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/dma_core_wrap.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/dma_core_wrap_sv.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/fall_through_register.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/fifo_v2.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/fifo_v3.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/id_queue.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_axi_lite_transport_layer.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_axi_transport_layer.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_backend.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_buffer.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_channel_coupler.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_error_handler.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_legalizer.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_nd_midend.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_obi_transport_layer.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_2d_frontend_reg_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_2d_frontend.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_2d_frontend_reg_top.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_frontend_reg_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_frontend.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_reg64_frontend_reg_top.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_stream_fifo.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/idma_transfer_id_gen.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/lzc.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/onehot_to_bin.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/popcount.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/prim_subreg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/prim_subreg_arb.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/prim_subreg_ext.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/reg_intf.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/rr_arb_tree.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/spill_register.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/spill_register_flushable.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/stream_arbiter.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/stream_arbiter_flushable.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/stream_fifo.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/stream_fork.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/stream_register.sv" \
+
+verilog xil_defaultlib  --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/9d73/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ipshared/9d73/src/dma_core_wrap_v.v" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_dma_core_wrap_v_0_0/sim/design_1_dma_core_wrap_v_0_0.v" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_blk_mem_gen_0_0/sim/design_1_blk_mem_gen_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/9d73/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_axi_vip_1_1/sim/design_1_axi_vip_1_1_pkg.sv" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/ip/design_1_axi_vip_1_1/sim/design_1_axi_vip_1_1.sv" \
+
+verilog xil_defaultlib  --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/9d73/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../idma_axi_test.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../idma_axi_test.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../idma_axi_test.gen/sources_1/bd/design_1/ipshared/9d73/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../idma_axi_test.srcs/sim_1/new/dma_axi_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
