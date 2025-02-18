@@ -8,7 +8,15 @@ This repository includes iDMA IP, DMA hardware example in Vivado project, DMA ha
 - component: The repository contains four components used in iDMA IP: iDMA, axi, common_cells, register_interface.
 - dma_ip: The original Vivado project for generating iDMA IP.
 - idma_axi_test: The Vivado project for iDMA IP test with AXI Monitor IP.
-- ip_repo: IP repository storing iDMA IP
+- **ip_repo**: IP repository storing iDMA IP and interface
+    * addr_map: addr_map interface
+    * axi_addr_offset: shift axi address by base address
+    * axi_cdc: axi cross clock domain
+    * axi_id_remap: remap axi id from wider slave id to narrower master id. 
+    * axi_xbar: axi smartconnect. **not work with zynq (maybe because of address map in Vivado)**
+    * dma: iDMA
+    * reg_to_axi: register_interface to axi
+    * register_interface
 - src: rtl files for the dma_ip project
 - z19_iDMA: Vivado and Vitis project for iDMA hardware platform with riscv, implementing cDMA transfer data between DDR and BRAM. (deprecated)
 - z19_MP_cDMA: Vivado and Vitis project for cDMA hardware platform with MPSoC, implementing cDMA transfer data between DDR and BRAM.
