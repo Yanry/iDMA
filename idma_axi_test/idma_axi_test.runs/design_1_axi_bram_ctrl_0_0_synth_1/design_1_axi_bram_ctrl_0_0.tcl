@@ -56,6 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "design_1_axi_bram_ctrl_0_0_synth_1" START { ROLLUP_AUTO }
+set_msg_config -id {HDL-1065} -limit 10000
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
 set_msg_config  -id {[BD 41-1306]}  -suppress 

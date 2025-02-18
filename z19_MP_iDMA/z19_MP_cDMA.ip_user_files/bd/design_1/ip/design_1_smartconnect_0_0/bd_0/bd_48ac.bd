@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x817B64FB087934E1",
+      "boundary_crc": "0x20735AE9B88163BF",
       "design_src": "SBD",
       "device": "xczu19eg-ffvc1760-2-i",
       "name": "bd_48ac",
@@ -96,15 +96,15 @@
             "value_src": "auto_prop"
           },
           "ARUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "auto_prop"
           },
           "AWUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "auto_prop"
           },
           "BUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "auto_prop"
           },
           "CLK_DOMAIN": {
@@ -156,7 +156,7 @@
             "value_src": "const_prop"
           },
           "ID_WIDTH": {
-            "value": "8",
+            "value": "1",
             "value_src": "auto_prop"
           },
           "INSERT_VIP": {
@@ -198,7 +198,7 @@
             "value_src": "default"
           },
           "RUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "auto_prop"
           },
           "SUPPORTS_NARROW_BURST": {
@@ -210,7 +210,7 @@
             "value_src": "default"
           },
           "WUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "auto_prop"
           }
         },
@@ -366,15 +366,15 @@
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "AWUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "BUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "ip"
           },
           "CLK_DOMAIN": {
@@ -490,15 +490,15 @@
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "AWUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "BUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "ip"
           },
           "CLK_DOMAIN": {
@@ -614,15 +614,15 @@
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "AWUSER_WIDTH": {
-            "value": "16",
+            "value": "64",
             "value_src": "ip"
           },
           "BUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "ip"
           },
           "CLK_DOMAIN": {
@@ -1177,7 +1177,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S_LATENCY": {
                 "value": "0"
@@ -1313,7 +1313,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S_LATENCY": {
                 "value": "0"
@@ -1443,7 +1443,7 @@
                 "value": "3"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S_LATENCY": {
                 "value": "0"
@@ -1680,7 +1680,7 @@
                 "value": "64"
               },
               "ID_WIDTH": {
-                "value": "8"
+                "value": "1"
               },
               "IS_CASCADED": {
                 "value": "0"
@@ -1761,22 +1761,22 @@
                 "value": "1"
               },
               "S_ARUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "S_AWUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "S_BUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "S_PROTOCOL": {
                 "value": "AXI4"
               },
               "S_RUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "S_WUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "WDATA_WIDTH": {
                 "value": "64"
@@ -1839,7 +1839,7 @@
                 "value": "1"
               },
               "S_ID_WIDTH": {
-                "value": "8"
+                "value": "1"
               },
               "WDATA_WIDTH": {
                 "value": "64"
@@ -2041,13 +2041,13 @@
             "value": "64"
           },
           "SC_ARUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_AWUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "SC_ID_WIDTH": {
             "value": "4"
@@ -2237,7 +2237,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "8"
@@ -2291,7 +2291,7 @@
                 "value": "3"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -2546,7 +2546,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "8"
@@ -2600,7 +2600,7 @@
                 "value": "3"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -2852,7 +2852,7 @@
                 "value": "3"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -2909,7 +2909,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "8"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -3430,13 +3430,13 @@
             "value": "64"
           },
           "SC_ARUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_AWUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "SC_ID_WIDTH": {
             "value": "4"
@@ -3626,7 +3626,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "4"
@@ -3680,7 +3680,7 @@
                 "value": "3"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -3935,7 +3935,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "4"
@@ -3989,7 +3989,7 @@
                 "value": "3"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -4241,7 +4241,7 @@
                 "value": "3"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -4298,7 +4298,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "8"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -4446,13 +4446,13 @@
             "value": "64"
           },
           "SC_ARUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_AWUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "SC_ID_WIDTH": {
             "value": "4"
@@ -4638,7 +4638,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -4695,7 +4695,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -4944,7 +4944,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -5001,7 +5001,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -5253,7 +5253,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S00_NUM_BYTES": {
                 "value": "8"
@@ -5307,7 +5307,7 @@
                 "value": "2"
               },
               "USER_WIDTH": {
-                "value": "8"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -5485,13 +5485,13 @@
                 "value": "2"
               },
               "M_ARUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_AWUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_BUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "M_ID_WIDTH": {
                 "value": "0"
@@ -5620,13 +5620,13 @@
             "value": "64"
           },
           "SC_ARUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_AWUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "SC_ID_WIDTH": {
             "value": "4"
@@ -5812,7 +5812,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -5869,7 +5869,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -6118,7 +6118,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -6175,7 +6175,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -6427,7 +6427,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -6481,7 +6481,7 @@
                 "value": "2"
               },
               "USER_WIDTH": {
-                "value": "8"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -6659,13 +6659,13 @@
                 "value": "2"
               },
               "M_ARUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_AWUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_BUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "M_ID_WIDTH": {
                 "value": "0"
@@ -6794,13 +6794,13 @@
             "value": "64"
           },
           "SC_ARUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_AWUSER_WIDTH": {
-            "value": "16"
+            "value": "64"
           },
           "SC_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "SC_ID_WIDTH": {
             "value": "4"
@@ -6986,7 +6986,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -7043,7 +7043,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -7292,7 +7292,7 @@
                 "value": "2"
               },
               "PAYLD_WIDTH": {
-                "value": "193"
+                "value": "241"
               },
               "S00_NUM_BYTES": {
                 "value": "64"
@@ -7349,7 +7349,7 @@
                 "value": "1"
               },
               "USER_WIDTH": {
-                "value": "16"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -7601,7 +7601,7 @@
                 "value": "1"
               },
               "PAYLD_WIDTH": {
-                "value": "16"
+                "value": "72"
               },
               "S00_NUM_BYTES": {
                 "value": "4"
@@ -7655,7 +7655,7 @@
                 "value": "2"
               },
               "USER_WIDTH": {
-                "value": "8"
+                "value": "64"
               }
             },
             "interface_ports": {
@@ -7833,13 +7833,13 @@
                 "value": "2"
               },
               "M_ARUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_AWUSER_WIDTH": {
-                "value": "16"
+                "value": "64"
               },
               "M_BUSER_WIDTH": {
-                "value": "8"
+                "value": "64"
               },
               "M_ID_WIDTH": {
                 "value": "0"

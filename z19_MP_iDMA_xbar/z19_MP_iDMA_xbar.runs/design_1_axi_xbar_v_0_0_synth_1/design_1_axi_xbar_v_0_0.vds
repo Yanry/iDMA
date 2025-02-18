@@ -1,0 +1,553 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 18 21:42:31 2025
+# Process ID         : 3051115
+# Current directory  : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_xbar_v_0_0_synth_1
+# Command line       : vivado -log design_1_axi_xbar_v_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_xbar_v_0_0.tcl
+# Log file           : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_xbar_v_0_0_synth_1/design_1_axi_xbar_v_0_0.vds
+# Journal file       : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_xbar_v_0_0_synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 127401 MB
+#-----------------------------------------------------------
+source design_1_axi_xbar_v_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:axi_xbar_v:1.0'. The one found in IP location '/home/yanry/dma/ip_repo/axi_xbar' will take precedence over the same IP in location /home/yanry/dma/ip_repo
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_xbar_v_0_0
+Command: synth_design -top design_1_axi_xbar_v_0_0 -part xczu19eg-ffvc1760-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 3051333
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2811.016 ; gain = 137.859 ; free physical = 73551 ; free virtual = 108614
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_xbar_v_0_0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_axi_xbar_v_0_0/synth/design_1_axi_xbar_v_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar_v' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:4]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:526]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:527]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:528]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:529]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:530]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:531]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:532]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:533]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:534]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:535]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:536]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:537]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:538]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:539]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:542]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:543]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:544]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:545]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:546]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:547]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:550]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:551]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:552]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:553]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:554]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:557]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:558]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:559]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:560]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:561]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:562]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:563]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:564]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:565]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:566]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:567]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:568]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:569]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:572]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:573]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:574]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:575]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:576]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:577]
+WARNING: [Synth 8-324] index 2 out of range [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:578]
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'addr_decode' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/addr_decode.sv:33]
+INFO: [Synth 8-6155] done synthesizing module 'addr_decode' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/addr_decode.sv:33]
+INFO: [Synth 8-6157] synthesizing module 'axi_demux' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_demux.sv:40]
+INFO: [Synth 8-6157] synthesizing module 'spill_register' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'counter' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'delta_counter' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/delta_counter.sv:13]
+WARNING: [Synth 8-693] zero replication count - replication ignored [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/counter.sv:38]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'lzc' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'lzc' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized4' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized4' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized4' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized4' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'axi_demux' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_demux.sv:40]
+INFO: [Synth 8-6157] synthesizing module 'axi_err_slv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_err_slv.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'delta_counter__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/counter.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'axi_err_slv' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_err_slv.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'axi_multicut' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_multicut.sv:21]
+INFO: [Synth 8-6155] done synthesizing module 'axi_multicut' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_multicut.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'axi_mux' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_mux.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'axi_id_prepend' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_id_prepend.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_prepend' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_id_prepend.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'lzc__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'lzc__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized5' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized5' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized5' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized5' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized6' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized6' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized6' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized6' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized7' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized7' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized7' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized7' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized8' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized8' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized8' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized8' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'axi_mux' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_mux.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar_sv' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:4]
+WARNING: [Synth 8-689] width (8) of port connection 'mst0_req_aw_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:566]
+WARNING: [Synth 8-689] width (8) of port connection 'mst0_rsp_b_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:590]
+WARNING: [Synth 8-689] width (8) of port connection 'mst0_req_ar_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:597]
+WARNING: [Synth 8-689] width (8) of port connection 'mst0_rsp_r_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:612]
+WARNING: [Synth 8-689] width (8) of port connection 'mst1_req_aw_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:622]
+WARNING: [Synth 8-689] width (8) of port connection 'mst1_rsp_b_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:646]
+WARNING: [Synth 8-689] width (8) of port connection 'mst1_req_ar_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:653]
+WARNING: [Synth 8-689] width (8) of port connection 'mst1_rsp_r_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:668]
+WARNING: [Synth 8-689] width (8) of port connection 'mst2_req_aw_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:678]
+WARNING: [Synth 8-689] width (8) of port connection 'mst2_rsp_b_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:702]
+WARNING: [Synth 8-689] width (8) of port connection 'mst2_req_ar_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:709]
+WARNING: [Synth 8-689] width (8) of port connection 'mst2_rsp_r_id' does not match port width (9) of module 'axi_xbar_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:724]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar_v' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_v.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_xbar_v_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_axi_xbar_v_0_0/synth/design_1_axi_xbar_v_0_0.v:53]
+WARNING: [Synth 8-3848] Net slv2_rsp_aw_ready in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:154]
+WARNING: [Synth 8-3848] Net slv2_rsp_w_ready in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:162]
+WARNING: [Synth 8-3848] Net slv2_rsp_b_id in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:165]
+WARNING: [Synth 8-3848] Net slv2_rsp_b_resp in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:166]
+WARNING: [Synth 8-3848] Net slv2_rsp_b_user in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:167]
+WARNING: [Synth 8-3848] Net slv2_rsp_b_valid in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:168]
+WARNING: [Synth 8-3848] Net slv2_rsp_ar_ready in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:184]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_id in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:187]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_data in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:188]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_resp in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:189]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_last in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:190]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_user in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:191]
+WARNING: [Synth 8-3848] Net slv2_rsp_r_valid in module/entity axi_xbar_sv does not have driver. [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src/axi_xbar_sv.sv:192]
+WARNING: [Synth 8-7129] Port rr_i[0] in module rr_arb_tree__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[0] in module rr_arb_tree__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_b_chans_i[0][id][8] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_r_chans_i[0][id][8] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_i in module axi_multicut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module axi_multicut is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][63] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][62] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][61] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][60] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][59] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][58] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][57] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][56] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][55] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][54] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][53] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][52] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][51] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][50] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][49] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][48] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][47] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][46] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][45] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][44] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][43] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][42] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][41] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][40] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][39] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][38] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][37] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][36] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][35] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][34] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][33] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][32] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][31] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][30] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][29] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][28] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][27] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][26] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][25] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][24] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][23] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][22] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][21] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][20] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][19] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][18] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][17] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][16] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][15] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][14] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][13] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][12] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][11] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][10] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][9] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][8] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][7] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][6] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][5] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][4] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][3] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][7] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][6] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][5] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][4] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][3] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][lock] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][3] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][prot][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][prot][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][prot][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][3] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][2] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][1] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][qos][0] in module axi_err_slv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][region][3] in module axi_err_slv is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2913.953 ; gain = 240.797 ; free physical = 72533 ; free virtual = 107601
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2916.922 ; gain = 243.766 ; free physical = 72647 ; free virtual = 107714
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2916.922 ; gain = 243.766 ; free physical = 72647 ; free virtual = 107714
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2916.922 ; gain = 0.000 ; free physical = 72506 ; free virtual = 107573
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3045.492 ; gain = 0.000 ; free physical = 72284 ; free virtual = 107354
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.16 . Memory (MB): peak = 3067.305 ; gain = 21.812 ; free physical = 72278 ; free virtual = 107348
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3067.305 ; gain = 394.148 ; free physical = 71801 ; free virtual = 106873
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3075.309 ; gain = 402.152 ; free physical = 71801 ; free virtual = 106873
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3075.309 ; gain = 402.152 ; free physical = 71801 ; free virtual = 106873
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 3075.309 ; gain = 402.152 ; free physical = 71749 ; free virtual = 106823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 6     
+	   2 Input    2 Bit       Adders := 15    
+	   3 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 10    
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 40    
+	                9 Bit    Registers := 26    
+	                8 Bit    Registers := 74    
+	                6 Bit    Registers := 10    
+	                4 Bit    Registers := 64    
+	                3 Bit    Registers := 44    
+	                2 Bit    Registers := 75    
+	                1 Bit    Registers := 189   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 35    
+	   2 Input    9 Bit        Muxes := 24    
+	   2 Input    8 Bit        Muxes := 48    
+	   4 Input    8 Bit        Muxes := 6     
+	   2 Input    6 Bit        Muxes := 8     
+	   2 Input    4 Bit        Muxes := 80    
+	   2 Input    3 Bit        Muxes := 42    
+	   2 Input    2 Bit        Muxes := 115   
+	   3 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 221   
+	   4 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3091.316 ; gain = 418.160 ; free physical = 69229 ; free virtual = 104307
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 3688.688 ; gain = 1015.531 ; free physical = 74119 ; free virtual = 109210
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 3698.688 ; gain = 1025.531 ; free physical = 74107 ; free virtual = 109199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:44 . Memory (MB): peak = 3728.727 ; gain = 1055.570 ; free physical = 74065 ; free virtual = 109157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73893 ; free virtual = 108985
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73892 ; free virtual = 108983
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73853 ; free virtual = 108945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73853 ; free virtual = 108944
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73846 ; free virtual = 108938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73843 ; free virtual = 108936
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY8 |   132|
+|2     |LUT1   |    28|
+|3     |LUT2   |    71|
+|4     |LUT3   |  1745|
+|5     |LUT4   |  1609|
+|6     |LUT5   |  1044|
+|7     |LUT6   |   242|
+|8     |MUXF7  |    17|
+|9     |FDCE   |  4002|
+|10    |FDPE   |     2|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:49 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73841 ; free virtual = 108934
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 359 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 3862.539 ; gain = 1039.000 ; free physical = 73793 ; free virtual = 108885
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:49 . Memory (MB): peak = 3862.539 ; gain = 1189.383 ; free physical = 73793 ; free virtual = 108885
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 3862.539 ; gain = 0.000 ; free physical = 73910 ; free virtual = 109004
+INFO: [Netlist 29-17] Analyzing 149 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3862.539 ; gain = 0.000 ; free physical = 73765 ; free virtual = 108857
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 4d33d475
+INFO: [Common 17-83] Releasing license: Synthesis
+109 Infos, 207 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:01 ; elapsed = 00:00:58 . Memory (MB): peak = 3862.539 ; gain = 2404.852 ; free physical = 73759 ; free virtual = 108855
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2793.060; main = 2793.060; forked = 196.347
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4502.367; main = 3844.738; forked = 914.848
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3868.746 ; gain = 0.000 ; free physical = 73727 ; free virtual = 108853
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_xbar_v_0_0_synth_1/design_1_axi_xbar_v_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_xbar_v_0_0, cache-ID = 833feff17004f4d5
+INFO: [Coretcl 2-1174] Renamed 95 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3868.746 ; gain = 0.000 ; free physical = 73618 ; free virtual = 108725
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_xbar_v_0_0_synth_1/design_1_axi_xbar_v_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_xbar_v_0_0_utilization_synth.rpt -pb design_1_axi_xbar_v_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 21:43:43 2025...

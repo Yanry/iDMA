@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jan 20 14:25:35 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Feb  7 16:13:10 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="zynquplus" DEVICE="xczu19eg" NAME="design_1" PACKAGE="ffvc1760" SPEEDGRADE="-2"/>
 
@@ -2286,10 +2286,8 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="27" FULLNAME="/dma_core_wrap_v_0" HWVERSION="1.0" INSTANCE="dma_core_wrap_v_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dma_core_wrap_v" VLNV="user.org:user:dma_core_wrap_v:1.0">
-      <DOCUMENTS>
-        <DOCUMENT SOURCE="/home/yanry/dma/ip_repo/doc/dma_core_wrap_product_guide_untested_version.pdf"/>
-      </DOCUMENTS>
+    <MODULE COREREVISION="4" FULLNAME="/dma_core_wrap_v_0" HWVERSION="1.0" INSTANCE="dma_core_wrap_v_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dma_core_wrap_v" VLNV="user.org:user:dma_core_wrap_v:1.0">
+      <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="AxiAddrWidth" VALUE="0x00000040"/>
         <PARAMETER NAME="AxiDataWidth" VALUE="0x00000040"/>

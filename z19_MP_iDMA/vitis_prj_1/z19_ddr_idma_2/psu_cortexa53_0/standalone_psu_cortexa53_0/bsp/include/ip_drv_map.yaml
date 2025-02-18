@@ -1,7 +1,7 @@
 axi_bram_ctrl_0:
 - axi_bram_ctrl
 - bram
-dma_core_wrap_v_0:
+dma_core_wrap_v_1:
 - dma_core_wrap_v
 - None
 psu_acpu_gic:

@@ -1,0 +1,24 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-370,-428",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port reg_slv -pg 1 -lvl 0 -x -30 -y -140 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -30 -y -120 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x -30 -y -100 -defaultsOSRD
+preplace inst reg_to_axi_v_0 -pg 1 -lvl 1 -x 140 -y -120 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 2 -x 500 -y -110 -defaultsOSRD
+preplace netloc clk_1 1 0 2 0 -40 280
+preplace netloc rst_n_1 1 0 2 -10 -30 290
+preplace netloc reg_to_axi_v_0_axi_mst 1 1 1 N -130
+preplace netloc reg_slv_1 1 0 1 N -140
+levelinfo -pg 1 -30 140 500 590
+pagesize -pg 1 -db -bbox -sgen -160 -470 1000 830
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"3"
+}

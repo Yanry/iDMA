@@ -47,7 +47,7 @@
                  <0x0 0xff300000 &ipi0 0x0 0xff300000 0x0 0x10000>,
                  <0x0 0x0 &psu_ddr_0_memory 0x0 0x0 0x0 0x7ff00000>,
                  <0x8 0x0 &psu_ddr_1_memory 0x8 0x0 0x1 0x80000000>,
-                 <0x0 0x80000000 &dma_core_wrap_v_0 0x0 0x80000000 0x0 0x10000>,
+                 <0x0 0x80000000 &dma_core_wrap_v_1 0x0 0x80000000 0x0 0x10000>,
                  <0x0 0xf9010000 &gic 0x0 0xf9010000 0x0 0x70000>,
                  <0x0 0xffa80000 &lpd_dma_chan1 0x0 0xffa80000 0x0 0x10000>,
                  <0x0 0xffa90000 &lpd_dma_chan2 0x0 0xffa90000 0x0 0x10000>,
@@ -2543,7 +2543,7 @@
                         phandle = <0x8>;
                 };
 
-                dma_core_wrap_v_0: dma_core_wrap_v@80000000 {
+                dma_core_wrap_v_1: dma_core_wrap_v@80000000 {
                         xlnx,istwod = "0";
                         compatible = "xlnx,dma-core-wrap-v-1.0";
                         xlnx,jobfifodepth = <0x8>;
@@ -2553,17 +2553,17 @@
                         xlnx,rawcouplingavail = "1";
                         reg = <0x0 0x80000000 0x0 0x10000>;
                         clocks = <&zynqmp_clk 0x47>;
-                        xlnx,axiuserwidth = <0x8>;
+                        xlnx,axiuserwidth = <0x40>;
                         xlnx,memsysdepth = <0x0>;
                         xlnx,axidatawidth = <0x40>;
-                        xlnx,axislvidwidth = <0x8>;
+                        xlnx,axislvidwidth = <0x1>;
                         xlnx,edk-iptype = "PERIPHERAL";
                         xlnx,axiaddrwidth = <0x40>;
                         xlnx,freq-hz = <0x5c7a017>;
                         status = "okay";
                         clock-names = "clk";
-                        xlnx,axiidwidth = <0x8>;
-                        xlnx,name = "dma_core_wrap_v_0";
+                        xlnx,axiidwidth = <0x1>;
+                        xlnx,name = "dma_core_wrap_v_1";
                         phandle = <0xd>;
                 };
         };
@@ -2802,7 +2802,7 @@
                 aux_ref_clk = "/aux_ref_clk";
                 amba_pl = "/amba_pl";
                 axi_bram_ctrl_0 = "/amba_pl/axi_bram_ctrl@82000000";
-                dma_core_wrap_v_0 = "/amba_pl/dma_core_wrap_v@80000000";
+                dma_core_wrap_v_1 = "/amba_pl/dma_core_wrap_v@80000000";
                 axi_bram_ctrl_0_memory = "/memory@82000000";
                 psu_ocm_ram_0_memory = "/memory@FFFC0000";
                 psu_ddr_0_memory = "/memory@0";

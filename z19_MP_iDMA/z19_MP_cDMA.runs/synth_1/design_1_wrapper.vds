@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Jan 20 20:57:35 2025
-# Process ID         : 744761
+# Start of session at: Thu Feb 13 13:31:32 2025
+# Process ID         : 1528286
 # Current directory  : /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1
 # Command line       : vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file           : /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/design_1_wrapper.vds
@@ -19,14 +19,13 @@
 # Host memory        : 134762 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 136909 MB
-# Available Virtual  : 123482 MB
+# Available Virtual  : 129425 MB
 #-----------------------------------------------------------
 source design_1_wrapper.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
-WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
@@ -34,12 +33,26 @@ WARNING: [Common 17-1361] You have specified a new message control rule that is 
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:axi_xbar_v:1.0'. The one found in IP location '/home/yanry/dma/ip_repo/axi_xbar' will take precedence over the same IP in location /home/yanry/dma/ip_repo
 WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
 WARNING: [filemgmt 56-443] The ECC Algorithm string is empty. Setting the Memory Map to default ECC value to ECC_NONE.
 Command: read_checkpoint -auto_incremental -incremental /home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
@@ -55,21 +68,21 @@ INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
-INFO: [Synth 8-7075] Helper process launched with PID 745044
+INFO: [Synth 8-7075] Helper process launched with PID 1528402
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2952.934 ; gain = 135.859 ; free physical = 103928 ; free virtual = 115751
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2956.840 ; gain = 139.797 ; free physical = 87176 ; free virtual = 121414
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_bram_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_axi_bram_ctrl_0_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_bram_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_axi_bram_ctrl_0_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_bram_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_axi_bram_ctrl_0_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_bram_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_axi_bram_ctrl_0_bram_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'rsta_busy' of module 'design_1_axi_bram_ctrl_0_bram_0' is unconnected for instance 'axi_bram_ctrl_0_bram' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:320]
 WARNING: [Synth 8-7071] port 'rstb_busy' of module 'design_1_axi_bram_ctrl_0_bram_0' is unconnected for instance 'axi_bram_ctrl_0_bram' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:320]
 WARNING: [Synth 8-7023] instance 'axi_bram_ctrl_0_bram' of module 'design_1_axi_bram_ctrl_0_bram_0' has 16 connections declared, but only 14 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:320]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ddr4_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_ddr4_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ddr4_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_ddr4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ddr4_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_ddr4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ddr4_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_ddr4_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'c0_init_calib_complete' of module 'design_1_ddr4_0_0' is unconnected for instance 'ddr4_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
 WARNING: [Synth 8-7071] port 'c0_ddr4_ui_clk_sync_rst' of module 'design_1_ddr4_0_0' is unconnected for instance 'ddr4_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
 WARNING: [Synth 8-7071] port 'dbg_clk' of module 'design_1_ddr4_0_0' is unconnected for instance 'ddr4_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
@@ -77,65 +90,65 @@ WARNING: [Synth 8-7071] port 'c0_ddr4_s_axi_bid' of module 'design_1_ddr4_0_0' i
 WARNING: [Synth 8-7071] port 'c0_ddr4_s_axi_rid' of module 'design_1_ddr4_0_0' is unconnected for instance 'ddr4_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
 WARNING: [Synth 8-7071] port 'dbg_bus' of module 'design_1_ddr4_0_0' is unconnected for instance 'ddr4_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
 WARNING: [Synth 8-7023] instance 'ddr4_0' of module 'design_1_ddr4_0_0' has 59 connections declared, but only 53 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
-INFO: [Synth 8-6157] synthesizing module 'design_1_dma_core_wrap_v_0_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_dma_core_wrap_v_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_dma_core_wrap_v_0_1' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_dma_core_wrap_v_0_1_stub.v:6]
-WARNING: [Synth 8-7071] port 'axi_mst_req_aw_atop' of module 'design_1_dma_core_wrap_v_0_1' is unconnected for instance 'dma_core_wrap_v_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
-WARNING: [Synth 8-7071] port 'axi_slv_rsp_b_id' of module 'design_1_dma_core_wrap_v_0_1' is unconnected for instance 'dma_core_wrap_v_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
-WARNING: [Synth 8-7071] port 'axi_slv_rsp_r_id' of module 'design_1_dma_core_wrap_v_0_1' is unconnected for instance 'dma_core_wrap_v_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
-WARNING: [Synth 8-7071] port 'axi_slv_rsp_r_user' of module 'design_1_dma_core_wrap_v_0_1' is unconnected for instance 'dma_core_wrap_v_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
-WARNING: [Synth 8-7023] instance 'dma_core_wrap_v_0' of module 'design_1_dma_core_wrap_v_0_1' has 93 connections declared, but only 89 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ddr4_0_333M_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_rst_ddr4_0_333M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ddr4_0_333M_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_rst_ddr4_0_333M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dma_core_wrap_v_1_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_dma_core_wrap_v_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dma_core_wrap_v_1_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_dma_core_wrap_v_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'axi_mst_req_aw_atop' of module 'design_1_dma_core_wrap_v_1_0' is unconnected for instance 'dma_core_wrap_v_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+WARNING: [Synth 8-7071] port 'axi_slv_rsp_b_id' of module 'design_1_dma_core_wrap_v_1_0' is unconnected for instance 'dma_core_wrap_v_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+WARNING: [Synth 8-7071] port 'axi_slv_rsp_r_id' of module 'design_1_dma_core_wrap_v_1_0' is unconnected for instance 'dma_core_wrap_v_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+WARNING: [Synth 8-7071] port 'axi_slv_rsp_r_user' of module 'design_1_dma_core_wrap_v_1_0' is unconnected for instance 'dma_core_wrap_v_1' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+WARNING: [Synth 8-7023] instance 'dma_core_wrap_v_1' of module 'design_1_dma_core_wrap_v_1_0' has 93 connections declared, but only 89 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ddr4_0_333M_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_rst_ddr4_0_333M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ddr4_0_333M_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_rst_ddr4_0_333M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ddr4_0_333M_0' is unconnected for instance 'rst_ddr4_0_333M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:479]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ddr4_0_333M_0' is unconnected for instance 'rst_ddr4_0_333M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:479]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ddr4_0_333M_0' is unconnected for instance 'rst_ddr4_0_333M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:479]
 WARNING: [Synth 8-7023] instance 'rst_ddr4_0_333M' of module 'design_1_rst_ddr4_0_333M_0' has 10 connections declared, but only 7 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:479]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_96M_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_96M_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_96M_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_96M_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps8_0_96M_0' is unconnected for instance 'rst_ps8_0_96M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:487]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps8_0_96M_0' is unconnected for instance 'rst_ps8_0_96M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:487]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps8_0_96M_0' is unconnected for instance 'rst_ps8_0_96M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:487]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps8_0_96M_0' is unconnected for instance 'rst_ps8_0_96M' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:487]
 WARNING: [Synth 8-7023] instance 'rst_ps8_0_96M' of module 'design_1_rst_ps8_0_96M_0' has 10 connections declared, but only 6 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:487]
-INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_smartconnect_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_smartconnect_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_smartconnect_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_smartconnect_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_smartconnect_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'M02_AXI_awqos' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 WARNING: [Synth 8-7071] port 'M02_AXI_awuser' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 WARNING: [Synth 8-7071] port 'M02_AXI_arqos' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 WARNING: [Synth 8-7071] port 'M02_AXI_aruser' of module 'design_1_smartconnect_0_0' is unconnected for instance 'smartconnect_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 WARNING: [Synth 8-7023] instance 'smartconnect_0' of module 'design_1_smartconnect_0_0' has 192 connections declared, but only 188 given [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:683]
-INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_system_ila_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_system_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_system_ila_0_0_stub.v:6]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:730]
-INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_1_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_system_ila_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_1_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_system_ila_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_util_ds_buf_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_util_ds_buf_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_util_ds_buf_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_util_ds_buf_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_util_ds_buf_1_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_util_ds_buf_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_util_ds_buf_1_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_util_ds_buf_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-744761-dell/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_system_ila_1_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_system_ila_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_system_ila_1_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_system_ila_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_util_ds_buf_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_util_ds_buf_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_util_ds_buf_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_util_ds_buf_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_util_ds_buf_1_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_util_ds_buf_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_util_ds_buf_1_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_util_ds_buf_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/.Xil/Vivado-1528286-dell/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
-INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dma_core_wrap_v_0'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dma_core_wrap_v_1'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:389]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_0'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:683]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'smartconnect_0'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:494]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'system_ila_1'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:730]
 INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ddr4_0'. This will prevent further optimization [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/synth/design_1.v:335]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3037.871 ; gain = 220.797 ; free physical = 103822 ; free virtual = 115646
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3040.809 ; gain = 223.766 ; free physical = 87070 ; free virtual = 121309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3043.809 ; gain = 226.734 ; free physical = 103822 ; free virtual = 115646
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3049.715 ; gain = 232.672 ; free physical = 87070 ; free virtual = 121309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3043.809 ; gain = 226.734 ; free physical = 103822 ; free virtual = 115646
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3049.715 ; gain = 232.672 ; free physical = 87070 ; free virtual = 121309
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3043.809 ; gain = 0.000 ; free physical = 103822 ; free virtual = 115646
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3049.715 ; gain = 0.000 ; free physical = 87070 ; free virtual = 121308
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -158,12 +171,12 @@ Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/desig
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0_in_context.xdc] for cell 'design_1_i/axi_bram_ctrl_0'
 Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_bram_0/design_1_axi_bram_ctrl_0_bram_0/design_1_axi_bram_ctrl_0_bram_0_in_context.xdc] for cell 'design_1_i/axi_bram_ctrl_0_bram'
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_bram_0/design_1_axi_bram_ctrl_0_bram_0/design_1_axi_bram_ctrl_0_bram_0_in_context.xdc] for cell 'design_1_i/axi_bram_ctrl_0_bram'
-Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_dma_core_wrap_v_0_1/design_1_dma_core_wrap_v_0_1/design_1_dma_core_wrap_v_0_1_in_context.xdc] for cell 'design_1_i/dma_core_wrap_v_0'
-Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_dma_core_wrap_v_0_1/design_1_dma_core_wrap_v_0_1/design_1_dma_core_wrap_v_0_1_in_context.xdc] for cell 'design_1_i/dma_core_wrap_v_0'
 Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0/design_1_system_ila_0_0_in_context.xdc] for cell 'design_1_i/system_ila_0'
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0/design_1_system_ila_0_0_in_context.xdc] for cell 'design_1_i/system_ila_0'
 Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_system_ila_1_0/design_1_system_ila_1_0/design_1_system_ila_1_0_in_context.xdc] for cell 'design_1_i/system_ila_1'
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_system_ila_1_0/design_1_system_ila_1_0/design_1_system_ila_1_0_in_context.xdc] for cell 'design_1_i/system_ila_1'
+Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_dma_core_wrap_v_1_0/design_1_dma_core_wrap_v_1_0/design_1_dma_core_wrap_v_1_0_in_context.xdc] for cell 'design_1_i/dma_core_wrap_v_1'
+Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.gen/sources_1/bd/design_1/ip/design_1_dma_core_wrap_v_1_0/design_1_dma_core_wrap_v_1_0/design_1_dma_core_wrap_v_1_0_in_context.xdc] for cell 'design_1_i/dma_core_wrap_v_1'
 Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc]
 WARNING: [Vivado 12-584] No ports matched 'uart_rtl_0_rxd'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:1]
 WARNING: [Vivado 12-584] No ports matched 'uart_rtl_0_txd'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:2]
@@ -186,7 +199,6 @@ WARNING: [Vivado 12-584] No ports matched 'ddr4_rtl_0_dq[70]'. [/home/yanry/dma/
 WARNING: [Vivado 12-584] No ports matched 'ddr4_rtl_0_dq[71]'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:154]
 WARNING: [Vivado 12-584] No ports matched 'uart_rtl_rxd_push_0'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:174]
 WARNING: [Vivado 12-584] No ports matched 'uart_rtl_txd_pop_0'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:175]
-WARNING: [Vivado 12-507] No nets matched 'design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/i_idma_backend/gen_hw_legalizer.i_idma_legalizer/axi_mst_req_b_ready_INST_0_i_4_0'. [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc:182]
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.srcs/constrs_1/new/constraints_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
@@ -195,16 +207,16 @@ Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/dont_touc
 Finished Parsing XDC File [/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3095.703 ; gain = 0.000 ; free physical = 103811 ; free virtual = 115635
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3104.578 ; gain = 0.000 ; free physical = 87054 ; free virtual = 121293
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3095.703 ; gain = 0.000 ; free physical = 103811 ; free virtual = 115635
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3104.578 ; gain = 0.000 ; free physical = 87054 ; free virtual = 121293
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_1_i/axi_bram_ctrl_0_bram' at clock pin 'clka' is different from the actual clock period '10.313', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3095.703 ; gain = 278.629 ; free physical = 103805 ; free virtual = 115629
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3104.578 ; gain = 287.535 ; free physical = 87048 ; free virtual = 121287
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -212,7 +224,7 @@ Start Loading Part and Timing Information
 Loading part: xczu19eg-ffvc1760-2-i
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3103.707 ; gain = 286.633 ; free physical = 103805 ; free virtual = 115629
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3112.582 ; gain = 295.539 ; free physical = 87048 ; free virtual = 121287
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -473,14 +485,14 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/util_ds_buf_0. (constr
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/util_ds_buf_1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_bram_ctrl_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_bram_ctrl_0_bram. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/dma_core_wrap_v_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/dma_core_wrap_v_1. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 3103.707 ; gain = 286.633 ; free physical = 103805 ; free virtual = 115629
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3112.582 ; gain = 295.539 ; free physical = 87048 ; free virtual = 121287
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 3103.707 ; gain = 286.633 ; free physical = 103804 ; free virtual = 115629
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 3112.582 ; gain = 295.539 ; free physical = 87047 ; free virtual = 121287
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -503,25 +515,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3103.707 ; gain = 286.633 ; free physical = 103801 ; free virtual = 115632
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 3112.582 ; gain = 295.539 ; free physical = 87043 ; free virtual = 121289
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3764.703 ; gain = 947.629 ; free physical = 103224 ; free virtual = 115055
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3766.609 ; gain = 949.566 ; free physical = 86473 ; free virtual = 120719
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3765.703 ; gain = 948.629 ; free physical = 103223 ; free virtual = 115055
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3767.609 ; gain = 950.566 ; free physical = 86472 ; free virtual = 120718
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3780.508 ; gain = 963.434 ; free physical = 103208 ; free virtual = 115039
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 3785.219 ; gain = 968.176 ; free physical = 86455 ; free virtual = 120701
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -539,37 +551,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103072 ; free virtual = 114903
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86321 ; free virtual = 120567
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103071 ; free virtual = 114902
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86321 ; free virtual = 120567
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103071 ; free virtual = 114902
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86320 ; free virtual = 120566
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103071 ; free virtual = 114902
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86320 ; free virtual = 120566
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103071 ; free virtual = 114902
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86319 ; free virtual = 120565
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103070 ; free virtual = 114901
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86319 ; free virtual = 120565
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -582,7 +594,7 @@ Report BlackBoxes:
 |1     |design_1_axi_bram_ctrl_0_0      |         1|
 |2     |design_1_axi_bram_ctrl_0_bram_0 |         1|
 |3     |design_1_ddr4_0_0               |         1|
-|4     |design_1_dma_core_wrap_v_0_1    |         1|
+|4     |design_1_dma_core_wrap_v_1_0    |         1|
 |5     |design_1_rst_ddr4_0_333M_0      |         1|
 |6     |design_1_rst_ps8_0_96M_0        |         1|
 |7     |design_1_smartconnect_0_0       |         1|
@@ -600,7 +612,7 @@ Report Cell Usage:
 |1     |design_1_axi_bram_ctrl_0      |     1|
 |2     |design_1_axi_bram_ctrl_0_bram |     1|
 |3     |design_1_ddr4_0               |     1|
-|4     |design_1_dma_core_wrap_v_0    |     1|
+|4     |design_1_dma_core_wrap_v_1    |     1|
 |5     |design_1_rst_ddr4_0_333M      |     1|
 |6     |design_1_rst_ps8_0_96M        |     1|
 |7     |design_1_smartconnect_0       |     1|
@@ -611,26 +623,26 @@ Report Cell Usage:
 |12    |design_1_zynq_ultra_ps_e_0    |     1|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103070 ; free virtual = 114901
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86319 ; free virtual = 120565
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 3938.320 ; gain = 1069.352 ; free physical = 103070 ; free virtual = 114901
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 3938.320 ; gain = 1121.246 ; free physical = 103070 ; free virtual = 114901
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 3940.031 ; gain = 1068.125 ; free physical = 86319 ; free virtual = 120565
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 3940.031 ; gain = 1122.988 ; free physical = 86319 ; free virtual = 120565
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3938.320 ; gain = 0.000 ; free physical = 103223 ; free virtual = 115054
+Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3940.031 ; gain = 0.000 ; free physical = 86481 ; free virtual = 120727
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3938.320 ; gain = 0.000 ; free physical = 103221 ; free virtual = 115052
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3940.031 ; gain = 0.000 ; free physical = 86479 ; free virtual = 120725
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: df829aad
+Synth Design complete | Checksum: 4867dc71
 INFO: [Common 17-83] Releasing license: Synthesis
-56 Infos, 74 Warnings, 0 Critical Warnings and 0 Errors encountered.
+56 Infos, 86 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3938.320 ; gain = 2391.180 ; free physical = 103221 ; free virtual = 115052
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3205.536; main = 2967.342; forked = 247.138
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4853.176; main = 3938.324; forked = 914.852
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3940.031 ; gain = 2392.891 ; free physical = 86479 ; free virtual = 120725
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3283.982; main = 3059.876; forked = 277.779
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4781.055; main = 3866.203; forked = 914.852
 INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA/z19_MP_cDMA.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 20:58:29 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 13 13:32:26 2025...

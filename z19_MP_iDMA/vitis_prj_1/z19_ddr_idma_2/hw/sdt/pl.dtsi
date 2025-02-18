@@ -53,7 +53,7 @@
 			xlnx,s-axi-id-width = <1>;
 			xlnx,name = "axi_bram_ctrl_0";
 		};
-		dma_core_wrap_v_0: dma_core_wrap_v@80000000 {
+		dma_core_wrap_v_1: dma_core_wrap_v@80000000 {
 			xlnx,istwod = "0";
 			compatible = "xlnx,dma-core-wrap-v-1.0";
 			xlnx,jobfifodepth = <0x8>;
@@ -63,17 +63,17 @@
 			xlnx,rawcouplingavail = "1";
 			reg = <0x0 0x80000000 0x0 0x10000>;
 			clocks = <&zynqmp_clk 71>;
-			xlnx,axiuserwidth = <0x8>;
+			xlnx,axiuserwidth = <0x40>;
 			xlnx,memsysdepth = <0x0>;
 			xlnx,axidatawidth = <0x40>;
-			xlnx,axislvidwidth = <0x8>;
+			xlnx,axislvidwidth = <0x1>;
 			xlnx,edk-iptype = "PERIPHERAL";
 			xlnx,axiaddrwidth = <0x40>;
 			xlnx,freq-hz = <96968727>;
 			status = "okay";
 			clock-names = "clk";
-			xlnx,axiidwidth = <0x8>;
-			xlnx,name = "dma_core_wrap_v_0";
+			xlnx,axiidwidth = <0x1>;
+			xlnx,name = "dma_core_wrap_v_1";
 		};
 	};
 };

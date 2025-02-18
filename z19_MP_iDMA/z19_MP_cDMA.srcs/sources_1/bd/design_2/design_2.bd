@@ -845,7 +845,7 @@
       },
       "dma_core_wrap_v_0": {
         "vlnv": "user.org:user:dma_core_wrap_v:1.0",
-        "ip_revision": "27",
+        "ip_revision": "4",
         "xci_name": "design_2_dma_core_wrap_v_0_0",
         "xci_path": "ip/design_2_dma_core_wrap_v_0_0/design_2_dma_core_wrap_v_0_0.xci",
         "inst_hier_path": "dma_core_wrap_v_0",

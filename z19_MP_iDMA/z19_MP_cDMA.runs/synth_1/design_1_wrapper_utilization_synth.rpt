@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Mon Jan 20 20:58:28 2025
+| Date         : Thu Feb 13 13:32:25 2025
 | Host         : dell running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -176,7 +176,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | design_1_smartconnect_0_0       |    1 |
 | design_1_rst_ps8_0_96M_0        |    1 |
 | design_1_rst_ddr4_0_333M_0      |    1 |
-| design_1_dma_core_wrap_v_0_1    |    1 |
+| design_1_dma_core_wrap_v_1_0    |    1 |
 | design_1_ddr4_0_0               |    1 |
 | design_1_axi_bram_ctrl_0_bram_0 |    1 |
 | design_1_axi_bram_ctrl_0_0      |    1 |

@@ -1,0 +1,4 @@
+domain_path: /home/yanry/dma/z19_MP_iDMA_xbar/vitis_prj/z19_MP_iDMA_xbar/export/z19_MP_iDMA_xbar/sw/standalone_psu_cortexa53_0
+app_src_dir: /home/data/tools/Xilinx24/Vitis/2024.2/data/embeddedsw/lib/sw_apps/hello_world
+template: hello_world
+lang: c

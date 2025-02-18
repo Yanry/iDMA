@@ -1,0 +1,380 @@
+transcript off
+onbreak {quit -force}
+onerror {quit -force}
+transcript on
+
+vlib work
+vlib riviera/xilinx_vip
+vlib riviera/xpm
+vlib riviera/axi_infrastructure_v1_1_0
+vlib riviera/axi_vip_v1_1_19
+vlib riviera/zynq_ultra_ps_e_vip_v1_0_19
+vlib riviera/xil_defaultlib
+vlib riviera/lib_cdc_v1_0_3
+vlib riviera/proc_sys_reset_v5_0_16
+vlib riviera/microblaze_v11_0_14
+vlib riviera/lmb_v10_v3_0_14
+vlib riviera/lmb_bram_if_cntlr_v4_0_25
+vlib riviera/blk_mem_gen_v8_4_9
+vlib riviera/iomodule_v3_1_11
+vlib riviera/axi_bram_ctrl_v4_1_11
+vlib riviera/xlconstant_v1_1_9
+vlib riviera/gigantic_mux
+vlib riviera/xlconcat_v2_1_6
+
+vmap xilinx_vip riviera/xilinx_vip
+vmap xpm riviera/xpm
+vmap axi_infrastructure_v1_1_0 riviera/axi_infrastructure_v1_1_0
+vmap axi_vip_v1_1_19 riviera/axi_vip_v1_1_19
+vmap zynq_ultra_ps_e_vip_v1_0_19 riviera/zynq_ultra_ps_e_vip_v1_0_19
+vmap xil_defaultlib riviera/xil_defaultlib
+vmap lib_cdc_v1_0_3 riviera/lib_cdc_v1_0_3
+vmap proc_sys_reset_v5_0_16 riviera/proc_sys_reset_v5_0_16
+vmap microblaze_v11_0_14 riviera/microblaze_v11_0_14
+vmap lmb_v10_v3_0_14 riviera/lmb_v10_v3_0_14
+vmap lmb_bram_if_cntlr_v4_0_25 riviera/lmb_bram_if_cntlr_v4_0_25
+vmap blk_mem_gen_v8_4_9 riviera/blk_mem_gen_v8_4_9
+vmap iomodule_v3_1_11 riviera/iomodule_v3_1_11
+vmap axi_bram_ctrl_v4_1_11 riviera/axi_bram_ctrl_v4_1_11
+vmap xlconstant_v1_1_9 riviera/xlconstant_v1_1_9
+vmap gigantic_mux riviera/gigantic_mux
+vmap xlconcat_v2_1_6 riviera/xlconcat_v2_1_6
+
+vlog -work xilinx_vip  -incr "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_pkg.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_if.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/clk_vip_if.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/hdl/rst_vip_if.sv" \
+
+vlog -work xpm  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+vcom -work xpm -93  -incr \
+"/home/data/tools/Xilinx24/Vivado/2024.2/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vlog -work axi_infrastructure_v1_1_0  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
+
+vlog -work axi_vip_v1_1_19  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/8c45/hdl/axi_vip_v1_1_vl_rfs.sv" \
+
+vlog -work zynq_ultra_ps_e_vip_v1_0_19  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+
+vcom -work lib_cdc_v1_0_3 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd" \
+
+vcom -work proc_sys_reset_v5_0_16 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/0831/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_rst_ps8_0_96M_0/sim/design_1_rst_ps8_0_96M_0.vhd" \
+
+vcom -work microblaze_v11_0_14 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/a243/hdl/microblaze_v11_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_0/sim/bd_45eb_microblaze_I_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_1/sim/bd_45eb_rst_0_0.vhd" \
+
+vcom -work lmb_v10_v3_0_14 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/7495/hdl/lmb_v10_v3_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_2/sim/bd_45eb_ilmb_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_3/sim/bd_45eb_dlmb_0.vhd" \
+
+vcom -work lmb_bram_if_cntlr_v4_0_25 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/73e9/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_4/sim/bd_45eb_dlmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_5/sim/bd_45eb_ilmb_cntlr_0.vhd" \
+
+vlog -work blk_mem_gen_v8_4_9  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/5ec1/simulation/blk_mem_gen_v8_4.v" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_6/sim/bd_45eb_lmb_bram_I_0.v" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_7/sim/bd_45eb_second_dlmb_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_8/sim/bd_45eb_second_ilmb_cntlr_0.vhd" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_9/sim/bd_45eb_second_lmb_bram_I_0.v" \
+
+vcom -work iomodule_v3_1_11 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e9/hdl/iomodule_v3_1_vh_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/ip/ip_10/sim/bd_45eb_iomodule_0_0.vhd" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/bd_0/sim/bd_45eb.v" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_0/sim/design_1_ddr4_0_0_microblaze_mcs.v" \
+
+vlog -work xil_defaultlib  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/phy/design_1_ddr4_0_0_phy_ddr4.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy_behav.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/phy/ddr4_phy_v2_2_xiphy.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob_byte.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/iob/ddr4_phy_v2_2_iob.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/clocking/ddr4_phy_v2_2_pll.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_tristate_wrapper.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_riuor_wrapper.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_control_wrapper.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_byte_wrapper.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/xiphy_files/ddr4_phy_v2_2_xiphy_bitslice_wrapper.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/ip_top/design_1_ddr4_0_0_phy.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_wtr.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ref.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_rd_wr.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_periodic.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_group.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc_merge_enc.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc_gen.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc_fi_xor.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc_dec_fix.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc_buf.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ecc.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_ctl.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_cmd_mux_c.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_cmd_mux_ap.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_arb_p.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_arb_mux_p.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_arb_c.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_arb_a.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_act_timer.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc_act_rank.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/controller/ddr4_v2_2_mc.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ui/ddr4_v2_2_ui_wr_data.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ui/ddr4_v2_2_ui_rd_data.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ui/ddr4_v2_2_ui_cmd.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ui/ddr4_v2_2_ui.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_ar_channel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_aw_channel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_b_channel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_cmd_arbiter.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_cmd_fsm.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_cmd_translator.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_fifo.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_incr_cmd.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_r_channel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_w_channel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_wr_cmd_fsm.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_wrap_cmd.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_a_upsizer.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_register_slice.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axi_upsizer.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_axic_register_slice.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_carry_and.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_carry_latch_and.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_carry_latch_or.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_carry_or.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_command_fifo.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_comparator.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_comparator_sel.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_comparator_sel_static.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_r_upsizer.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi/ddr4_v2_2_w_upsizer.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_addr_decode.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_read.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_reg_bank.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_reg.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_top.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/axi_ctrl/ddr4_v2_2_axi_ctrl_write.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/clocking/ddr4_v2_2_infrastructure.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_xsdb_bram.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_write.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_wr_byte.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_wr_bit.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_sync.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_read.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_rd_en.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_pi.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_mc_odt.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_debug_microblaze.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_cplx_data.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_cplx.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_config_rom.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_addr_decode.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_top.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal_xsdb_arbiter.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_cal.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_chipscope_xsdb_slave.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/ddr4_v2_2_dp_AB9.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top/design_1_ddr4_0_0_ddr4.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top/design_1_ddr4_0_0_ddr4_mem_intfc.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal/design_1_ddr4_0_0_ddr4_cal_riu.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top/design_1_ddr4_0_0.sv" \
+"../../../bd/design_1/ip/design_1_ddr4_0_0/tb/design_1_ddr4_0_0_microblaze_mcs_0.sv" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_rst_ddr4_0_333M_0/sim/design_1_rst_ddr4_0_333M_0.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_0_0/util_ds_buf.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_0_0/sim/design_1_util_ds_buf_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_util_ds_buf_1_0/sim/design_1_util_ds_buf_1_0.vhd" \
+
+vcom -work axi_bram_ctrl_v4_1_11 -93  -incr \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/df79/hdl/axi_bram_ctrl_v4_1_rfs.vhd" \
+
+vcom -work xil_defaultlib -93  -incr \
+"../../../bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_axi_bram_ctrl_0_bram_0/sim/design_1_axi_bram_ctrl_0_bram_0.v" \
+
+vlog -work xil_defaultlib  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/11fb/src/axi_typedef.svh" \
+"../../../bd/design_1/ipshared/11fb/src/common_cells_registers.svh" \
+"../../../bd/design_1/ipshared/11fb/src/axi_assign.svh" \
+"../../../bd/design_1/ipshared/11fb/src/idma_guard.svh" \
+"../../../bd/design_1/ipshared/11fb/src/common_cells_assertions.svh" \
+"../../../bd/design_1/ipshared/11fb/src/register_interface_assign.svh" \
+"../../../bd/design_1/ipshared/11fb/src/register_interface_typedef.svh" \
+"../../../bd/design_1/ipshared/11fb/src/idma_typedef.svh" \
+"../../../bd/design_1/ipshared/11fb/src/axi_pkg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_atop_filter.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_burst_splitter.sv" \
+"../../../bd/design_1/ipshared/11fb/src/cf_math_pkg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_demux.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_pkg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_err_slv.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_intf.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_lite_to_reg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_to_axi_lite.sv" \
+"../../../bd/design_1/ipshared/11fb/src/axi_to_reg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/counter.sv" \
+"../../../bd/design_1/ipshared/11fb/src/delta_counter.sv" \
+"../../../bd/design_1/ipshared/11fb/src/dma_core_wrap.sv" \
+"../../../bd/design_1/ipshared/11fb/src/dma_core_wrap_sv.sv" \
+"../../../bd/design_1/ipshared/11fb/src/fall_through_register.sv" \
+"../../../bd/design_1/ipshared/11fb/src/fifo_v2.sv" \
+"../../../bd/design_1/ipshared/11fb/src/fifo_v3.sv" \
+"../../../bd/design_1/ipshared/11fb/src/id_queue.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_axi_lite_transport_layer.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_axi_transport_layer.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_backend.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_buffer.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_channel_coupler.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_error_handler.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_legalizer.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_nd_midend.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_obi_transport_layer.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_2d_frontend_reg_pkg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_2d_frontend.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_2d_frontend_reg_top.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_frontend_reg_pkg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_frontend.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_reg64_frontend_reg_top.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_stream_fifo.sv" \
+"../../../bd/design_1/ipshared/11fb/src/idma_transfer_id_gen.sv" \
+"../../../bd/design_1/ipshared/11fb/src/lzc.sv" \
+"../../../bd/design_1/ipshared/11fb/src/onehot_to_bin.sv" \
+"../../../bd/design_1/ipshared/11fb/src/popcount.sv" \
+"../../../bd/design_1/ipshared/11fb/src/prim_subreg.sv" \
+"../../../bd/design_1/ipshared/11fb/src/prim_subreg_arb.sv" \
+"../../../bd/design_1/ipshared/11fb/src/prim_subreg_ext.sv" \
+"../../../bd/design_1/ipshared/11fb/src/reg_intf.sv" \
+"../../../bd/design_1/ipshared/11fb/src/rr_arb_tree.sv" \
+"../../../bd/design_1/ipshared/11fb/src/spill_register.sv" \
+"../../../bd/design_1/ipshared/11fb/src/spill_register_flushable.sv" \
+"../../../bd/design_1/ipshared/11fb/src/stream_arbiter.sv" \
+"../../../bd/design_1/ipshared/11fb/src/stream_arbiter_flushable.sv" \
+"../../../bd/design_1/ipshared/11fb/src/stream_fifo.sv" \
+"../../../bd/design_1/ipshared/11fb/src/stream_fork.sv" \
+"../../../bd/design_1/ipshared/11fb/src/stream_register.sv" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/11fb/src/dma_core_wrap_v.v" \
+"../../../bd/design_1/ip/design_1_dma_core_wrap_v_1_0/sim/design_1_dma_core_wrap_v_1_0.v" \
+
+vlog -work xil_defaultlib  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/76e2/src/axi_cdc.sv" \
+"../../../bd/design_1/ipshared/76e2/src/axi_cdc_dst.sv" \
+"../../../bd/design_1/ipshared/76e2/src/axi_cdc_src.sv" \
+"../../../bd/design_1/ipshared/76e2/src/axi_cdc_sv.sv" \
+"../../../bd/design_1/ipshared/76e2/src/binary_to_gray.sv" \
+"../../../bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv" \
+"../../../bd/design_1/ipshared/76e2/src/gray_to_binary.sv" \
+"../../../bd/design_1/ipshared/76e2/src/sync.sv" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/76e2/src/axi_cdc_v.v" \
+"../../../bd/design_1/ip/design_1_axi_cdc_v_0_0/sim/design_1_axi_cdc_v_0_0.v" \
+
+vlog -work xil_defaultlib  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/666c/src/addr_decode.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_cut.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_id_prepend.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_multicut.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_mux.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_xbar.sv" \
+"../../../bd/design_1/ipshared/666c/src/axi_xbar_sv.sv" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/666c/src/axi_xbar_v.v" \
+"../../../bd/design_1/ip/design_1_axi_xbar_v_0_0/sim/design_1_axi_xbar_v_0_0.v" \
+
+vlog -work xlconstant_v1_1_9  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_xlconstant_0_1/sim/design_1_xlconstant_0_1.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_1_1/sim/design_1_xlconstant_1_1.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_2_0/sim/design_1_xlconstant_2_0.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_2/sim/design_1_xlconstant_0_2.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_1_2/sim/design_1_xlconstant_1_2.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_2_1/sim/design_1_xlconstant_2_1.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_3/sim/design_1_xlconstant_0_3.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_1_3/sim/design_1_xlconstant_1_3.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_2_2/sim/design_1_xlconstant_2_2.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.v" \
+
+vlog -work gigantic_mux  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/96a0/hdl/gigantic_mux_v1_0_cntr.v" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/sim/bd_f60c_g_inst_0.v" \
+
+vlog -work xlconcat_v2_1_6  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6120/hdl/xlconcat_v2_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/sim/bd_f60c_slot_0_aw_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/sim/bd_f60c_slot_0_w_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/sim/bd_f60c_slot_0_b_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/sim/bd_f60c_slot_0_ar_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/sim/bd_f60c_slot_0_r_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_7/sim/bd_f60c_slot_1_aw_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_8/sim/bd_f60c_slot_1_w_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_9/sim/bd_f60c_slot_1_b_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_10/sim/bd_f60c_slot_1_ar_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_11/sim/bd_f60c_slot_1_r_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+vlog -work xil_defaultlib  -incr "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/28d6/src/axi_id_remap.sv" \
+"../../../bd/design_1/ipshared/28d6/src/axi_id_remap_sv.sv" \
+
+vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/6f8f/hdl" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/ip_1/rtl/map" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/ip_top" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_ddr4_0_0/rtl/cal" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/666c/src" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/52c0/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/2276/hdl/verilog" "+incdir+../../../../z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/28d6/src" "+incdir+/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" -l xilinx_vip -l xpm -l axi_infrastructure_v1_1_0 -l axi_vip_v1_1_19 -l zynq_ultra_ps_e_vip_v1_0_19 -l xil_defaultlib -l lib_cdc_v1_0_3 -l proc_sys_reset_v5_0_16 -l microblaze_v11_0_14 -l lmb_v10_v3_0_14 -l lmb_bram_if_cntlr_v4_0_25 -l blk_mem_gen_v8_4_9 -l iomodule_v3_1_11 -l axi_bram_ctrl_v4_1_11 -l xlconstant_v1_1_9 -l gigantic_mux -l xlconcat_v2_1_6 \
+"../../../bd/design_1/ipshared/28d6/src/axi_id_remap_v.v" \
+"../../../bd/design_1/ip/design_1_axi_id_remap_v_0_0/sim/design_1_axi_id_remap_v_0_0.v" \
+
+vlog -work xil_defaultlib \
+"glbl.v"
+

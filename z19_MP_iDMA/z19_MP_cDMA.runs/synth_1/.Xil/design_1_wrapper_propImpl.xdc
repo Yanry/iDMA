@@ -285,5 +285,3 @@ set_property src_info {type:XDC file:1 line:174 export:INPUT save:INPUT read:REA
 set_property IOSTANDARD LVCMOS18 [get_ports uart_rtl_rxd_push_0]
 set_property src_info {type:XDC file:1 line:175 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD LVCMOS18 [get_ports uart_rtl_txd_pop_0]
-set_property src_info {type:XDC file:1 line:182 export:INPUT save:INPUT read:READ} [current_design]
-set_property ALLOW_COMBINATORIAL_LOOPS true [get_nets design_1_i/dma_core_wrap_v_0/inst/i_dma_core_wrap_sv/i_dma_core_wrap/i_idma_backend/gen_hw_legalizer.i_idma_legalizer/axi_mst_req_b_ready_INST_0_i_4_0]

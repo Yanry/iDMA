@@ -1,0 +1,3 @@
+/home/yanry/dma/z19_MP_iDMA_xbar/vitis_prj/z19_MP_iDMA_xbar/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/yanry/dma/z19_MP_iDMA_xbar/vitis_prj/z19_MP_iDMA_xbar/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
+/home/yanry/dma/z19_MP_iDMA_xbar/vitis_prj/z19_MP_iDMA_xbar/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir

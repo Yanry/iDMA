@@ -1,0 +1,167 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xAC0AD53398FFB41D",
+      "device": "xczu19eg-ffvc1760-2-i",
+      "gen_directory": "../../../../reg_to_axi_test.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "reg_to_axi_v_0": "",
+      "axi_vip_0": ""
+    },
+    "interface_ports": {
+      "reg_slv": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "user:user:register_interface:1.0",
+        "vlnv": "user:user:register_interface_rtl:1.0",
+        "port_maps": {
+          "READY": {
+            "physical_name": "reg_slv_ready",
+            "direction": "O"
+          },
+          "VALID": {
+            "physical_name": "reg_slv_valid",
+            "direction": "I"
+          },
+          "WDATA": {
+            "physical_name": "reg_slv_wdata",
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "WSTRB": {
+            "physical_name": "reg_slv_wstrb",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "ERROR": {
+            "physical_name": "reg_slv_error",
+            "direction": "O"
+          },
+          "ADDR": {
+            "physical_name": "reg_slv_addr",
+            "direction": "I",
+            "left": "63",
+            "right": "0"
+          },
+          "WRITE": {
+            "physical_name": "reg_slv_write",
+            "direction": "I"
+          },
+          "RDATA": {
+            "physical_name": "reg_slv_rdata",
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "rst_n": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "reg_to_axi_v_0": {
+        "vlnv": "user.org:user:reg_to_axi_v:1.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_reg_to_axi_v_0_0",
+        "xci_path": "ip/design_1_reg_to_axi_v_0_0/design_1_reg_to_axi_v_0_0.xci",
+        "inst_hier_path": "reg_to_axi_v_0",
+        "interface_ports": {
+          "axi_mst": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "axi_mst",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0x0000FFFF",
+              "width": "64"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "axi_mst": {
+              "range": "64K",
+              "width": "16"
+            }
+          }
+        }
+      },
+      "axi_vip_0": {
+        "vlnv": "xilinx.com:ip:axi_vip:1.1",
+        "ip_revision": "19",
+        "xci_name": "design_1_axi_vip_0_0",
+        "xci_path": "ip/design_1_axi_vip_0_0/design_1_axi_vip_0_0.xci",
+        "inst_hier_path": "axi_vip_0",
+        "parameters": {
+          "ADDR_WIDTH": {
+            "value": "64"
+          },
+          "DATA_WIDTH": {
+            "value": "64"
+          },
+          "INTERFACE_MODE": {
+            "value": "SLAVE"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "reg_slv_1": {
+        "interface_ports": [
+          "reg_slv",
+          "reg_to_axi_v_0/reg_slv"
+        ]
+      },
+      "reg_to_axi_v_0_axi_mst": {
+        "interface_ports": [
+          "reg_to_axi_v_0/axi_mst",
+          "axi_vip_0/S_AXI"
+        ]
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "reg_to_axi_v_0/clk_i",
+          "axi_vip_0/aclk"
+        ]
+      },
+      "rst_n_1": {
+        "ports": [
+          "rst_n",
+          "reg_to_axi_v_0/rst_ni",
+          "axi_vip_0/aresetn"
+        ]
+      }
+    },
+    "addressing": {
+      "/reg_to_axi_v_0": {
+        "address_spaces": {
+          "axi_mst": {
+            "segments": {
+              "SEG_axi_vip_0_Reg": {
+                "address_block": "/axi_vip_0/S_AXI/Reg",
+                "offset": "0x0000",
+                "range": "64K"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

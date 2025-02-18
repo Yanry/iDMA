@@ -1,0 +1,20 @@
+sv xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/8864/src" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/ipshared/8864/src/axi_pkg.sv" \
+"../../../bd/design_1/ipshared/8864/src/reg_to_axi.sv" \
+"../../../bd/design_1/ipshared/8864/src/reg_to_axi_sv.sv" \
+
+verilog xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/8864/src" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/ipshared/8864/src/reg_to_axi_v.v" \
+"../../../bd/design_1/ip/design_1_reg_to_axi_v_0_0/sim/design_1_reg_to_axi_v_0_0.v" \
+
+sv xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/8864/src" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0_pkg.sv" \
+"../../../bd/design_1/ip/design_1_axi_vip_0_0/sim/design_1_axi_vip_0_0.sv" \
+
+verilog xil_defaultlib --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/8864/src" --include "../../../../reg_to_axi_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jan 20 20:51:40 2025" VIVADOVERSION="2024.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 23 19:23:12 2025" VIVADOVERSION="2024.2">
 
   <SYSTEMINFO ARCH="zynquplus" DEVICE="xczu19eg" NAME="bd_365d" PACKAGE="ffvc1760" SPEEDGRADE="-2"/>
 
@@ -49,7 +49,7 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_arsize"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="15" NAME="SLOT_0_AXI_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_aruser">
+    <PORT DIR="I" LEFT="63" NAME="SLOT_0_AXI_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_aruser">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_aruser"/>
       </CONNECTIONS>
@@ -104,7 +104,7 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_awsize"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="15" NAME="SLOT_0_AXI_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_awuser">
+    <PORT DIR="I" LEFT="63" NAME="SLOT_0_AXI_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_awuser">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_awuser"/>
       </CONNECTIONS>
@@ -124,7 +124,7 @@
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_bresp"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="7" NAME="SLOT_0_AXI_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_buser">
+    <PORT DIR="I" LEFT="63" NAME="SLOT_0_AXI_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_buser">
       <CONNECTIONS>
         <CONNECTION INSTANCE="g_inst" PORT="slot_0_axi_buser"/>
       </CONNECTIONS>
@@ -200,9 +200,9 @@
   <EXTERNALINTERFACES>
     <BUSINTERFACE BUSNAME="g_inst_slot_0_axi" DATAWIDTH="512" NAME="SLOT_0_AXI" TYPE="TARGET">
       <PARAMETER NAME="ADDR_WIDTH" VALUE="34"/>
-      <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
-      <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
-      <PARAMETER NAME="BUSER_WIDTH" VALUE="8"/>
+      <PARAMETER NAME="ARUSER_WIDTH" VALUE="64"/>
+      <PARAMETER NAME="AWUSER_WIDTH" VALUE="64"/>
+      <PARAMETER NAME="BUSER_WIDTH" VALUE="64"/>
       <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_ddr4_0_0_c0_ddr4_ui_clk"/>
       <PARAMETER NAME="DATA_WIDTH" VALUE="512"/>
       <PARAMETER NAME="FREQ_HZ" VALUE="266500000"/>
@@ -1029,13 +1029,13 @@
         <PARAMETER NAME="C_SLOT_0_AXIS_TID_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXIS_TUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_ADDR_WIDTH" VALUE="34"/>
-        <PARAMETER NAME="C_SLOT_0_AXI_ARUSER_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_SLOT_0_AXI_ARUSER_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_SLOT_0_AXI_AR_SEL" VALUE="1"/>
-        <PARAMETER NAME="C_SLOT_0_AXI_AWUSER_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_SLOT_0_AXI_AWUSER_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_SLOT_0_AXI_AW_SEL" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_AXLEN_WIDTH" VALUE="8"/>
         <PARAMETER NAME="C_SLOT_0_AXI_AXLOCK_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_SLOT_0_AXI_BUSER_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_SLOT_0_AXI_BUSER_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_SLOT_0_AXI_B_SEL" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_CH_SEL" VALUE="ALL"/>
         <PARAMETER NAME="C_SLOT_0_AXI_DATA_WIDTH" VALUE="512"/>
@@ -1682,7 +1682,7 @@
             <CONNECTION INSTANCE="ila_lib" PORT="probe8"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="15" NAME="m_slot_0_axi_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_aruser">
+        <PORT DIR="O" LEFT="63" NAME="m_slot_0_axi_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_aruser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_lib" PORT="probe9"/>
           </CONNECTIONS>
@@ -1742,7 +1742,7 @@
             <CONNECTION INSTANCE="ila_lib" PORT="probe18"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="15" NAME="m_slot_0_axi_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_awuser">
+        <PORT DIR="O" LEFT="63" NAME="m_slot_0_axi_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_awuser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_lib" PORT="probe19"/>
           </CONNECTIONS>
@@ -1767,7 +1767,7 @@
             <CONNECTION INSTANCE="ila_lib" PORT="probe21"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="7" NAME="m_slot_0_axi_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_buser">
+        <PORT DIR="O" LEFT="63" NAME="m_slot_0_axi_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_buser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="ila_lib" PORT="probe22"/>
           </CONNECTIONS>
@@ -1877,7 +1877,7 @@
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_arsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="slot_0_axi_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_aruser">
+        <PORT DIR="I" LEFT="63" NAME="slot_0_axi_aruser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_aruser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_aruser"/>
           </CONNECTIONS>
@@ -1932,7 +1932,7 @@
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_awsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="slot_0_axi_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_awuser">
+        <PORT DIR="I" LEFT="63" NAME="slot_0_axi_awuser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_awuser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_awuser"/>
           </CONNECTIONS>
@@ -1952,7 +1952,7 @@
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_bresp"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="7" NAME="slot_0_axi_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_buser">
+        <PORT DIR="I" LEFT="63" NAME="slot_0_axi_buser" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_slot_0_axi_buser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_365d_imp" PORT="SLOT_0_AXI_buser"/>
           </CONNECTIONS>
@@ -2016,9 +2016,9 @@
       <BUSINTERFACES>
         <BUSINTERFACE BUSNAME="g_inst_slot_0_axi" DATAWIDTH="512" NAME="slot_0_axi" TYPE="MONITOR" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="ADDR_WIDTH" VALUE="34"/>
-          <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="BUSER_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="ARUSER_WIDTH" VALUE="64"/>
+          <PARAMETER NAME="AWUSER_WIDTH" VALUE="64"/>
+          <PARAMETER NAME="BUSER_WIDTH" VALUE="64"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_ddr4_0_0_c0_ddr4_ui_clk"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="512"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="266500000"/>
@@ -2087,9 +2087,9 @@
         </BUSINTERFACE>
         <BUSINTERFACE BUSNAME="__NOC__" DATAWIDTH="512" NAME="m_slot_0_axi" TYPE="INITIATOR" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="ADDR_WIDTH" VALUE="34"/>
-          <PARAMETER NAME="ARUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="AWUSER_WIDTH" VALUE="16"/>
-          <PARAMETER NAME="BUSER_WIDTH" VALUE="8"/>
+          <PARAMETER NAME="ARUSER_WIDTH" VALUE="64"/>
+          <PARAMETER NAME="AWUSER_WIDTH" VALUE="64"/>
+          <PARAMETER NAME="BUSER_WIDTH" VALUE="64"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_ddr4_0_0_c0_ddr4_ui_clk"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="512"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="266500000"/>
@@ -2596,7 +2596,7 @@
         <PARAMETER NAME="C_PROBE199_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE19_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE19_TYPE" VALUE="0"/>
-        <PARAMETER NAME="C_PROBE19_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_PROBE19_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_PROBE1_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE1_TYPE" VALUE="0"/>
         <PARAMETER NAME="C_PROBE1_WIDTH" VALUE="34"/>
@@ -2698,7 +2698,7 @@
         <PARAMETER NAME="C_PROBE229_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE22_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE22_TYPE" VALUE="0"/>
-        <PARAMETER NAME="C_PROBE22_WIDTH" VALUE="8"/>
+        <PARAMETER NAME="C_PROBE22_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_PROBE230_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE230_TYPE" VALUE="0"/>
         <PARAMETER NAME="C_PROBE230_WIDTH" VALUE="1"/>
@@ -5263,15 +5263,15 @@
         <PARAMETER NAME="C_PROBE99_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_PROBE9_MU_CNT" VALUE="1"/>
         <PARAMETER NAME="C_PROBE9_TYPE" VALUE="0"/>
-        <PARAMETER NAME="C_PROBE9_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_PROBE9_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_RAM_STYLE" VALUE="SUBCORE"/>
         <PARAMETER NAME="C_SLOT_0_AXIS_TDEST_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_SLOT_0_AXIS_TID_WIDTH" VALUE="3"/>
         <PARAMETER NAME="C_SLOT_0_AXIS_TUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_ARUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_AWUSER_WIDTH" VALUE="1"/>
-        <PARAMETER NAME="C_SLOT_0_AXI_BUSER_WIDTH" VALUE="8"/>
-        <PARAMETER NAME="C_SLOT_0_AXI_ID_WIDTH" VALUE="16"/>
+        <PARAMETER NAME="C_SLOT_0_AXI_BUSER_WIDTH" VALUE="64"/>
+        <PARAMETER NAME="C_SLOT_0_AXI_ID_WIDTH" VALUE="64"/>
         <PARAMETER NAME="C_SLOT_0_AXI_PROTOCOL" VALUE="AXI4"/>
         <PARAMETER NAME="C_SLOT_0_AXI_RUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_SLOT_0_AXI_WUSER_WIDTH" VALUE="1"/>
@@ -5348,7 +5348,7 @@
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_arsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe9" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_aruser">
+        <PORT DIR="I" LEFT="63" NAME="probe9" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_aruser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_aruser"/>
           </CONNECTIONS>
@@ -5398,7 +5398,7 @@
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_awsize"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="15" NAME="probe19" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_awuser">
+        <PORT DIR="I" LEFT="63" NAME="probe19" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_awuser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_awuser"/>
           </CONNECTIONS>
@@ -5413,7 +5413,7 @@
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_bresp"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="7" NAME="probe22" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_buser">
+        <PORT DIR="I" LEFT="63" NAME="probe22" RIGHT="0" SIGIS="undef" SIGNAME="g_inst_m_slot_0_axi_buser">
           <CONNECTIONS>
             <CONNECTION INSTANCE="g_inst" PORT="m_slot_0_axi_buser"/>
           </CONNECTIONS>

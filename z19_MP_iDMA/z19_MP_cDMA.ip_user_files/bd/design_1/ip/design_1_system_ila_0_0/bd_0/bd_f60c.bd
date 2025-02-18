@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x6497D1A9EFB6003",
+      "boundary_crc": "0x605438451A9E64FE",
       "design_src": "SBD",
       "device": "xczu19eg-ffvc1760-2-i",
       "name": "bd_f60c",
@@ -32,15 +32,15 @@
             "value_src": "default"
           },
           "ARUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "default"
           },
           "AWUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "default"
           },
           "BUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "default"
           },
           "CLK_DOMAIN": {
@@ -92,7 +92,7 @@
             "value_src": "default"
           },
           "ID_WIDTH": {
-            "value": "8",
+            "value": "1",
             "value_src": "default"
           },
           "INSERT_VIP": {
@@ -136,7 +136,7 @@
             "value_src": "default"
           },
           "RUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "default"
           },
           "SUPPORTS_NARROW_BURST": {
@@ -148,7 +148,7 @@
             "value_src": "default"
           },
           "WUSER_WIDTH": {
-            "value": "8",
+            "value": "64",
             "value_src": "default"
           }
         }
@@ -253,7 +253,7 @@
             "value": "0"
           },
           "C_PROBE11_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_PROBE12_TYPE": {
             "value": "0"
@@ -283,7 +283,7 @@
             "value": "0"
           },
           "C_PROBE16_WIDTH": {
-            "value": "8"
+            "value": "1"
           },
           "C_PROBE17_TYPE": {
             "value": "0"
@@ -331,7 +331,7 @@
             "value": "0"
           },
           "C_PROBE23_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_PROBE24_TYPE": {
             "value": "0"
@@ -343,7 +343,7 @@
             "value": "0"
           },
           "C_PROBE25_WIDTH": {
-            "value": "8"
+            "value": "1"
           },
           "C_PROBE26_TYPE": {
             "value": "0"
@@ -355,7 +355,7 @@
             "value": "0"
           },
           "C_PROBE27_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_PROBE28_TYPE": {
             "value": "0"
@@ -379,7 +379,7 @@
             "value": "0"
           },
           "C_PROBE30_WIDTH": {
-            "value": "8"
+            "value": "1"
           },
           "C_PROBE31_TYPE": {
             "value": "0"
@@ -391,7 +391,7 @@
             "value": "0"
           },
           "C_PROBE32_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_PROBE33_TYPE": {
             "value": "0"
@@ -409,7 +409,7 @@
             "value": "0"
           },
           "C_PROBE35_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_PROBE36_TYPE": {
             "value": "0"
@@ -451,7 +451,7 @@
             "value": "0"
           },
           "C_PROBE4_WIDTH": {
-            "value": "8"
+            "value": "1"
           },
           "C_PROBE5_TYPE": {
             "value": "0"
@@ -514,13 +514,13 @@
             "value": "64"
           },
           "C_SLOT_0_AXI_ARUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_SLOT_0_AXI_AR_SEL": {
             "value": "1"
           },
           "C_SLOT_0_AXI_AWUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_SLOT_0_AXI_AW_SEL": {
             "value": "1"
@@ -532,7 +532,7 @@
             "value": "1"
           },
           "C_SLOT_0_AXI_BUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_SLOT_0_AXI_B_SEL": {
             "value": "1"
@@ -541,19 +541,19 @@
             "value": "64"
           },
           "C_SLOT_0_AXI_ID_WIDTH": {
-            "value": "8"
+            "value": "1"
           },
           "C_SLOT_0_AXI_PROTOCOL": {
             "value": "AXI4"
           },
           "C_SLOT_0_AXI_RUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_SLOT_0_AXI_R_SEL": {
             "value": "1"
           },
           "C_SLOT_0_AXI_WUSER_WIDTH": {
-            "value": "8"
+            "value": "64"
           },
           "C_SLOT_0_AXI_W_SEL": {
             "value": "1"

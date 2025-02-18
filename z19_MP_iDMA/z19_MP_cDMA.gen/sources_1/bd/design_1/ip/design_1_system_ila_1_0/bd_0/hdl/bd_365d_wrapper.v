@@ -55,7 +55,7 @@ module bd_365d_wrapper
   input [3:0]SLOT_0_AXI_arqos;
   input SLOT_0_AXI_arready;
   input [2:0]SLOT_0_AXI_arsize;
-  input [15:0]SLOT_0_AXI_aruser;
+  input [63:0]SLOT_0_AXI_aruser;
   input SLOT_0_AXI_arvalid;
   input [33:0]SLOT_0_AXI_awaddr;
   input [1:0]SLOT_0_AXI_awburst;
@@ -66,11 +66,11 @@ module bd_365d_wrapper
   input [3:0]SLOT_0_AXI_awqos;
   input SLOT_0_AXI_awready;
   input [2:0]SLOT_0_AXI_awsize;
-  input [15:0]SLOT_0_AXI_awuser;
+  input [63:0]SLOT_0_AXI_awuser;
   input SLOT_0_AXI_awvalid;
   input SLOT_0_AXI_bready;
   input [1:0]SLOT_0_AXI_bresp;
-  input [7:0]SLOT_0_AXI_buser;
+  input [63:0]SLOT_0_AXI_buser;
   input SLOT_0_AXI_bvalid;
   input [511:0]SLOT_0_AXI_rdata;
   input SLOT_0_AXI_rlast;
@@ -94,7 +94,7 @@ module bd_365d_wrapper
   wire [3:0]SLOT_0_AXI_arqos;
   wire SLOT_0_AXI_arready;
   wire [2:0]SLOT_0_AXI_arsize;
-  wire [15:0]SLOT_0_AXI_aruser;
+  wire [63:0]SLOT_0_AXI_aruser;
   wire SLOT_0_AXI_arvalid;
   wire [33:0]SLOT_0_AXI_awaddr;
   wire [1:0]SLOT_0_AXI_awburst;
@@ -105,11 +105,11 @@ module bd_365d_wrapper
   wire [3:0]SLOT_0_AXI_awqos;
   wire SLOT_0_AXI_awready;
   wire [2:0]SLOT_0_AXI_awsize;
-  wire [15:0]SLOT_0_AXI_awuser;
+  wire [63:0]SLOT_0_AXI_awuser;
   wire SLOT_0_AXI_awvalid;
   wire SLOT_0_AXI_bready;
   wire [1:0]SLOT_0_AXI_bresp;
-  wire [7:0]SLOT_0_AXI_buser;
+  wire [63:0]SLOT_0_AXI_buser;
   wire SLOT_0_AXI_bvalid;
   wire [511:0]SLOT_0_AXI_rdata;
   wire SLOT_0_AXI_rlast;

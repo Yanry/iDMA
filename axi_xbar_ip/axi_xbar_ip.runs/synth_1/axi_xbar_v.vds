@@ -1,0 +1,693 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 11 19:20:58 2025
+# Process ID         : 516317
+# Current directory  : /home/yanry/dma/axi_xbar_ip/axi_xbar_ip.runs/synth_1
+# Command line       : vivado -log axi_xbar_v.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_xbar_v.tcl
+# Log file           : /home/yanry/dma/axi_xbar_ip/axi_xbar_ip.runs/synth_1/axi_xbar_v.vds
+# Journal file       : /home/yanry/dma/axi_xbar_ip/axi_xbar_ip.runs/synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 130010 MB
+#-----------------------------------------------------------
+source axi_xbar_v.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/yanry/dma/axi_xbar_ip/axi_xbar_ip.srcs/utils_1/imports/synth_1/axi_xbar.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/yanry/dma/axi_xbar_ip/axi_xbar_ip.srcs/utils_1/imports/synth_1/axi_xbar.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top axi_xbar_v -part xczu19eg-ffvc1760-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 516347
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1867.770 ; gain = 412.777 ; free physical = 90050 ; free virtual = 123033
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar_v' [/home/yanry/dma/src/axi_xbar_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar_sv' [/home/yanry/dma/src/axi_xbar_sv.sv:4]
+	Parameter NoSlvPorts bound to: 3 - type: integer 
+	Parameter NoMstPorts bound to: 3 - type: integer 
+	Parameter MaxMstTrans bound to: 4 - type: integer 
+	Parameter MaxSlvTrans bound to: 4 - type: integer 
+	Parameter FallThrough bound to: 1'b0 
+	Parameter LatencyMode bound to: 10'b1001010010 
+	Parameter PipelineStages bound to: 0 - type: integer 
+	Parameter AxiSlvIdWidth bound to: 1 - type: integer 
+	Parameter UniqueIds bound to: 1'b0 
+	Parameter AxiAddrWidth bound to: 64 - type: integer 
+	Parameter AxiDataWidth bound to: 64 - type: integer 
+	Parameter NoAddrRules bound to: 3 - type: integer 
+	Parameter AxiUserWidth bound to: 1 - type: integer 
+	Parameter Connectivity bound to: 9'b000000001 
+INFO: [Synth 8-6157] synthesizing module 'axi_xbar' [/home/yanry/dma/src/axi_xbar.sv:18]
+	Parameter Cfg[NoSlvPorts] bound to: 32'b00000000000000000000000000000011 
+	Parameter Cfg[NoMstPorts] bound to: 32'b00000000000000000000000000000011 
+	Parameter Cfg[MaxMstTrans] bound to: 32'b00000000000000000000000000000100 
+	Parameter Cfg[MaxSlvTrans] bound to: 32'b00000000000000000000000000000100 
+	Parameter Cfg[FallThrough] bound to: 1'b0 
+	Parameter Cfg[LatencyMode] bound to: 10'b1001010010 
+	Parameter Cfg[PipelineStages] bound to: 32'b00000000000000000000000000000000 
+	Parameter Cfg[AxiIdWidthSlvPorts] bound to: 32'b00000000000000000000000000000001 
+	Parameter Cfg[AxiIdUsedSlvPorts] bound to: 32'b00000000000000000000000000000001 
+	Parameter Cfg[UniqueIds] bound to: 1'b0 
+	Parameter Cfg[AxiAddrWidth] bound to: 32'b00000000000000000000000001000000 
+	Parameter Cfg[AxiDataWidth] bound to: 32'b00000000000000000000000001000000 
+	Parameter Cfg[NoAddrRules] bound to: 32'b00000000000000000000000000000011 
+	Parameter ATOPs bound to: 1'b0 
+	Parameter Connectivity bound to: 9'b000000001 
+INFO: [Synth 8-6157] synthesizing module 'addr_decode' [/home/yanry/dma/src/addr_decode.sv:33]
+	Parameter NoIndices bound to: 32'b00000000000000000000000000000011 
+	Parameter NoRules bound to: 32'b00000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'addr_decode' (0#1) [/home/yanry/dma/src/addr_decode.sv:33]
+INFO: [Synth 8-6157] synthesizing module 'axi_demux' [/home/yanry/dma/src/axi_demux.sv:40]
+	Parameter AxiIdWidth bound to: 32'b00000000000000000000000000000001 
+	Parameter AtopSupport bound to: 1'b0 
+	Parameter NoMstPorts bound to: 32'b00000000000000000000000000000100 
+	Parameter MaxTrans bound to: 32'b00000000000000000000000000000100 
+	Parameter AxiLookBits bound to: 32'b00000000000000000000000000000001 
+	Parameter UniqueIds bound to: 1'b0 
+	Parameter SpillAw bound to: 1'b1 
+	Parameter SpillW bound to: 1'b0 
+	Parameter SpillB bound to: 1'b0 
+	Parameter SpillAr bound to: 1'b1 
+	Parameter SpillR bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'axi_demux_id_counters' [/home/yanry/dma/src/axi_demux.sv:686]
+	Parameter AxiIdBits bound to: 32'b00000000000000000000000000000001 
+	Parameter CounterWidth bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_demux.sv:736]
+INFO: [Synth 8-6157] synthesizing module 'delta_counter' [/home/yanry/dma/src/delta_counter.sv:13]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000010 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter' (0#1) [/home/yanry/dma/src/delta_counter.sv:13]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_demux.sv:736]
+INFO: [Synth 8-6155] done synthesizing module 'axi_demux_id_counters' (0#1) [/home/yanry/dma/src/axi_demux.sv:686]
+INFO: [Synth 8-6157] synthesizing module 'spill_register' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized0' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized0' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized0' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized0' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'counter' [/home/yanry/dma/src/counter.sv:14]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000010 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [/home/yanry/dma/src/counter.sv:14]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized1' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized1' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized1' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized1' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized2' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized2' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized2' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized2' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000100 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'lzc' [/home/yanry/dma/src/lzc.sv:15]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000100 
+	Parameter MODE bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'lzc' (0#1) [/home/yanry/dma/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized3' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized3' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized3' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized3' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized4' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized4' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized4' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized4' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized0' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000100 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized0' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'axi_demux' (0#1) [/home/yanry/dma/src/axi_demux.sv:40]
+INFO: [Synth 8-6157] synthesizing module 'axi_err_slv' [/home/yanry/dma/src/axi_err_slv.sv:19]
+	Parameter AxiIdWidth bound to: 32'b00000000000000000000000000000001 
+	Parameter Resp bound to: 2'b11 
+	Parameter ATOPs bound to: 1'b0 
+	Parameter MaxTrans bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized0' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized0' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized1' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized1' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'counter__parameterized0' [/home/yanry/dma/src/counter.sv:14]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-6157] synthesizing module 'delta_counter__parameterized0' [/home/yanry/dma/src/delta_counter.sv:13]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001000 
+	Parameter STICKY_OVERFLOW bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'delta_counter__parameterized0' (0#1) [/home/yanry/dma/src/delta_counter.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'counter__parameterized0' (0#1) [/home/yanry/dma/src/counter.sv:14]
+INFO: [Synth 8-6155] done synthesizing module 'axi_err_slv' (0#1) [/home/yanry/dma/src/axi_err_slv.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'axi_multicut' [/home/yanry/dma/src/axi_multicut.sv:21]
+	Parameter NoCuts bound to: 32'b00000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'axi_multicut' (0#1) [/home/yanry/dma/src/axi_multicut.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'axi_err_slv__parameterized0' [/home/yanry/dma/src/axi_err_slv.sv:19]
+	Parameter AxiIdWidth bound to: 32'b00000000000000000000000000000001 
+	Parameter Resp bound to: 2'b11 
+	Parameter ATOPs bound to: 1'b0 
+	Parameter MaxTrans bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized2' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b1 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized2' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized3' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized3' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'axi_err_slv__parameterized0' (0#1) [/home/yanry/dma/src/axi_err_slv.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'axi_mux' [/home/yanry/dma/src/axi_mux.sv:28]
+	Parameter SlvAxiIDWidth bound to: 32'b00000000000000000000000000000001 
+	Parameter NoSlvPorts bound to: 32'b00000000000000000000000000000011 
+	Parameter MaxWTrans bound to: 32'b00000000000000000000000000000100 
+	Parameter FallThrough bound to: 1'b0 
+	Parameter SpillAw bound to: 1'b1 
+	Parameter SpillW bound to: 1'b0 
+	Parameter SpillB bound to: 1'b0 
+	Parameter SpillAr bound to: 1'b1 
+	Parameter SpillR bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'axi_id_prepend' [/home/yanry/dma/src/axi_id_prepend.sv:18]
+	Parameter NoBus bound to: 1 - type: integer 
+	Parameter AxiIdWidthSlvPort bound to: 32'b00000000000000000000000000000001 
+	Parameter AxiIdWidthMstPort bound to: 32'b00000000000000000000000000000011 
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_prepend' (0#1) [/home/yanry/dma/src/axi_id_prepend.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized1' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000011 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'lzc__parameterized0' [/home/yanry/dma/src/lzc.sv:15]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000000011 
+	Parameter MODE bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'lzc__parameterized0' (0#1) [/home/yanry/dma/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized1' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'fifo_v3__parameterized4' [/home/yanry/dma/src/fifo_v3.sv:13]
+	Parameter FALL_THROUGH bound to: 1'b0 
+	Parameter DEPTH bound to: 32'b00000000000000000000000000000100 
+INFO: [Synth 8-6155] done synthesizing module 'fifo_v3__parameterized4' (0#1) [/home/yanry/dma/src/fifo_v3.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized5' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized5' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized5' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized5' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized6' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized6' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized6' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized6' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'rr_arb_tree__parameterized2' [/home/yanry/dma/src/rr_arb_tree.sv:47]
+	Parameter NumIn bound to: 32'b00000000000000000000000000000011 
+	Parameter AxiVldRdy bound to: 1'b1 
+	Parameter LockIn bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'rr_arb_tree__parameterized2' (0#1) [/home/yanry/dma/src/rr_arb_tree.sv:47]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized7' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized7' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized7' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized7' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized8' [/home/yanry/dma/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized8' [/home/yanry/dma/src/spill_register_flushable.sv:17]
+	Parameter Bypass bound to: 1'b1 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized8' (0#1) [/home/yanry/dma/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized8' (0#1) [/home/yanry/dma/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'axi_mux' (0#1) [/home/yanry/dma/src/axi_mux.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar' (0#1) [/home/yanry/dma/src/axi_xbar.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar_sv' (0#1) [/home/yanry/dma/src/axi_xbar_sv.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_xbar_v' (0#1) [/home/yanry/dma/src/axi_xbar_v.v:1]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-6014] Unused sequential element read_pointer_q_reg was removed.  [/home/yanry/dma/src/fifo_v3.sv:114]
+WARNING: [Synth 8-7129] Port clk_i in module spill_register_flushable__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module spill_register_flushable__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port flush_i in module spill_register_flushable__parameterized8 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[1] in module rr_arb_tree__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[0] in module rr_arb_tree__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_i in module spill_register_flushable__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module spill_register_flushable__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port flush_i in module spill_register_flushable__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_i in module spill_register_flushable__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module spill_register_flushable__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port flush_i in module spill_register_flushable__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[1] in module rr_arb_tree__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rr_i[0] in module rr_arb_tree__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_b_chans_i[0][id][2] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_b_chans_i[0][id][1] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_r_chans_i[0][id][2] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_r_chans_i[0][id][1] in module axi_id_prepend is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode_i in module fifo_v3__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][63] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][62] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][61] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][60] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][59] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][58] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][57] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][56] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][55] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][54] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][53] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][52] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][51] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][50] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][49] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][48] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][47] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][46] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][45] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][44] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][43] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][42] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][41] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][40] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][39] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][38] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][37] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][36] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][35] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][34] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][33] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][32] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][31] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][30] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][29] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][28] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][27] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][26] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][25] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][24] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][23] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][22] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][21] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][20] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][19] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][18] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][17] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][16] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][15] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][14] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][13] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][12] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][11] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][10] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][9] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][8] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][7] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][6] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][5] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][4] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][3] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][2] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][1] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][addr][0] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][7] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][6] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][5] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][4] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][3] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][2] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][1] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][len][0] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][2] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][1] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][size][0] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][1] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][burst][0] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][lock] in module axi_err_slv__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port slv_req_i[aw][cache][3] in module axi_err_slv__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1964.707 ; gain = 509.715 ; free physical = 89927 ; free virtual = 122911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1979.551 ; gain = 524.559 ; free physical = 89927 ; free virtual = 122911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1996.461 ; gain = 541.469 ; free physical = 89927 ; free virtual = 122910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2004.469 ; gain = 549.477 ; free physical = 89913 ; free virtual = 122899
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    9 Bit       Adders := 11    
+	   2 Input    3 Bit       Adders := 27    
+	   3 Input    3 Bit       Adders := 15    
+	   2 Input    2 Bit       Adders := 53    
+	   2 Input    1 Bit       Adders := 38    
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               64 Bit    Registers := 24    
+	                9 Bit    Registers := 11    
+	                8 Bit    Registers := 44    
+	                6 Bit    Registers := 12    
+	                4 Bit    Registers := 78    
+	                3 Bit    Registers := 90    
+	                2 Bit    Registers := 120   
+	                1 Bit    Registers := 228   
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 33    
+	   3 Input   64 Bit        Muxes := 3     
+	   2 Input    9 Bit        Muxes := 33    
+	   2 Input    8 Bit        Muxes := 24    
+	   4 Input    8 Bit        Muxes := 3     
+	   3 Input    8 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 120   
+	   2 Input    3 Bit        Muxes := 171   
+	   2 Input    2 Bit        Muxes := 180   
+	   6 Input    2 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 487   
+	   6 Input    1 Bit        Muxes := 24    
+	   4 Input    1 Bit        Muxes := 18    
+	   3 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3002.656 ; gain = 1547.664 ; free physical = 88902 ; free virtual = 121893
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 3002.656 ; gain = 1547.664 ; free physical = 88902 ; free virtual = 121893
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 3002.656 ; gain = 1547.664 ; free physical = 88902 ; free virtual = 121893
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88883 ; free virtual = 121875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88883 ; free virtual = 121875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88878 ; free virtual = 121869
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88878 ; free virtual = 121869
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88878 ; free virtual = 121869
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88878 ; free virtual = 121869
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |   198|
+|3     |LUT1   |    69|
+|4     |LUT2   |   232|
+|5     |LUT3   |   762|
+|6     |LUT4   |  2557|
+|7     |LUT5   |   239|
+|8     |LUT6   |   447|
+|9     |MUXF7  |     3|
+|10    |FDCE   |  1455|
+|11    |IBUF   |  1037|
+|12    |OBUF   |  1071|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------------------------------------------------------+--------------------------------------------+------+
+|      |Instance                                                                            |Module                                      |Cells |
++------+------------------------------------------------------------------------------------+--------------------------------------------+------+
+|1     |top                                                                                 |                                            |  8071|
+|2     |  i_axi_xbar_sv                                                                     |axi_xbar_sv                                 |  5962|
+|3     |    i_axi_bar                                                                       |axi_xbar                                    |  5962|
+|4     |      \gen_mst_port_mux[0].i_axi_mux                                                |axi_mux                                     |   726|
+|5     |        \gen_mux.i_ar_arbiter                                                       |rr_arb_tree__parameterized2                 |     6|
+|6     |        \gen_mux.i_ar_spill_reg                                                     |spill_register__parameterized7              |   294|
+|7     |          spill_register_flushable_i                                                |spill_register_flushable__parameterized7    |   294|
+|8     |        \gen_mux.i_aw_arbiter                                                       |rr_arb_tree__parameterized1                 |     2|
+|9     |        \gen_mux.i_aw_spill_reg                                                     |spill_register__parameterized5              |   316|
+|10    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized5    |   316|
+|11    |        \gen_mux.i_w_fifo                                                           |fifo_v3__parameterized4                     |   107|
+|12    |      \gen_slv_port_demux[0].i_axi_demux                                            |axi_demux                                   |  1862|
+|13    |        \gen_demux.gen_ar_id_counter.i_ar_id_counter                                |axi_demux_id_counters_84                    |    19|
+|14    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_100                           |     7|
+|15    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_101                           |     7|
+|16    |        \gen_demux.gen_aw_id_counter.i_aw_id_counter                                |axi_demux_id_counters_85                    |    23|
+|17    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_98                            |    10|
+|18    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_99                            |     8|
+|19    |        \gen_demux.i_ar_chan_spill_reg                                              |spill_register__parameterized3_86           |   308|
+|20    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized3_97 |   308|
+|21    |        \gen_demux.i_ar_sel_spill_reg                                               |spill_register__parameterized0_87           |   510|
+|22    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0_96 |   510|
+|23    |        \gen_demux.i_aw_channel_spill_reg                                           |spill_register_88                           |   320|
+|24    |          spill_register_flushable_i                                                |spill_register_flushable_95                 |   320|
+|25    |        \gen_demux.i_aw_select_spill_reg                                            |spill_register__parameterized0_89           |   533|
+|26    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0_94 |   533|
+|27    |        \gen_demux.i_b_mux                                                          |rr_arb_tree_90                              |    38|
+|28    |        \gen_demux.i_counter_open_w                                                 |counter_91                                  |     8|
+|29    |          i_counter                                                                 |delta_counter_93                            |     8|
+|30    |        \gen_demux.i_r_mux                                                          |rr_arb_tree__parameterized0_92              |    99|
+|31    |      \gen_slv_port_demux[0].i_axi_err_slv                                          |axi_err_slv                                 |   142|
+|32    |        i_b_fifo                                                                    |fifo_v3__parameterized0_79                  |    13|
+|33    |        i_r_counter                                                                 |counter__parameterized0_80                  |    23|
+|34    |          i_counter                                                                 |delta_counter__parameterized0_83            |    23|
+|35    |        i_r_fifo                                                                    |fifo_v3__parameterized1_81                  |    74|
+|36    |        i_w_fifo                                                                    |fifo_v3_82                                  |    31|
+|37    |      \gen_slv_port_demux[1].i_axi_demux                                            |axi_demux_0                                 |  1223|
+|38    |        \gen_demux.gen_ar_id_counter.i_ar_id_counter                                |axi_demux_id_counters_61                    |    20|
+|39    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_77                            |     9|
+|40    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_78                            |     7|
+|41    |        \gen_demux.gen_aw_id_counter.i_aw_id_counter                                |axi_demux_id_counters_62                    |    22|
+|42    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_75                            |     7|
+|43    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_76                            |    10|
+|44    |        \gen_demux.i_ar_chan_spill_reg                                              |spill_register__parameterized3_63           |    41|
+|45    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized3_74 |    41|
+|46    |        \gen_demux.i_ar_sel_spill_reg                                               |spill_register__parameterized0_64           |   515|
+|47    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0_73 |   515|
+|48    |        \gen_demux.i_aw_channel_spill_reg                                           |spill_register_65                           |    20|
+|49    |          spill_register_flushable_i                                                |spill_register_flushable_72                 |    20|
+|50    |        \gen_demux.i_aw_select_spill_reg                                            |spill_register__parameterized0_66           |   532|
+|51    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0_71 |   532|
+|52    |        \gen_demux.i_b_mux                                                          |rr_arb_tree_67                              |    28|
+|53    |        \gen_demux.i_counter_open_w                                                 |counter_68                                  |     8|
+|54    |          i_counter                                                                 |delta_counter_70                            |     8|
+|55    |        \gen_demux.i_r_mux                                                          |rr_arb_tree__parameterized0_69              |    33|
+|56    |      \gen_slv_port_demux[1].i_axi_err_slv                                          |axi_err_slv_1                               |   142|
+|57    |        i_b_fifo                                                                    |fifo_v3__parameterized0_56                  |    14|
+|58    |        i_r_counter                                                                 |counter__parameterized0_57                  |    22|
+|59    |          i_counter                                                                 |delta_counter__parameterized0_60            |    22|
+|60    |        i_r_fifo                                                                    |fifo_v3__parameterized1_58                  |    75|
+|61    |        i_w_fifo                                                                    |fifo_v3_59                                  |    30|
+|62    |      \gen_slv_port_demux[2].i_axi_demux                                            |axi_demux_2                                 |  1223|
+|63    |        \gen_demux.gen_ar_id_counter.i_ar_id_counter                                |axi_demux_id_counters                       |    20|
+|64    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_54                            |     9|
+|65    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_55                            |     7|
+|66    |        \gen_demux.gen_aw_id_counter.i_aw_id_counter                                |axi_demux_id_counters_49                    |    22|
+|67    |          \gen_counters[0].i_in_flight_cnt                                          |delta_counter_52                            |     7|
+|68    |          \gen_counters[1].i_in_flight_cnt                                          |delta_counter_53                            |    10|
+|69    |        \gen_demux.i_ar_chan_spill_reg                                              |spill_register__parameterized3              |    41|
+|70    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized3    |    41|
+|71    |        \gen_demux.i_ar_sel_spill_reg                                               |spill_register__parameterized0              |   515|
+|72    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0_51 |   515|
+|73    |        \gen_demux.i_aw_channel_spill_reg                                           |spill_register                              |    20|
+|74    |          spill_register_flushable_i                                                |spill_register_flushable                    |    20|
+|75    |        \gen_demux.i_aw_select_spill_reg                                            |spill_register__parameterized0_50           |   532|
+|76    |          spill_register_flushable_i                                                |spill_register_flushable__parameterized0    |   532|
+|77    |        \gen_demux.i_b_mux                                                          |rr_arb_tree                                 |    28|
+|78    |        \gen_demux.i_counter_open_w                                                 |counter                                     |     8|
+|79    |          i_counter                                                                 |delta_counter                               |     8|
+|80    |        \gen_demux.i_r_mux                                                          |rr_arb_tree__parameterized0                 |    33|
+|81    |      \gen_slv_port_demux[2].i_axi_err_slv                                          |axi_err_slv_3                               |   143|
+|82    |        i_b_fifo                                                                    |fifo_v3__parameterized0_46                  |    14|
+|83    |        i_r_counter                                                                 |counter__parameterized0_47                  |    22|
+|84    |          i_counter                                                                 |delta_counter__parameterized0_48            |    22|
+|85    |        i_r_fifo                                                                    |fifo_v3__parameterized1                     |    75|
+|86    |        i_w_fifo                                                                    |fifo_v3                                     |    31|
+|87    |      \gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0                 |    60|
+|88    |        i_b_fifo                                                                    |fifo_v3__parameterized0_41                  |    14|
+|89    |        i_r_counter                                                                 |counter__parameterized0_42                  |    15|
+|90    |          i_counter                                                                 |delta_counter__parameterized0_45            |    15|
+|91    |        i_r_fifo                                                                    |fifo_v3__parameterized3_43                  |    22|
+|92    |        i_w_fifo                                                                    |fifo_v3__parameterized2_44                  |     8|
+|93    |      \gen_xbar_slv_cross[0].gen_xbar_mst_cross[2].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_4               |    59|
+|94    |        i_b_fifo                                                                    |fifo_v3__parameterized0_36                  |    13|
+|95    |        i_r_counter                                                                 |counter__parameterized0_37                  |    15|
+|96    |          i_counter                                                                 |delta_counter__parameterized0_40            |    15|
+|97    |        i_r_fifo                                                                    |fifo_v3__parameterized3_38                  |    21|
+|98    |        i_w_fifo                                                                    |fifo_v3__parameterized2_39                  |     9|
+|99    |      \gen_xbar_slv_cross[1].gen_xbar_mst_cross[0].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_5               |    60|
+|100   |        i_b_fifo                                                                    |fifo_v3__parameterized0_31                  |    13|
+|101   |        i_r_counter                                                                 |counter__parameterized0_32                  |    16|
+|102   |          i_counter                                                                 |delta_counter__parameterized0_35            |    16|
+|103   |        i_r_fifo                                                                    |fifo_v3__parameterized3_33                  |    23|
+|104   |        i_w_fifo                                                                    |fifo_v3__parameterized2_34                  |     7|
+|105   |      \gen_xbar_slv_cross[1].gen_xbar_mst_cross[1].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_6               |    62|
+|106   |        i_b_fifo                                                                    |fifo_v3__parameterized0_26                  |    14|
+|107   |        i_r_counter                                                                 |counter__parameterized0_27                  |    15|
+|108   |          i_counter                                                                 |delta_counter__parameterized0_30            |    15|
+|109   |        i_r_fifo                                                                    |fifo_v3__parameterized3_28                  |    23|
+|110   |        i_w_fifo                                                                    |fifo_v3__parameterized2_29                  |     9|
+|111   |      \gen_xbar_slv_cross[1].gen_xbar_mst_cross[2].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_7               |    63|
+|112   |        i_b_fifo                                                                    |fifo_v3__parameterized0_21                  |    14|
+|113   |        i_r_counter                                                                 |counter__parameterized0_22                  |    16|
+|114   |          i_counter                                                                 |delta_counter__parameterized0_25            |    16|
+|115   |        i_r_fifo                                                                    |fifo_v3__parameterized3_23                  |    23|
+|116   |        i_w_fifo                                                                    |fifo_v3__parameterized2_24                  |     9|
+|117   |      \gen_xbar_slv_cross[2].gen_xbar_mst_cross[0].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_8               |    60|
+|118   |        i_b_fifo                                                                    |fifo_v3__parameterized0_16                  |    13|
+|119   |        i_r_counter                                                                 |counter__parameterized0_17                  |    16|
+|120   |          i_counter                                                                 |delta_counter__parameterized0_20            |    16|
+|121   |        i_r_fifo                                                                    |fifo_v3__parameterized3_18                  |    23|
+|122   |        i_w_fifo                                                                    |fifo_v3__parameterized2_19                  |     7|
+|123   |      \gen_xbar_slv_cross[2].gen_xbar_mst_cross[1].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_9               |    62|
+|124   |        i_b_fifo                                                                    |fifo_v3__parameterized0_11                  |    14|
+|125   |        i_r_counter                                                                 |counter__parameterized0_12                  |    15|
+|126   |          i_counter                                                                 |delta_counter__parameterized0_15            |    15|
+|127   |        i_r_fifo                                                                    |fifo_v3__parameterized3_13                  |    23|
+|128   |        i_w_fifo                                                                    |fifo_v3__parameterized2_14                  |     9|
+|129   |      \gen_xbar_slv_cross[2].gen_xbar_mst_cross[2].gen_no_connection.i_axi_err_slv  |axi_err_slv__parameterized0_10              |    63|
+|130   |        i_b_fifo                                                                    |fifo_v3__parameterized0                     |    14|
+|131   |        i_r_counter                                                                 |counter__parameterized0                     |    16|
+|132   |          i_counter                                                                 |delta_counter__parameterized0               |    16|
+|133   |        i_r_fifo                                                                    |fifo_v3__parameterized3                     |    23|
+|134   |        i_w_fifo                                                                    |fifo_v3__parameterized2                     |     9|
++------+------------------------------------------------------------------------------------+--------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88877 ; free virtual = 121869
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1259 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.469 ; gain = 1588.477 ; free physical = 88876 ; free virtual = 121868
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 3043.477 ; gain = 1588.477 ; free physical = 88876 ; free virtual = 121868
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3076.250 ; gain = 0.000 ; free physical = 89013 ; free virtual = 122004
+INFO: [Netlist 29-17] Analyzing 1239 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3233.621 ; gain = 0.000 ; free physical = 88908 ; free virtual = 121899
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1038 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+  IBUF => IBUF (IBUFCTRL, INBUF): 1037 instances
+
+Synth Design complete | Checksum: f67a1e0e
+INFO: [Common 17-83] Releasing license: Synthesis
+114 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:36 . Memory (MB): peak = 3233.621 ; gain = 1786.719 ; free physical = 88908 ; free virtual = 121899
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2525.237; main = 2457.410; forked = 274.572
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3929.512; main = 3233.625; forked = 914.852
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3257.633 ; gain = 0.000 ; free physical = 88901 ; free virtual = 121899
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/axi_xbar_ip/axi_xbar_ip.runs/synth_1/axi_xbar_v.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file axi_xbar_v_utilization_synth.rpt -pb axi_xbar_v_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 11 19:21:42 2025...

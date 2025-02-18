@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 18 21:14:30 2025
+# Process ID         : 3042241
+# Current directory  : /home/yanry/dma/axi_id_remap_ip/axi_id_remap_ip.runs/synth_1
+# Command line       : vivado -log axi_id_remap_v.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_id_remap_v.tcl
+# Log file           : /home/yanry/dma/axi_id_remap_ip/axi_id_remap_ip.runs/synth_1/axi_id_remap_v.vds
+# Journal file       : /home/yanry/dma/axi_id_remap_ip/axi_id_remap_ip.runs/synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 129928 MB
+#-----------------------------------------------------------
+source axi_id_remap_v.tcl -notrace
+Command: synth_design -top axi_id_remap_v -part xczu19eg-ffvc1760-2-i
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3042288
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1864.914 ; gain = 444.727 ; free physical = 87745 ; free virtual = 122956
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'clk_i', assumed default net type 'wire' [/home/yanry/dma/src/axi_id_remap_sv.sv:306]
+INFO: [Synth 8-11241] undeclared symbol 'rst_ni', assumed default net type 'wire' [/home/yanry/dma/src/axi_id_remap_sv.sv:307]
+INFO: [Synth 8-6157] synthesizing module 'axi_id_remap_v' [/home/yanry/dma/src/axi_id_remap_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_id_remap_sv' [/home/yanry/dma/src/axi_id_remap_sv.sv:3]
+	Parameter AxiSlvPortIdWidth bound to: 16 - type: integer 
+	Parameter AxiSlvPortMaxUniqIds bound to: 16 - type: integer 
+	Parameter AxiMaxTxnsPerId bound to: 3 - type: integer 
+	Parameter AxiMstPortIdWidth bound to: 8 - type: integer 
+	Parameter AxiAddrWidth bound to: 64 - type: integer 
+	Parameter AxiDataWidth bound to: 64 - type: integer 
+	Parameter AxiUserWidth bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_id_remap' [/home/yanry/dma/src/axi_id_remap.sv:32]
+	Parameter AxiSlvPortIdWidth bound to: 16 - type: integer 
+	Parameter AxiSlvPortMaxUniqIds bound to: 16 - type: integer 
+	Parameter AxiMaxTxnsPerId bound to: 3 - type: integer 
+	Parameter AxiMstPortIdWidth bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_id_remap_table' [/home/yanry/dma/src/axi_id_remap.sv:422]
+	Parameter InpIdWidth bound to: 16 - type: integer 
+	Parameter MaxUniqInpIds bound to: 16 - type: integer 
+	Parameter MaxTxnsPerId bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'lzc' [/home/yanry/dma/src/lzc.sv:15]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter MODE bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'lzc' (0#1) [/home/yanry/dma/src/lzc.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_remap_table' (0#1) [/home/yanry/dma/src/axi_id_remap.sv:422]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_id_remap.sv:222]
+INFO: [Synth 8-226] default block is never used [/home/yanry/dma/src/axi_id_remap.sv:222]
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [/home/yanry/dma/src/axi_id_remap.sv:332]
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_remap' (0#1) [/home/yanry/dma/src/axi_id_remap.sv:32]
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_remap_sv' (0#1) [/home/yanry/dma/src/axi_id_remap_sv.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'axi_id_remap_v' (0#1) [/home/yanry/dma/src/axi_id_remap_v.v:1]
+WARNING: [Synth 8-3848] Net clk_i in module/entity axi_id_remap_sv does not have driver. [/home/yanry/dma/src/axi_id_remap_sv.sv:306]
+WARNING: [Synth 8-3848] Net rst_ni in module/entity axi_id_remap_sv does not have driver. [/home/yanry/dma/src/axi_id_remap_sv.sv:307]
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][7] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][6] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][5] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][4] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][7] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][6] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][5] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][4] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module axi_id_remap_sv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module axi_id_remap_sv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode in module axi_id_remap_sv is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1941.852 ; gain = 521.664 ; free physical = 87646 ; free virtual = 122858
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1959.664 ; gain = 539.477 ; free physical = 87645 ; free virtual = 122857
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1976.574 ; gain = 556.387 ; free physical = 87645 ; free virtual = 122857
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_q_reg' in module 'axi_id_remap'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   Ready |                               00 |                               00
+                  HoldAx |                               01 |                               11
+                  HoldAR |                               10 |                               01
+                  HoldAW |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_q_reg' using encoding 'sequential' in module 'axi_id_remap'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1976.574 ; gain = 556.387 ; free physical = 87630 ; free virtual = 122842
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    2 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 32    
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 32    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 5     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 11    
+	   4 Input    4 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 5     
+	   3 Input    2 Bit        Muxes := 5     
+	   2 Input    2 Bit        Muxes := 131   
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 44    
+	   4 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][7] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][6] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][5] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[b][id][4] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][7] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][6] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][5] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mst_resp_i[r][id][4] in module axi_id_remap is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module axi_id_remap_v is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module axi_id_remap_v is either unconnected or has no load
+WARNING: [Synth 8-7129] Port testmode in module axi_id_remap_v is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (i_axi_id_remap_sv/i_axi_id_remap/FSM_sequential_state_q_reg[1]) is unused and will be removed from module axi_id_remap_v.
+WARNING: [Synth 8-3332] Sequential element (i_axi_id_remap_sv/i_axi_id_remap/FSM_sequential_state_q_reg[0]) is unused and will be removed from module axi_id_remap_v.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2990.941 ; gain = 1570.754 ; free physical = 86632 ; free virtual = 121848
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2990.941 ; gain = 1570.754 ; free physical = 86631 ; free virtual = 121848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2990.941 ; gain = 1570.754 ; free physical = 86631 ; free virtual = 121848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86609 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86609 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86609 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86609 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86609 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86608 ; free virtual = 121825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT3 |     1|
+|3     |LUT4 |     1|
+|4     |IBUF |   349|
+|5     |OBUF |   397|
++------+-----+------+
+
+Report Instance Areas: 
++------+--------------------+----------------+------+
+|      |Instance            |Module          |Cells |
++------+--------------------+----------------+------+
+|1     |top                 |                |   749|
+|2     |  i_axi_id_remap_sv |axi_id_remap_sv |     3|
++------+--------------------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86608 ; free virtual = 121825
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.754 ; gain = 1593.566 ; free physical = 86607 ; free virtual = 121824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 3013.762 ; gain = 1593.566 ; free physical = 86607 ; free virtual = 121824
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3037.598 ; gain = 0.000 ; free physical = 86746 ; free virtual = 121962
+INFO: [Netlist 29-17] Analyzing 349 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3186.484 ; gain = 0.000 ; free physical = 86651 ; free virtual = 121867
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 349 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 349 instances
+
+Synth Design complete | Checksum: 39885230
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 3186.484 ; gain = 1777.281 ; free physical = 86650 ; free virtual = 121867
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2450.864; main = 2404.898; forked = 276.343
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3905.797; main = 3186.488; forked = 914.852
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3210.496 ; gain = 0.000 ; free physical = 86650 ; free virtual = 121867
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/axi_id_remap_ip/axi_id_remap_ip.runs/synth_1/axi_id_remap_v.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file axi_id_remap_v_utilization_synth.rpt -pb axi_id_remap_v_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 21:14:57 2025...

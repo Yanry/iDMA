@@ -69,7 +69,7 @@ module design_1_smartconnect_0_0 (
   input bit_as_bool aclk,
   input bit_as_bool aclk1,
   input bit_as_bool aresetn,
-  input bit [7 : 0] S00_AXI_awid,
+  input bit [0 : 0] S00_AXI_awid,
   input bit [63 : 0] S00_AXI_awaddr,
   input bit [7 : 0] S00_AXI_awlen,
   input bit [2 : 0] S00_AXI_awsize,
@@ -78,7 +78,7 @@ module design_1_smartconnect_0_0 (
   input bit [3 : 0] S00_AXI_awcache,
   input bit [2 : 0] S00_AXI_awprot,
   input bit [3 : 0] S00_AXI_awqos,
-  input bit [7 : 0] S00_AXI_awuser,
+  input bit [63 : 0] S00_AXI_awuser,
   input bit_as_bool S00_AXI_awvalid,
   output bit_as_bool S00_AXI_awready,
   input bit [63 : 0] S00_AXI_wdata,
@@ -86,12 +86,12 @@ module design_1_smartconnect_0_0 (
   input bit_as_bool S00_AXI_wlast,
   input bit_as_bool S00_AXI_wvalid,
   output bit_as_bool S00_AXI_wready,
-  output bit [7 : 0] S00_AXI_bid,
+  output bit [0 : 0] S00_AXI_bid,
   output bit [1 : 0] S00_AXI_bresp,
-  output bit [7 : 0] S00_AXI_buser,
+  output bit [63 : 0] S00_AXI_buser,
   output bit_as_bool S00_AXI_bvalid,
   input bit_as_bool S00_AXI_bready,
-  input bit [7 : 0] S00_AXI_arid,
+  input bit [0 : 0] S00_AXI_arid,
   input bit [63 : 0] S00_AXI_araddr,
   input bit [7 : 0] S00_AXI_arlen,
   input bit [2 : 0] S00_AXI_arsize,
@@ -100,10 +100,10 @@ module design_1_smartconnect_0_0 (
   input bit [3 : 0] S00_AXI_arcache,
   input bit [2 : 0] S00_AXI_arprot,
   input bit [3 : 0] S00_AXI_arqos,
-  input bit [7 : 0] S00_AXI_aruser,
+  input bit [63 : 0] S00_AXI_aruser,
   input bit_as_bool S00_AXI_arvalid,
   output bit_as_bool S00_AXI_arready,
-  output bit [7 : 0] S00_AXI_rid,
+  output bit [0 : 0] S00_AXI_rid,
   output bit [63 : 0] S00_AXI_rdata,
   output bit [1 : 0] S00_AXI_rresp,
   output bit_as_bool S00_AXI_rlast,
@@ -156,7 +156,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M00_AXI_awcache,
   output bit [2 : 0] M00_AXI_awprot,
   output bit [3 : 0] M00_AXI_awqos,
-  output bit [15 : 0] M00_AXI_awuser,
+  output bit [63 : 0] M00_AXI_awuser,
   output bit_as_bool M00_AXI_awvalid,
   input bit_as_bool M00_AXI_awready,
   output bit [63 : 0] M00_AXI_wdata,
@@ -165,7 +165,7 @@ module design_1_smartconnect_0_0 (
   output bit_as_bool M00_AXI_wvalid,
   input bit_as_bool M00_AXI_wready,
   input bit [1 : 0] M00_AXI_bresp,
-  input bit [7 : 0] M00_AXI_buser,
+  input bit [63 : 0] M00_AXI_buser,
   input bit_as_bool M00_AXI_bvalid,
   output bit_as_bool M00_AXI_bready,
   output bit [63 : 0] M00_AXI_araddr,
@@ -176,7 +176,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M00_AXI_arcache,
   output bit [2 : 0] M00_AXI_arprot,
   output bit [3 : 0] M00_AXI_arqos,
-  output bit [15 : 0] M00_AXI_aruser,
+  output bit [63 : 0] M00_AXI_aruser,
   output bit_as_bool M00_AXI_arvalid,
   input bit_as_bool M00_AXI_arready,
   input bit [63 : 0] M00_AXI_rdata,
@@ -192,7 +192,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M01_AXI_awcache,
   output bit [2 : 0] M01_AXI_awprot,
   output bit [3 : 0] M01_AXI_awqos,
-  output bit [15 : 0] M01_AXI_awuser,
+  output bit [63 : 0] M01_AXI_awuser,
   output bit_as_bool M01_AXI_awvalid,
   input bit_as_bool M01_AXI_awready,
   output bit [511 : 0] M01_AXI_wdata,
@@ -201,7 +201,7 @@ module design_1_smartconnect_0_0 (
   output bit_as_bool M01_AXI_wvalid,
   input bit_as_bool M01_AXI_wready,
   input bit [1 : 0] M01_AXI_bresp,
-  input bit [7 : 0] M01_AXI_buser,
+  input bit [63 : 0] M01_AXI_buser,
   input bit_as_bool M01_AXI_bvalid,
   output bit_as_bool M01_AXI_bready,
   output bit [33 : 0] M01_AXI_araddr,
@@ -212,7 +212,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M01_AXI_arcache,
   output bit [2 : 0] M01_AXI_arprot,
   output bit [3 : 0] M01_AXI_arqos,
-  output bit [15 : 0] M01_AXI_aruser,
+  output bit [63 : 0] M01_AXI_aruser,
   output bit_as_bool M01_AXI_arvalid,
   input bit_as_bool M01_AXI_arready,
   input bit [511 : 0] M01_AXI_rdata,
@@ -228,7 +228,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M02_AXI_awcache,
   output bit [2 : 0] M02_AXI_awprot,
   output bit [3 : 0] M02_AXI_awqos,
-  output bit [15 : 0] M02_AXI_awuser,
+  output bit [63 : 0] M02_AXI_awuser,
   output bit_as_bool M02_AXI_awvalid,
   input bit_as_bool M02_AXI_awready,
   output bit [31 : 0] M02_AXI_wdata,
@@ -237,7 +237,7 @@ module design_1_smartconnect_0_0 (
   output bit_as_bool M02_AXI_wvalid,
   input bit_as_bool M02_AXI_wready,
   input bit [1 : 0] M02_AXI_bresp,
-  input bit [7 : 0] M02_AXI_buser,
+  input bit [63 : 0] M02_AXI_buser,
   input bit_as_bool M02_AXI_bvalid,
   output bit_as_bool M02_AXI_bready,
   output bit [16 : 0] M02_AXI_araddr,
@@ -248,7 +248,7 @@ module design_1_smartconnect_0_0 (
   output bit [3 : 0] M02_AXI_arcache,
   output bit [2 : 0] M02_AXI_arprot,
   output bit [3 : 0] M02_AXI_arqos,
-  output bit [15 : 0] M02_AXI_aruser,
+  output bit [63 : 0] M02_AXI_aruser,
   output bit_as_bool M02_AXI_arvalid,
   input bit_as_bool M02_AXI_arready,
   input bit [31 : 0] M02_AXI_rdata,
@@ -256,8 +256,8 @@ module design_1_smartconnect_0_0 (
   input bit_as_bool M02_AXI_rlast,
   input bit_as_bool M02_AXI_rvalid,
   output bit_as_bool M02_AXI_rready,
-  input bit [7 : 0] S00_AXI_wuser,
-  output bit [7 : 0] S00_AXI_ruser
+  input bit [63 : 0] S00_AXI_wuser,
+  output bit [63 : 0] S00_AXI_ruser
 );
 endmodule
 `endif
@@ -270,7 +270,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   input bit aclk;
   input bit aclk1;
   input bit aresetn;
-  input bit [7 : 0] S00_AXI_awid;
+  input bit [0 : 0] S00_AXI_awid;
   input bit [63 : 0] S00_AXI_awaddr;
   input bit [7 : 0] S00_AXI_awlen;
   input bit [2 : 0] S00_AXI_awsize;
@@ -279,7 +279,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   input bit [3 : 0] S00_AXI_awcache;
   input bit [2 : 0] S00_AXI_awprot;
   input bit [3 : 0] S00_AXI_awqos;
-  input bit [7 : 0] S00_AXI_awuser;
+  input bit [63 : 0] S00_AXI_awuser;
   input bit S00_AXI_awvalid;
   output wire S00_AXI_awready;
   input bit [63 : 0] S00_AXI_wdata;
@@ -287,12 +287,12 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   input bit S00_AXI_wlast;
   input bit S00_AXI_wvalid;
   output wire S00_AXI_wready;
-  output wire [7 : 0] S00_AXI_bid;
+  output wire [0 : 0] S00_AXI_bid;
   output wire [1 : 0] S00_AXI_bresp;
-  output wire [7 : 0] S00_AXI_buser;
+  output wire [63 : 0] S00_AXI_buser;
   output wire S00_AXI_bvalid;
   input bit S00_AXI_bready;
-  input bit [7 : 0] S00_AXI_arid;
+  input bit [0 : 0] S00_AXI_arid;
   input bit [63 : 0] S00_AXI_araddr;
   input bit [7 : 0] S00_AXI_arlen;
   input bit [2 : 0] S00_AXI_arsize;
@@ -301,10 +301,10 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   input bit [3 : 0] S00_AXI_arcache;
   input bit [2 : 0] S00_AXI_arprot;
   input bit [3 : 0] S00_AXI_arqos;
-  input bit [7 : 0] S00_AXI_aruser;
+  input bit [63 : 0] S00_AXI_aruser;
   input bit S00_AXI_arvalid;
   output wire S00_AXI_arready;
-  output wire [7 : 0] S00_AXI_rid;
+  output wire [0 : 0] S00_AXI_rid;
   output wire [63 : 0] S00_AXI_rdata;
   output wire [1 : 0] S00_AXI_rresp;
   output wire S00_AXI_rlast;
@@ -357,7 +357,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M00_AXI_awcache;
   output wire [2 : 0] M00_AXI_awprot;
   output wire [3 : 0] M00_AXI_awqos;
-  output wire [15 : 0] M00_AXI_awuser;
+  output wire [63 : 0] M00_AXI_awuser;
   output wire M00_AXI_awvalid;
   input bit M00_AXI_awready;
   output wire [63 : 0] M00_AXI_wdata;
@@ -366,7 +366,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire M00_AXI_wvalid;
   input bit M00_AXI_wready;
   input bit [1 : 0] M00_AXI_bresp;
-  input bit [7 : 0] M00_AXI_buser;
+  input bit [63 : 0] M00_AXI_buser;
   input bit M00_AXI_bvalid;
   output wire M00_AXI_bready;
   output wire [63 : 0] M00_AXI_araddr;
@@ -377,7 +377,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M00_AXI_arcache;
   output wire [2 : 0] M00_AXI_arprot;
   output wire [3 : 0] M00_AXI_arqos;
-  output wire [15 : 0] M00_AXI_aruser;
+  output wire [63 : 0] M00_AXI_aruser;
   output wire M00_AXI_arvalid;
   input bit M00_AXI_arready;
   input bit [63 : 0] M00_AXI_rdata;
@@ -393,7 +393,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M01_AXI_awcache;
   output wire [2 : 0] M01_AXI_awprot;
   output wire [3 : 0] M01_AXI_awqos;
-  output wire [15 : 0] M01_AXI_awuser;
+  output wire [63 : 0] M01_AXI_awuser;
   output wire M01_AXI_awvalid;
   input bit M01_AXI_awready;
   output wire [511 : 0] M01_AXI_wdata;
@@ -402,7 +402,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire M01_AXI_wvalid;
   input bit M01_AXI_wready;
   input bit [1 : 0] M01_AXI_bresp;
-  input bit [7 : 0] M01_AXI_buser;
+  input bit [63 : 0] M01_AXI_buser;
   input bit M01_AXI_bvalid;
   output wire M01_AXI_bready;
   output wire [33 : 0] M01_AXI_araddr;
@@ -413,7 +413,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M01_AXI_arcache;
   output wire [2 : 0] M01_AXI_arprot;
   output wire [3 : 0] M01_AXI_arqos;
-  output wire [15 : 0] M01_AXI_aruser;
+  output wire [63 : 0] M01_AXI_aruser;
   output wire M01_AXI_arvalid;
   input bit M01_AXI_arready;
   input bit [511 : 0] M01_AXI_rdata;
@@ -429,7 +429,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M02_AXI_awcache;
   output wire [2 : 0] M02_AXI_awprot;
   output wire [3 : 0] M02_AXI_awqos;
-  output wire [15 : 0] M02_AXI_awuser;
+  output wire [63 : 0] M02_AXI_awuser;
   output wire M02_AXI_awvalid;
   input bit M02_AXI_awready;
   output wire [31 : 0] M02_AXI_wdata;
@@ -438,7 +438,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire M02_AXI_wvalid;
   input bit M02_AXI_wready;
   input bit [1 : 0] M02_AXI_bresp;
-  input bit [7 : 0] M02_AXI_buser;
+  input bit [63 : 0] M02_AXI_buser;
   input bit M02_AXI_bvalid;
   output wire M02_AXI_bready;
   output wire [16 : 0] M02_AXI_araddr;
@@ -449,7 +449,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   output wire [3 : 0] M02_AXI_arcache;
   output wire [2 : 0] M02_AXI_arprot;
   output wire [3 : 0] M02_AXI_arqos;
-  output wire [15 : 0] M02_AXI_aruser;
+  output wire [63 : 0] M02_AXI_aruser;
   output wire M02_AXI_arvalid;
   input bit M02_AXI_arready;
   input bit [31 : 0] M02_AXI_rdata;
@@ -457,7 +457,7 @@ module design_1_smartconnect_0_0 (aclk,aclk1,aresetn,S00_AXI_awid,S00_AXI_awaddr
   input bit M02_AXI_rlast;
   input bit M02_AXI_rvalid;
   output wire M02_AXI_rready;
-  input bit [7 : 0] S00_AXI_wuser;
-  output wire [7 : 0] S00_AXI_ruser;
+  input bit [63 : 0] S00_AXI_wuser;
+  output wire [63 : 0] S00_AXI_ruser;
 endmodule
 `endif

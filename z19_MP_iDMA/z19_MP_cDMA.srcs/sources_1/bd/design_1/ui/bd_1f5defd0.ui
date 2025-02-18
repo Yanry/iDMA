@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"0.660658",
-   "Default View_TopLeft":"639,-197",
+   "Default View_TopLeft":"-206,-123",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
 #  -string -flagsOSRD
@@ -16,24 +16,24 @@ preplace inst util_ds_buf_0 -pg 1 -lvl 2 -x 740 -y 460 -defaultsOSRD
 preplace inst util_ds_buf_1 -pg 1 -lvl 3 -x 1290 -y 460 -defaultsOSRD
 preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -x 1730 -y -40 -defaultsOSRD
 preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 5 -x 2150 -y 30 -defaultsOSRD
-preplace inst dma_core_wrap_v_0 -pg 1 -lvl 2 -x 740 -y 100 -defaultsOSRD
 preplace inst system_ila_0 -pg 1 -lvl 3 -x 1290 -y -120 -defaultsOSRD
 preplace inst system_ila_1 -pg 1 -lvl 5 -x 2150 -y 330 -defaultsOSRD
-preplace netloc ddr4_0_c0_ddr4_ui_clk 1 2 3 1110 30 1490J 40 1920
+preplace inst dma_core_wrap_v_1 -pg 1 -lvl 2 -x 740 -y 50 -defaultsOSRD
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 2 3 1110 520 1480J 190 1910
 preplace netloc rst_ddr4_0_333M_bus_struct_reset 1 3 1 1470 300n
-preplace netloc rst_ddr4_0_333M_peripheral_aresetn 1 3 2 1520 550 1940
-preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 3 410 -20 1110 -20 N
+preplace netloc rst_ddr4_0_333M_peripheral_aresetn 1 3 2 1530 410 1910
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 3 410 -70 1110 -20 N
 preplace netloc util_ds_buf_0_IBUF_OUT 1 2 1 NJ 460
-preplace netloc util_ds_buf_1_BUFG_O 1 3 1 1480J 290n
-preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 10 320 420 0 1080 -40 N
-preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 0 230 NJ 230 1100
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 1940 -50n
-preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 4 1 1930 -30n
-preplace netloc ddr4_0_C0_DDR4 1 4 2 N 110 N
+preplace netloc util_ds_buf_1_BUFG_O 1 3 1 1490J 290n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 10 320 420 -60 1080 -40 N
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 0 230 N 230 1100
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 1930 -50n
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 4 1 1910 -30n
+preplace netloc ddr4_0_C0_DDR4 1 4 2 1930 110 N
 preplace netloc diff_clock_rtl_0_1 1 0 2 NJ 450 430J
-preplace netloc dma_core_wrap_v_0_axi_mst 1 2 1 1090 -140n
-preplace netloc smartconnect_0_M00_AXI 1 1 3 430 -10 NJ -10 1470
-preplace netloc smartconnect_0_M01_AXI 1 3 2 1520 50 1940
+preplace netloc dma_core_wrap_v_0_axi_mst 1 2 1 1070 -140n
+preplace netloc smartconnect_0_M00_AXI 1 1 3 430 -50 1100J -30 1470
+preplace netloc smartconnect_0_M01_AXI 1 3 2 1520 180 1920
 preplace netloc smartconnect_0_M02_AXI 1 3 1 1480 -60n
 preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 1090 110n
 levelinfo -pg 1 -50 190 740 1290 1730 2150 2300

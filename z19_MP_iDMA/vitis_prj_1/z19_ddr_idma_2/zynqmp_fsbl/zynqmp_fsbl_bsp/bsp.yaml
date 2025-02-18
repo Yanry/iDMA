@@ -187,7 +187,7 @@ drv_info:
     driver: bram
     ip_name: axi_bram_ctrl
     path: /home/data/tools/Xilinx24/Vitis/2024.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_11
-  dma_core_wrap_v_0: None
+  dma_core_wrap_v_1: None
   psu_acpu_gic:
     driver: scugic
     ip_name: psu_acpu_gic

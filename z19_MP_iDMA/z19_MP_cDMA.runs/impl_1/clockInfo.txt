@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.2
-| Date         : Mon Jan 20 21:06:00 2025
+| Date         : Thu Feb 13 13:37:31 2025
 | Host         : dell
 | Design       : design_1
 | Device       : xczu19eg-ffvc1760-2-I-
@@ -35,12 +35,12 @@ Clock 2: design_1_i/ddr4_0/inst/u_ddr4_infrastructure/u_bufg_divClk_0
 	Clock source type: BUFGCE
 	Clock source region: X2Y6
 	Clock regions with locked loads: X2Y5 X2Y6 X2Y7 
-	initial rect ((2, 1), (2, 7))
+	initial rect ((0, 3), (2, 8))
 
 Clock 3: design_1_i/ddr4_0/inst/u_ddr4_infrastructure/dbg_clk
 	Clock source type: BUFGCE
 	Clock source region: X2Y6
-	initial rect ((2, 3), (2, 8))
+	initial rect ((2, 4), (2, 9))
 
 Clock 4: design_1_i/ddr4_0/inst/u_ddr4_infrastructure/c0_riu_clk
 	Clock source type: BUFGCE

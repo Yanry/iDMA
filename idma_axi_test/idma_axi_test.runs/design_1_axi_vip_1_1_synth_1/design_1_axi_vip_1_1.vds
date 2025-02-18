@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Mon Jan 20 14:25:43 2025
-# Process ID         : 76068
+# Start of session at: Fri Feb  7 16:13:15 2025
+# Process ID         : 392115
 # Current directory  : /home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1
 # Command line       : vivado -log design_1_axi_vip_1_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_vip_1_1.tcl
 # Log file           : /home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/design_1_axi_vip_1_1.vds
@@ -19,7 +19,7 @@
 # Host memory        : 134762 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 136909 MB
-# Available Virtual  : 126530 MB
+# Available Virtual  : 128201 MB
 #-----------------------------------------------------------
 source design_1_axi_vip_1_1.tcl -notrace
 WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
@@ -44,11 +44,202 @@ INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_v
 Command: synth_design -top design_1_axi_vip_1_1 -part xczu19eg-ffvc1760-2-i -incremental_mode off -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
-WARNING: [Common 17-348] Failed to get the license for feature 'Synthesis' and/or device 'xczu19eg'. Explanation: The license feature Synthesis could not be found.
-Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". 
-4 Infos, 16 Warnings, 0 Critical Warnings and 1 Errors encountered.
-synth_design failed
-ERROR: [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xczu19eg'. Please run the Vivado License Manager for assistance in determining
-which features and devices are licensed for your system.
-Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "Licensing FAQ". If you are using a license server, verify that the license server is up and running a version of the xilinx daemon that is compatible with the version of Xilinx software that you are using. Note: Vivado 2021.1 and later versions require upgrading your license server tools to the Flex 11.17.2.0 versions. Please confirm with your license admin that the correct version of the license server tools are installed.
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 14:25:52 2025...
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 392217
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2809.773 ; gain = 137.859 ; free physical = 83806 ; free virtual = 116637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_vip_1_1' [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ip/design_1_axi_vip_1_1/synth/design_1_axi_vip_1_1.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_vip_v1_1_19_top' [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ipshared/8c45/hdl/axi_vip_v1_1_vlsyn_rfs.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vip_v1_1_19_top' (0#1) [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ipshared/8c45/hdl/axi_vip_v1_1_vlsyn_rfs.sv:59]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_vip_1_1' (0#1) [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ip/design_1_axi_vip_1_1/synth/design_1_axi_vip_1_1.sv:53]
+WARNING: [Synth 8-7129] Port aclk in module axi_vip_v1_1_19_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module axi_vip_v1_1_19_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_vip_v1_1_19_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2884.711 ; gain = 212.797 ; free physical = 83500 ; free virtual = 116332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2893.617 ; gain = 221.703 ; free physical = 83497 ; free virtual = 116329
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2893.617 ; gain = 221.703 ; free physical = 83497 ; free virtual = 116329
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2893.617 ; gain = 0.000 ; free physical = 83496 ; free virtual = 116328
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ip/design_1_axi_vip_1_1/design_1_axi_vip_1_1_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/yanry/dma/idma_axi_test/idma_axi_test.gen/sources_1/bd/design_1/ip/design_1_axi_vip_1_1/design_1_axi_vip_1_1_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2966.555 ; gain = 0.000 ; free physical = 83330 ; free virtual = 116166
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2966.555 ; gain = 0.000 ; free physical = 83330 ; free virtual = 116166
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2966.555 ; gain = 294.641 ; free physical = 83322 ; free virtual = 116158
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2974.559 ; gain = 302.645 ; free physical = 83322 ; free virtual = 116158
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2974.559 ; gain = 302.645 ; free physical = 83322 ; free virtual = 116158
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2974.559 ; gain = 302.645 ; free physical = 83320 ; free virtual = 116157
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aclk in module axi_vip_v1_1_19_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module axi_vip_v1_1_19_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_vip_v1_1_19_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2974.559 ; gain = 302.645 ; free physical = 83303 ; free virtual = 116156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3626.555 ; gain = 954.641 ; free physical = 82531 ; free virtual = 115372
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3627.555 ; gain = 955.641 ; free physical = 82531 ; free virtual = 115372
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 3636.570 ; gain = 964.656 ; free physical = 82521 ; free virtual = 115362
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82168 ; free virtual = 115009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82168 ; free virtual = 115009
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82167 ; free virtual = 115008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82167 ; free virtual = 115008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82167 ; free virtual = 115008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82167 ; free virtual = 115008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82167 ; free virtual = 115008
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 3806.383 ; gain = 1061.531 ; free physical = 82136 ; free virtual = 114977
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3806.383 ; gain = 1134.469 ; free physical = 82136 ; free virtual = 114977
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3806.383 ; gain = 0.000 ; free physical = 82135 ; free virtual = 114976
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3806.383 ; gain = 0.000 ; free physical = 82131 ; free virtual = 114972
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 185c45c0
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:36 . Memory (MB): peak = 3806.383 ; gain = 2348.945 ; free physical = 82129 ; free virtual = 114970
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2762.247; main = 2762.247; forked = 212.241
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4153.059; main = 3732.555; forked = 914.852
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/design_1_axi_vip_1_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_vip_1_1, cache-ID = de3b881c757421dd
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/idma_axi_test/idma_axi_test.runs/design_1_axi_vip_1_1_synth_1/design_1_axi_vip_1_1.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_vip_1_1_utilization_synth.rpt -pb design_1_axi_vip_1_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  7 16:14:02 2025...

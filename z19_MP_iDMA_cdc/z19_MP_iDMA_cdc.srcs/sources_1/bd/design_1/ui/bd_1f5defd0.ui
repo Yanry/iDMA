@@ -1,0 +1,45 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.754464",
+   "Default View_TopLeft":"964,28",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port ddr4_rtl_0 -pg 1 -lvl 6 -x 2280 -y 510 -defaultsOSRD
+preplace port diff_clock_rtl_0 -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 710 -y 320 -defaultsOSRD
+preplace inst rst_ps8_0_96M -pg 1 -lvl 1 -x 210 -y 100 -defaultsOSRD
+preplace inst ddr4_0 -pg 1 -lvl 5 -x 2080 -y 560 -defaultsOSRD
+preplace inst rst_ddr4_0_333M -pg 1 -lvl 3 -x 1240 -y 690 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 1240 -y 130 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 3 -x 1240 -y 550 -defaultsOSRD
+preplace inst util_ds_buf_1 -pg 1 -lvl 4 -x 1650 -y 550 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -x 1650 -y 170 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 5 -x 2080 -y 170 -defaultsOSRD
+preplace inst dma_core_wrap_v_1 -pg 1 -lvl 2 -x 710 -y 110 -defaultsOSRD
+preplace inst axi_cdc_v_0 -pg 1 -lvl 4 -x 1650 -y 400 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 2080 -y 750 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 3 -x 1240 -y 300 -defaultsOSRD
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 2 4 1060 790 1450 680 1900 670 2260
+preplace netloc rst_ddr4_0_333M_bus_struct_reset 1 3 2 N 670 1880J
+preplace netloc rst_ddr4_0_333M_peripheral_aresetn 1 3 2 1470 610 1870
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 3 400 210 1060 30 1470J
+preplace netloc util_ds_buf_0_IBUF_OUT 1 3 1 NJ 550
+preplace netloc util_ds_buf_1_BUFG_O 1 4 1 NJ 550
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 20 200 390 230 1030 40 1460
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 4 30 220 NJ 220 1040 390 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 N 160
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 4 1 N 180
+preplace netloc ddr4_0_C0_DDR4 1 5 1 N 510
+preplace netloc diff_clock_rtl_0_1 1 0 3 NJ 550 NJ 550 NJ
+preplace netloc dma_core_wrap_v_0_axi_mst 1 2 1 1050 100n
+preplace netloc smartconnect_0_M00_AXI 1 1 3 400 10 NJ 10 1420
+preplace netloc smartconnect_0_M02_AXI 1 3 1 N 150
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 1020 120n
+preplace netloc smartconnect_0_M01_AXI 1 3 1 1420 130n
+preplace netloc axi_cdc_v_0_axi_dst 1 4 1 1890 390n
+levelinfo -pg 1 0 210 710 1240 1650 2080 2280
+pagesize -pg 1 -db -bbox -sgen -160 0 2410 830
+"
+}
+

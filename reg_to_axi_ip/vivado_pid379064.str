@@ -1,0 +1,642 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 379064
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Feb 07 14:06:55 CST 2025
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.15.0-91-generic
+OS Architecture: amd64
+Available processors (cores): 20
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: true
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	yanry
+User home directory: /home/yanry
+User working directory: /home/yanry/dma/reg_to_axi_ip
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/data/tools/Xilinx24/Vivado
+HDI_APPROOT: /home/data/tools/Xilinx24/Vivado/2024.2
+RDI_DATADIR: /home/data/tools/Xilinx24/SharedData/2024.2/data:/home/data/tools/Xilinx24/Vivado/2024.2/data
+RDI_BINDIR: /home/data/tools/Xilinx24/Vivado/2024.2/bin
+
+Vivado preferences file: /home/yanry/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/yanry/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/yanry/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/home/data/tools/Xilinx24/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/yanry/dma/reg_to_axi_ip/vivado.log
+Vivado journal file: 	/home/yanry/dma/reg_to_axi_ip/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-379064-dell
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+JAVA_HOME: /home/data/tools/SpinalHDL/jdk1.8.0_411
+JAVA_PATH: /home/data/tools/SpinalHDL/jdk1.8.0_411/bin:/home/data/tools/SpinalHDL/jdk1.8.0_411/jre/bin
+RDI_APPROOT: /home/data/tools/Xilinx24/Vivado/2024.2
+RDI_BASEROOT: /home/data/tools/Xilinx24/Vivado
+RDI_BINROOT: /home/data/tools/Xilinx24/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/data/tools/Xilinx24/SharedData/2024.2/data:/home/data/tools/Xilinx24/Vivado/2024.2/data
+RDI_INSTALLROOT: /home/data/tools/Xilinx24
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/Ubuntu/20:/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o/Ubuntu:/home/data/tools/Xilinx24/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/data/tools/Xilinx24/Vitis/2024.2/bin:/home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/data/tools/Xilinx24/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/yanry/dma/reg_to_axi_ip:dell_1738908396_379024
+RDI_SHARED_DATA: /home/data/tools/Xilinx24/SharedData/2024.2/data
+RDI_TPS_ROOT: /home/data/tools/Xilinx24/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /home/data/tools/Xilinx24/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_PLANAHEAD: /home/data/tools/Xilinx24/Vivado/2024.2
+XILINX_SDK: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_VITIS: /home/data/tools/Xilinx24/Vitis/2024.2
+XILINX_VIVADO: /home/data/tools/Xilinx24/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,502 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // t (PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,513 MB. GUI used memory: 65 MB. Current time: 2/7/25, 2:06:56 PM CST
+// Elapsed time: 16 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "reg_to_axi_ip"); // ad (PAResourceOtoP.ProjectNameChooser_PROJECT_NAME)
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// [GUI Memory]: 74 MB (+75319kb) [00:00:30]
+// [Engine Memory]: 1,502 MB (+1423395kb) [00:00:30]
+// [GUI Memory]: 82 MB (+4472kb) [00:00:30]
+// [GUI Memory]: 101 MB (+15585kb) [00:00:30]
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,533 MB. GUI used memory: 66 MB. Current time: 2/7/25, 2:07:16 PM CST
+// Elapsed time: 53 seconds
+setText("PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD", "xczu19eg-ffv"); // OverlayTextField (PAResourceEtoH.FPGAChooser_FPGA_TABLE_SEARCH_FIELD)
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 44 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xczu19eg-ffvc1760-2-i ; 1760 ; 512 ; 522720 ; 1045440 ; 984 ; 128 ; 1968 ; 23921 ; 48 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 32 ; 16 ; 0 ; 0 ; 0 ; 0 ; 0 ; 5 ; 11 ;  ; 4 ;  ;  ; 4 ;  ;  ; -40 ; 100 ; 100 ; I ; 0.825 ; 0.850 ; 0.876", 11, "xczu19eg-ffvc1760-2-i", 0); // e (PAResourceEtoH.FPGAChooser_FPGA_TABLE)
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next", "New Project"); // JButton (NEXT)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project reg_to_axi_ip . -part xczu19eg-ffvc1760-2-i 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+20034kb) [00:02:29]
+// [Engine Memory]: 1,644 MB (+69751kb) [00:02:29]
+// WARNING: HEventQueue.dispatchEvent() is taking  1589 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 133 MB (+1653kb) [00:02:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 140 MB (+314kb) [00:02:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish", "New Project"); // JButton (FINISH)
+// 'g' command handler elapsed time: 140 seconds
+dismissDialog("Create Project"); // bh (Create Project Progress)
+dismissDialog("New Project"); // f (dialog0)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,691 MB. GUI used memory: 72 MB. Current time: 2/7/25, 2:09:16 PM CST
+// Elapsed time: 24 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+// Elapsed time: 21 seconds
+String[] filenames31467 = {"/home/yanry/dma/src/reg_to_axi.sv", "/home/yanry/dma/src/reg_to_axi_sv.sv", "/home/yanry/dma/src/reg_to_axi_v.v", "/home/yanry/dma/src/register_interface_typedef.svh"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 29 seconds
+dismissDialog("Add Sources"); // c (dialog1)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/register_interface_typedef.svh 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/home/yanry/dma/src/reg_to_axi_v.v /home/yanry/dma/src/reg_to_axi.sv /home/yanry/dma/src/reg_to_axi_sv.sv} 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 56s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 73 MB. Current time: 2/7/25, 2:10:11 PM CST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 58s
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 1,733 MB (+7930kb) [00:03:28]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:00s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:02s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:04s
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 01m:06s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("reg_to_axi_v.v", 269, 71); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 194, 43); // ae (reg_to_axi_v.v)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [Engine Memory]: 1,849 MB (+30290kb) [00:03:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,849 MB. GUI used memory: 76 MB. Current time: 2/7/25, 2:10:36 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,890 MB. GUI used memory: 77 MB. Current time: 2/7/25, 2:11:01 PM CST
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "common_cells_registers.svh", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/yanry/dma/src/register_interface_typedef.svh");
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c (dialog3)
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/register_interface_typedef.svh 
+selectCodeEditor("reg_to_axi_sv.sv", 333, 85); // ae (reg_to_axi_sv.sv)
+// Elapsed time: 27 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/yanry/dma/src/register_interface_typedef.svh");
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1603ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1608 ms.
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // c (dialog5)
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/register_interface_typedef.svh 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// [GUI Memory]: 155 MB (+8067kb) [00:05:36]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+setFileChooser("/home/yanry/dma/src/register_interface_assign.svh");
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 7 seconds
+dismissDialog("Add Sources"); // c (dialog7)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/register_interface_assign.svh 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:18s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:20s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:22s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 03m:24s
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("reg_to_axi_v.v", 359, 0); // ae (reg_to_axi_v.v)
+// Elapsed time: 25 seconds
+selectCodeEditor("reg_to_axi_v.v", 6, 91); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 71, 99); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,928 MB. GUI used memory: 78 MB. Current time: 2/7/25, 2:13:21 PM CST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:08s
+selectCodeEditor("reg_to_axi_v.v", 18, 102); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 16, 102); // ae (reg_to_axi_v.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:10s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:12s
+selectCodeEditor("reg_to_axi_v.v", 34, 102); // ae (reg_to_axi_v.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:14s
+selectCodeEditor("reg_to_axi_v.v", 269, 82); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:20s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [Engine Memory]: 1,993 MB (+54025kb) [00:06:51]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:22s
+selectCodeEditor("reg_to_axi_sv.sv", 354, 130); // ae (reg_to_axi_sv.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:26s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:28s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 23 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 275, 4); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 263, 23); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 297, 23); // ae (reg_to_axi_sv.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,042 MB. GUI used memory: 78 MB. Current time: 2/7/25, 2:14:11 PM CST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 04m:58s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 05m:00s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // an (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectCodeEditor("reg_to_axi_sv.sv", 290, 255); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 161, 289); // ae (reg_to_axi_sv.sv)
+// Elapsed time: 14 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 217, 288); // ae (reg_to_axi_sv.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_v.v", 264, 159); // ae (reg_to_axi_v.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_sv.sv", 133, 288); // ae (reg_to_axi_sv.sv)
+// Elapsed time: 10 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 142, 306); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 134, 308); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 265, 308); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 175, 311); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 163, 323); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 163, 323, false, false, false, false, true); // ae (reg_to_axi_sv.sv) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 196, 338); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 196, 338, false, false, false, false, true); // ae (reg_to_axi_sv.sv) - Double Click
+selectCodeEditor("reg_to_axi_sv.sv", 190, 352); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 190, 352, false, false, false, false, true); // ae (reg_to_axi_sv.sv) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("reg_to_axi_sv.sv", 289, 308); // ae (reg_to_axi_sv.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 06m:38s
+selectCodeEditor("reg_to_axi_sv.sv", 387, 340); // ae (reg_to_axi_sv.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 06m:40s
+// Elapsed time: 24 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 204, 109); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 204, 109, false, false, false, false, true); // ae (reg_to_axi_sv.sv) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 194, 113); // ae (reg_to_axi_sv.sv)
+// Elapsed time: 16 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 241, 85); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 243, 118); // ae (reg_to_axi_sv.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_v.v", 290, 334); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 469, 345); // ae (reg_to_axi_v.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_sv.sv", 207, 116); // ae (reg_to_axi_sv.sv)
+// Elapsed time: 140 seconds
+selectCodeEditor("reg_to_axi_sv.sv", 72, 129); // ae (reg_to_axi_sv.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_v.v", 51, 304); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 50, 304); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_sv.sv", 303, 222); // ae (reg_to_axi_sv.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:20s
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("reg_to_axi_sv.sv", 446, 52); // ae (reg_to_axi_sv.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,068 MB. GUI used memory: 79 MB. Current time: 2/7/25, 2:19:36 PM CST
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:24s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:28s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:30s
+// [Engine Memory]: 2,101 MB (+8919kb) [00:13:00]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:32s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("reg_to_axi_v.v", 576, 199); // ae (reg_to_axi_v.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:34s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header, common_cells_registers.svh]", 2, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectCodeEditor("reg_to_axi_v.v", 484, 179); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 416, 180); // ae (reg_to_axi_v.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 10m:38s
+selectCodeEditor("reg_to_axi_v.v", 197, 106); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 156, 111); // ae (reg_to_axi_v.v)
+// Elapsed time: 36 seconds
+selectCodeEditor("reg_to_axi_v.v", 283, 130); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:22s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,147 MB. GUI used memory: 80 MB. Current time: 2/7/25, 2:20:36 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:24s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (PAResourceAtoD.AbstractFileView_RELOAD)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:26s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:28s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:30s
+selectCodeEditor("reg_to_axi_v.v", 207, 134); // ae (reg_to_axi_v.v)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 11m:32s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 6, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_v.v]", 6, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "32"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ')' [/home/yanry/dma/src/reg_to_axi_v.v:7]. ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/yanry/dma/src/reg_to_axi_v.v;-;;-;16;-;line;-;7;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ')' [/home/yanry/dma/src/reg_to_axi_v.v:7]. ]", 2, true, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click - Node
+selectCodeEditor("reg_to_axi_v.v", 33, 100); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 288, 76); // ae (reg_to_axi_v.v)
+selectCodeEditor("reg_to_axi_v.v", 288, 76); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:04s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, reg_to_axi_sv.sv]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [Engine Memory]: 2,213 MB (+6766kb) [00:14:34]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:06s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,213 MB. GUI used memory: 80 MB. Current time: 2/7/25, 2:21:21 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_v.v", 47, 86); // ae (reg_to_axi_v.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:22s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,241 MB. GUI used memory: 80 MB. Current time: 2/7/25, 2:21:36 PM CST
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:26s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:28s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:30s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:32s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 12m:36s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_sv.sv", 254, 275); // ae (reg_to_axi_sv.sv)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("reg_to_axi_v.v", 227, 308); // ae (reg_to_axi_v.v)
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // C (PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, Messages_cleanUpMessages)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_v.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "30"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "30"); // h (PAResourceEtoH.FileSetPanel_MESSAGES)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [/home/yanry/dma/src/reg_to_axi_sv.sv:87]. ]", 2, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/yanry/dma/src/reg_to_axi_sv.sv;-;;-;16;-;line;-;87;-;;-;16;-;"); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near '(' [/home/yanry/dma/src/reg_to_axi_sv.sv:87]. , [HDL 9-1206] Syntax error near ')' [/home/yanry/dma/src/reg_to_axi_sv.sv:88]. ]", 4, false, false, false, false, false, true); // u.d (PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE) - Double Click
+selectCodeEditor("reg_to_axi_sv.sv", 146, 194); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 239, 220); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 425, 230); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 420, 200); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 423, 214); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 384, 233); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 428, 249); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 420, 259); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 484, 272); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 419, 296); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 500, 252); // ae (reg_to_axi_sv.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:22s
+selectCodeEditor("reg_to_axi_sv.sv", 468, 244); // ae (reg_to_axi_sv.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:26s
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("reg_to_axi_sv.sv", 486, 253); // ae (reg_to_axi_sv.sv)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:36s
+selectCodeEditor("reg_to_axi_sv.sv", 338, 32); // ae (reg_to_axi_sv.sv)
+selectCodeEditor("reg_to_axi_sv.sv", 329, 25); // ae (reg_to_axi_sv.sv)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // C (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 13m:40s
+selectButton("NEXT", "Next", "Add Sources"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files", "Add Sources"); // a (PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT)
+// Elapsed time: 14 seconds
+String[] filenames16706 = {"/home/yanry/dma/src/axi_pkg.sv", "/home/yanry/dma/src/axi_typedef.svh"};
+setFileChooser(filenames16706);
+selectButton("FINISH", "Finish", "Add Sources"); // JButton (FINISH)
+// 'f' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c (dialog9)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/axi_typedef.svh 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse /home/yanry/dma/src/axi_pkg.sv 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:02s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,309 MB. GUI used memory: 81 MB. Current time: 2/7/25, 2:23:16 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:06s
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("reg_to_axi_sv.sv", 286, 25); // ae (reg_to_axi_sv.sv)
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:08s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:12s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 2,327 MB (+4367kb) [00:16:54]
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:26s
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,344 MB. GUI used memory: 81 MB. Current time: 2/7/25, 2:23:41 PM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:28s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:30s
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/L.f': 14m:32s
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Verilog Header]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_to_axi_v (reg_to_axi_v.v), i_reg_to_axi_sv : reg_to_axi_sv (reg_to_axi_sv.sv)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_to_axi_v (reg_to_axi_v.v), i_reg_to_axi_sv : reg_to_axi_sv (reg_to_axi_sv.sv)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_to_axi_v (reg_to_axi_v.v)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_to_axi_v (reg_to_axi_v.v)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "reg_to_axi_sv.sv", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 1482 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ai (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // ai (PAResourceItoN.MainMenuMgr_REPORTS, Reports)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // aq (PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, ip_packager_wizard_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ai (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+selectButton("NEXT", "Next", "Create and Package New IP"); // JButton (NEXT)
+selectButton("NEXT", "Next", "Create and Package New IP"); // JButton (NEXT)
+dismissDialog("Analyze source files for top modules"); // bh (Analyze source files for top modules Progress)
+// Elapsed time: 22 seconds
+setText(PAResourceItoN.NewIpWizard_IP_DEFINITION_SOURCE_LOCATION, "/home/yanry/dma/ip_repo/reg_to_axi"); // Z (PAResourceItoN.NewIpWizard_IP_DEFINITION_SOURCE_LOCATION)
+selectButton("OptionPane.button", "OK", "Create Directory"); // JButton (OptionPane.button)
+selectButton("NEXT", "Next", "Create and Package New IP"); // JButton (NEXT)
+selectButton("OptionPane.button", "OK", "Confirm Copy Sources"); // JButton (OptionPane.button)
+selectButton("FINISH", "Finish", "Create and Package New IP"); // JButton (FINISH)
+// 'n' command handler elapsed time: 37 seconds
+dismissDialog("Create and Package New IP"); // x (dialog11)
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PROJECT_ARCHIVE_PRE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::package_project -root_dir /home/yanry/dma/ip_repo/reg_to_axi -vendor user.org -library user -taxonomy /UserIP -import_files -set_current false -archive_source_project true 
+// Tcl Message: INFO: [IP_Flow 19-5654] Module 'reg_to_axi_v' uses SystemVerilog sources with a Verilog top file. These SystemVerilog files will not be analysed by the packager. 
+// Tcl Message: INFO: [Coretcl 2-137] starting archive... INFO: [Coretcl 2-1499] Saving project copy to temporary location './.Xil/Vivado-379064-dell' for archiving project INFO: [Coretcl 2-1211] Creating project copy for archival... 
+// TclEventType: PROJECT_RENAME
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_RENAME
+// Tcl Message: INFO: [Coretcl 2-1213] Including run results for 'synth_1' INFO: [Coretcl 2-1213] Including run results for 'impl_1' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_CLOSE
+// TclEventType: PROJECT_ARCHIVE_POST
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [Coretcl 2-1209] Adding archive summary file to the project... INFO: [Coretcl 2-1214] Preparing project files for archive... INFO: [Coretcl 2-1210] Compressing project files and data... INFO: [Coretcl 2-1215] Project archived (/home/yanry/dma/ip_repo/reg_to_axi/ip_project_archive.zip) INFO: [Coretcl 2-1216] To view the archive summary log in GUI, double click on 'Design Sources->Text->archive_project_summary.txt', or open this file from the archived project directory. 
+// Tcl Message: INFO: [IP_Flow 19-2181] Payment is not required for this core. 
+// Tcl Message: ipx::package_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 8487.945 ; gain = 10.051 ; free physical = 91321 ; free virtual = 124145 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: ipx::unload_core /home/yanry/dma/ip_repo/reg_to_axi/component.xml 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 2,497 MB (+55810kb) [00:42:38]
+// WARNING: HEventQueue.dispatchEvent() is taking  1405 ms.

@@ -197,9 +197,9 @@
                 "MA": "Data",
                 "MX": "/zynq_ultra_ps_e_0",
                 "MI": "M_AXI_HPM0_LPD",
-                "MS": "SEG_dma_core_wrap_v_0_Reg",
+                "MS": "SEG_dma_core_wrap_v_1_Reg",
                 "MV": "xilinx.com:ip:zynq_ultra_ps_e:3.5",
-                "SX": "/dma_core_wrap_v_0",
+                "SX": "/dma_core_wrap_v_1",
                 "SI": "axi_slv",
                 "SS": "Reg",
                 "SV": "user.org:user:dma_core_wrap_v:1.0",
@@ -213,7 +213,7 @@
                 "BP": "C_S_AXI_BASEADDR",
                 "HP": "C_S_AXI_HIGHADDR",
                 "MA": "axi_mst",
-                "MX": "/dma_core_wrap_v_0",
+                "MX": "/dma_core_wrap_v_1",
                 "MI": "axi_mst",
                 "MS": "SEG_axi_bram_ctrl_0_Mem0",
                 "MV": "user.org:user:dma_core_wrap_v:1.0",
@@ -249,7 +249,7 @@
                 "BP": "C0_DDR4_MEMORY_MAP_BASEADDR",
                 "HP": "C0_DDR4_MEMORY_MAP_HIGHADDR",
                 "MA": "axi_mst",
-                "MX": "/dma_core_wrap_v_0",
+                "MX": "/dma_core_wrap_v_1",
                 "MI": "axi_mst",
                 "MS": "SEG1",
                 "MV": "user.org:user:dma_core_wrap_v:1.0",
@@ -262,6 +262,43 @@
                 "TU": "memory"
             },
             "V7": {
+                "VT": "ACE",
+                "BA": "0x0000000000008000",
+                "HA": "0x000000000000FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "axi_mst",
+                "MX": "/dma_core_wrap_v_1",
+                "MI": "axi_mst",
+                "MS": "SEG_dma_core_wrap_v_1_Reg",
+                "MV": "user.org:user:dma_core_wrap_v:1.0",
+                "SX": "/dma_core_wrap_v_1",
+                "SI": "axi_slv",
+                "SS": "Reg",
+                "SV": "user.org:user:dma_core_wrap_v:1.0",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V8": {
+                "VT": "ACE",
+                "BA": "0x0000000080000000",
+                "HA": "0x0000000080000000",
+                "BP": "C0_DDR4_MEMORY_MAP_BASEADDR",
+                "HP": "C0_DDR4_MEMORY_MAP_HIGHADDR",
+                "MA": "axi_mst",
+                "MX": "/dma_core_wrap_v_1",
+                "MI": "axi_mst",
+                "MS": "SEG_ddr4_0_C0_DDR4_ADDRESS_BLOCK",
+                "MV": "user.org:user:dma_core_wrap_v:1.0",
+                "SX": "/ddr4_0",
+                "SI": "C0_DDR4_S_AXI",
+                "MM": "C0_DDR4_MEMORY_MAP",
+                "SS": "C0_DDR4_ADDRESS_BLOCK",
+                "SV": "xilinx.com:ip:ddr4:2.2",
+                "TM": "both",
+                "TU": "memory"
+            },
+            "V9": {
                 "VT": "ACE",
                 "BA": "0x0080000000",
                 "HA": "0x0080000000",
@@ -279,24 +316,6 @@
                 "SV": "xilinx.com:ip:ddr4:2.2",
                 "TM": "both",
                 "TU": "memory"
-            },
-            "V8": {
-                "VT": "ACE",
-                "BA": "0x0000000080010000",
-                "HA": "0x000000008001FFFF",
-                "BP": "C_BASEADDR",
-                "HP": "C_HIGHADDR",
-                "MA": "axi_mst",
-                "MX": "/dma_core_wrap_v_0",
-                "MI": "axi_mst",
-                "MS": "SEG_dma_core_wrap_v_0_Reg",
-                "MV": "user.org:user:dma_core_wrap_v:1.0",
-                "SX": "/dma_core_wrap_v_0",
-                "SI": "axi_slv",
-                "SS": "Reg",
-                "SV": "user.org:user:dma_core_wrap_v:1.0",
-                "TM": "both",
-                "TU": "register"
             }
         },
         "edges": [
@@ -335,6 +354,11 @@
             },
             {
                 "src": "V8",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V9",
                 "trg": "V2",
                 "EH": "2"
             }

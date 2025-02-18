@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Thu Jan 16 14:50:33 2025
+| Date         : Thu Jan 23 18:13:41 2025
 | Host         : dell running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_utilization -file dma_core_wrap_v_utilization_synth.rpt -pb dma_core_wrap_v_utilization_synth.pb
 | Design       : dma_core_wrap_v
@@ -32,14 +32,14 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| CLB LUTs*               | 1931 |     0 |          0 |    522720 |  0.37 |
-|   LUT as Logic          | 1931 |     0 |          0 |    522720 |  0.37 |
+| CLB LUTs*               | 2375 |     0 |          0 |    522720 |  0.45 |
+|   LUT as Logic          | 2375 |     0 |          0 |    522720 |  0.45 |
 |   LUT as Memory         |    0 |     0 |          0 |    161280 |  0.00 |
-| CLB Registers           | 1757 |     0 |          0 |   1045440 |  0.17 |
-|   Register as Flip Flop | 1757 |     0 |          0 |   1045440 |  0.17 |
+| CLB Registers           | 3335 |     0 |          0 |   1045440 |  0.32 |
+|   Register as Flip Flop | 3335 |     0 |          0 |   1045440 |  0.32 |
 |   Register as Latch     |    0 |     0 |          0 |   1045440 |  0.00 |
 | CARRY8                  |   75 |     0 |          0 |     65340 |  0.11 |
-| F7 Muxes                |    1 |     0 |          0 |    261360 | <0.01 |
+| F7 Muxes                |   74 |     0 |          0 |    261360 |  0.03 |
 | F8 Muxes                |    0 |     0 |          0 |    130680 |  0.00 |
 | F9 Muxes                |    0 |     0 |          0 |     65340 |  0.00 |
 +-------------------------+------+-------+------------+-----------+-------+
@@ -61,7 +61,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 11    |          Yes |           - |          Set |
-| 1746  |          Yes |           - |        Reset |
+| 3324  |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -160,19 +160,19 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     | 1746 |            Register |
-| LUT4     |  640 |                 CLB |
-| LUT5     |  589 |                 CLB |
-| LUT6     |  411 |                 CLB |
-| LUT3     |  381 |                 CLB |
+| FDCE     | 3324 |            Register |
+| LUT6     |  935 |                 CLB |
+| LUT5     |  583 |                 CLB |
+| LUT4     |  513 |                 CLB |
 | OBUF     |  353 |                 I/O |
-| LUT2     |  261 |                 CLB |
+| LUT2     |  334 |                 CLB |
+| LUT3     |  318 |                 CLB |
 | INBUF    |  190 |                 I/O |
 | IBUFCTRL |  190 |              Others |
-| LUT1     |  147 |                 CLB |
+| LUT1     |  153 |                 CLB |
 | CARRY8   |   75 |                 CLB |
+| MUXF7    |   74 |                 CLB |
 | FDPE     |   11 |            Register |
-| MUXF7    |    1 |                 CLB |
 | BUFGCE   |    1 |               Clock |
 +----------+------+---------------------+
 

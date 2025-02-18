@@ -1,0 +1,340 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Feb 18 21:42:31 2025
+# Process ID         : 3051110
+# Current directory  : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_cdc_v_0_0_synth_1
+# Command line       : vivado -log design_1_axi_cdc_v_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_cdc_v_0_0.tcl
+# Log file           : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_cdc_v_0_0_synth_1/design_1_axi_cdc_v_0_0.vds
+# Journal file       : /home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_cdc_v_0_0_synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 2020.469 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 127406 MB
+#-----------------------------------------------------------
+source design_1_axi_cdc_v_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:axi_xbar_v:1.0'. The one found in IP location '/home/yanry/dma/ip_repo/axi_xbar' will take precedence over the same IP in location /home/yanry/dma/ip_repo
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_cdc_v_0_0
+Command: synth_design -top design_1_axi_cdc_v_0_0 -part xczu19eg-ffvc1760-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 3051250
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2810.992 ; gain = 137.859 ; free physical = 73363 ; free virtual = 108426
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_cdc_v_0_0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_axi_cdc_v_0_0/synth/design_1_axi_cdc_v_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc_v' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc_sv' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_sv.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc_src' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_src.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6157] synthesizing module 'sync' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/sync.sv:13]
+INFO: [Synth 8-6155] done synthesizing module 'sync' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/sync.sv:13]
+INFO: [Synth 8-6157] synthesizing module 'gray_to_binary' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/gray_to_binary.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'gray_to_binary' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/gray_to_binary.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'binary_to_gray' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/binary_to_gray.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'binary_to_gray' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/binary_to_gray.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'spill_register' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized0' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc_src' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_src.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc_dst' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_dst.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized1' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized1' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized2' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized2' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'spill_register_flushable__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register_flushable__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register_flushable.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:228]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized3' [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized3' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/cdc_fifo_gray.sv:170]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc_dst' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_dst.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc_sv' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_sv.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc_v' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ipshared/76e2/src/axi_cdc_v.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_cdc_v_0_0' (0#1) [/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.gen/sources_1/bd/design_1/ip/design_1_axi_cdc_v_0_0/synth/design_1_axi_cdc_v_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2894.930 ; gain = 221.797 ; free physical = 72542 ; free virtual = 107614
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2894.930 ; gain = 221.797 ; free physical = 72654 ; free virtual = 107721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2894.930 ; gain = 221.797 ; free physical = 72654 ; free virtual = 107721
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2894.930 ; gain = 0.000 ; free physical = 72631 ; free virtual = 107698
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3020.867 ; gain = 0.000 ; free physical = 72323 ; free virtual = 107390
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3044.680 ; gain = 23.812 ; free physical = 72312 ; free virtual = 107384
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3044.680 ; gain = 371.547 ; free physical = 71930 ; free virtual = 107001
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3052.684 ; gain = 379.551 ; free physical = 71930 ; free virtual = 107001
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 3052.684 ; gain = 379.551 ; free physical = 71930 ; free virtual = 107001
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3052.684 ; gain = 379.551 ; free physical = 71853 ; free virtual = 106925
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    2 Bit       Adders := 10    
++---XORs : 
+	   2 Input      2 Bit         XORs := 20    
++---XORs : 
+	                2 Bit    Wide XORs := 20    
++---Registers : 
+	               64 Bit    Registers := 16    
+	                8 Bit    Registers := 28    
+	                6 Bit    Registers := 4     
+	                4 Bit    Registers := 24    
+	                3 Bit    Registers := 16    
+	                2 Bit    Registers := 46    
+	                1 Bit    Registers := 46    
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 8     
+	   2 Input    8 Bit        Muxes := 14    
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 12    
+	   2 Input    3 Bit        Muxes := 8     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 18    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 3052.684 ; gain = 379.551 ; free physical = 71491 ; free virtual = 106565
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 3657.023 ; gain = 983.891 ; free physical = 69700 ; free virtual = 104779
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 3659.023 ; gain = 985.891 ; free physical = 69696 ; free virtual = 104775
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 3676.047 ; gain = 1002.914 ; free physical = 69653 ; free virtual = 104732
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69278 ; free virtual = 104357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69278 ; free virtual = 104357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69250 ; free virtual = 104328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69248 ; free virtual = 104326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69247 ; free virtual = 104326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69247 ; free virtual = 104326
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |    12|
+|2     |LUT2 |     5|
+|3     |LUT3 |   381|
+|4     |LUT4 |   376|
+|5     |LUT5 |    15|
+|6     |LUT6 |    10|
+|7     |FDCE |   812|
+|8     |FDRE |   742|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69247 ; free virtual = 104326
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 3837.859 ; gain = 1014.977 ; free physical = 69198 ; free virtual = 104276
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3837.859 ; gain = 1164.727 ; free physical = 69198 ; free virtual = 104276
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3837.859 ; gain = 0.000 ; free physical = 69317 ; free virtual = 104396
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3837.859 ; gain = 0.000 ; free physical = 69184 ; free virtual = 104270
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a80d58d2
+INFO: [Common 17-83] Releasing license: Synthesis
+76 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:40 . Memory (MB): peak = 3837.859 ; gain = 2380.203 ; free physical = 69158 ; free virtual = 104256
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2879.757; main = 2732.527; forked = 188.647
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4676.898; main = 3820.059; forked = 914.848
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3844.066 ; gain = 0.000 ; free physical = 69144 ; free virtual = 104248
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_cdc_v_0_0_synth_1/design_1_axi_cdc_v_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_cdc_v_0_0, cache-ID = e465e670e8a779b7
+INFO: [Coretcl 2-1174] Renamed 45 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3844.066 ; gain = 0.000 ; free physical = 68999 ; free virtual = 104091
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/z19_MP_iDMA_xbar/z19_MP_iDMA_xbar.runs/design_1_axi_cdc_v_0_0_synth_1/design_1_axi_cdc_v_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_cdc_v_0_0_utilization_synth.rpt -pb design_1_axi_cdc_v_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 18 21:43:23 2025...

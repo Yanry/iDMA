@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:dma_core_wrap_v:1.0
-// IP Revision: 27
+// IP Revision: 4
 
 `timescale 1ns/1ps
 
@@ -152,7 +152,7 @@ module design_1_dma_core_wrap_v_0_0 (
 
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 clk CLK" *)
 (* X_INTERFACE_MODE = "slave" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF axi_mst:axi_slv, ASSOCIATED_RESET rst_n, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME clk, ASSOCIATED_BUSIF axi_mst:axi_slv, FREQ_TOLERANCE_HZ 0, PHASE 0.0, INSERT_VIP 0" *)
 input wire clk;
 (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 rst_n RST" *)
 (* X_INTERFACE_MODE = "slave" *)

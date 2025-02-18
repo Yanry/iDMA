@@ -20,9 +20,9 @@
       "util_ds_buf_1": "",
       "axi_bram_ctrl_0": "",
       "axi_bram_ctrl_0_bram": "",
-      "dma_core_wrap_v_0": "",
       "system_ila_0": "",
-      "system_ila_1": ""
+      "system_ila_1": "",
+      "dma_core_wrap_v_1": ""
     },
     "interface_ports": {
       "ddr4_rtl_0": {
@@ -1334,50 +1334,6 @@
           }
         }
       },
-      "dma_core_wrap_v_0": {
-        "vlnv": "user.org:user:dma_core_wrap_v:1.0",
-        "ip_revision": "27",
-        "xci_name": "design_1_dma_core_wrap_v_0_1",
-        "xci_path": "ip/design_1_dma_core_wrap_v_0_1/design_1_dma_core_wrap_v_0_1.xci",
-        "inst_hier_path": "dma_core_wrap_v_0",
-        "parameters": {
-          "AxiIdWidth": {
-            "value": "0x00000008"
-          },
-          "AxiSlvIdWidth": {
-            "value": "0x00000008"
-          },
-          "AxiUserWidth": {
-            "value": "0x00000008"
-          },
-          "FREQ_HZ": {
-            "value": "96968727"
-          },
-          "JobFifoDepth": {
-            "value": "0x00000008"
-          }
-        },
-        "interface_ports": {
-          "axi_mst": {
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Master",
-            "address_space_ref": "axi_mst",
-            "base_address": {
-              "minimum": "0x00000000",
-              "maximum": "0xFFFFFFFFFFFFFFFF",
-              "width": "64"
-            }
-          }
-        },
-        "addressing": {
-          "address_spaces": {
-            "axi_mst": {
-              "range": "16E",
-              "width": "64"
-            }
-          }
-        }
-      },
       "system_ila_0": {
         "vlnv": "xilinx.com:ip:system_ila:1.1",
         "ip_revision": "19",
@@ -1495,6 +1451,41 @@
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
           }
         }
+      },
+      "dma_core_wrap_v_1": {
+        "vlnv": "user.org:user:dma_core_wrap_v:1.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_dma_core_wrap_v_1_0",
+        "xci_path": "ip/design_1_dma_core_wrap_v_1_0/design_1_dma_core_wrap_v_1_0.xci",
+        "inst_hier_path": "dma_core_wrap_v_1",
+        "parameters": {
+          "AxiUserWidth": {
+            "value": "0x00000040"
+          },
+          "FREQ_HZ": {
+            "value": "96968727"
+          }
+        },
+        "interface_ports": {
+          "axi_mst": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "axi_mst",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFFFFFFFFFF",
+              "width": "64"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "axi_mst": {
+              "range": "16E",
+              "width": "64"
+            }
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1524,7 +1515,7 @@
       },
       "dma_core_wrap_v_0_axi_mst": {
         "interface_ports": [
-          "dma_core_wrap_v_0/axi_mst",
+          "dma_core_wrap_v_1/axi_mst",
           "smartconnect_0/S00_AXI",
           "system_ila_0/SLOT_0_AXI"
         ],
@@ -1539,8 +1530,8 @@
       },
       "smartconnect_0_M00_AXI": {
         "interface_ports": [
-          "dma_core_wrap_v_0/axi_slv",
-          "smartconnect_0/M00_AXI"
+          "smartconnect_0/M00_AXI",
+          "dma_core_wrap_v_1/axi_slv"
         ]
       },
       "smartconnect_0_M01_AXI": {
@@ -1597,8 +1588,8 @@
         "ports": [
           "rst_ps8_0_96M/peripheral_aresetn",
           "axi_bram_ctrl_0/s_axi_aresetn",
-          "dma_core_wrap_v_0/rst_n",
-          "system_ila_0/resetn"
+          "system_ila_0/resetn",
+          "dma_core_wrap_v_1/rst_n"
         ]
       },
       "util_ds_buf_0_IBUF_OUT": {
@@ -1620,16 +1611,16 @@
           "rst_ps8_0_96M/slowest_sync_clk",
           "smartconnect_0/aclk",
           "axi_bram_ctrl_0/s_axi_aclk",
-          "dma_core_wrap_v_0/clk",
-          "system_ila_0/clk"
+          "system_ila_0/clk",
+          "dma_core_wrap_v_1/clk"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_resetn0",
-          "rst_ps8_0_96M/ext_reset_in",
           "rst_ddr4_0_333M/ext_reset_in",
-          "smartconnect_0/aresetn"
+          "smartconnect_0/aresetn",
+          "rst_ps8_0_96M/ext_reset_in"
         ]
       }
     },
@@ -1651,8 +1642,8 @@
                 "offset_base_param": "C0_DDR4_MEMORY_MAP_BASEADDR",
                 "offset_high_param": "C0_DDR4_MEMORY_MAP_HIGHADDR"
               },
-              "SEG_dma_core_wrap_v_0_Reg": {
-                "address_block": "/dma_core_wrap_v_0/axi_slv/Reg",
+              "SEG_dma_core_wrap_v_1_Reg": {
+                "address_block": "/dma_core_wrap_v_1/axi_slv/Reg",
                 "offset": "0x0080000000",
                 "range": "64K"
               }
@@ -1660,7 +1651,7 @@
           }
         }
       },
-      "/dma_core_wrap_v_0": {
+      "/dma_core_wrap_v_1": {
         "address_spaces": {
           "axi_mst": {
             "segments": {
@@ -1676,10 +1667,18 @@
                 "offset": "0x0000000082000000",
                 "range": "128K"
               },
-              "SEG_dma_core_wrap_v_0_Reg": {
-                "address_block": "/dma_core_wrap_v_0/axi_slv/Reg",
-                "offset": "0x0000000080010000",
-                "range": "64K",
+              "SEG_ddr4_0_C0_DDR4_ADDRESS_BLOCK": {
+                "address_block": "/ddr4_0/C0_DDR4_MEMORY_MAP/C0_DDR4_ADDRESS_BLOCK",
+                "offset": "0x0000000080000000",
+                "range": "1",
+                "is_excluded": "TRUE",
+                "offset_base_param": "C0_DDR4_MEMORY_MAP_BASEADDR",
+                "offset_high_param": "C0_DDR4_MEMORY_MAP_HIGHADDR"
+              },
+              "SEG_dma_core_wrap_v_1_Reg": {
+                "address_block": "/dma_core_wrap_v_1/axi_slv/Reg",
+                "offset": "0x0000000000008000",
+                "range": "32K",
                 "is_excluded": "TRUE"
               }
             }

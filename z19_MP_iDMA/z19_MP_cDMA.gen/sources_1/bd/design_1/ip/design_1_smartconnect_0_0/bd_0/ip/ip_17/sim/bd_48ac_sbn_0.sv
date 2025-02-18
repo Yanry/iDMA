@@ -88,7 +88,7 @@ input wire [2 : 0] s_sc_send;
 (* X_INTERFACE_INFO = "xilinx.com:interface:sc:1.0 S_SC RECV" *)
 output wire [2 : 0] s_sc_recv;
 (* X_INTERFACE_INFO = "xilinx.com:interface:sc:1.0 S_SC PAYLD" *)
-input wire [15 : 0] s_sc_payld;
+input wire [71 : 0] s_sc_payld;
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 m_sc_aclk CLK" *)
 (* X_INTERFACE_MODE = "slave" *)
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_sc_aclk, ASSOCIATED_BUSIF M_SC, ASSOCIATED_RESET m_sc_aresetn, ASSOCIATED_CLKEN m_sc_aclken, FREQ_HZ 96968727, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *)
@@ -107,7 +107,7 @@ output wire [0 : 0] m_sc_req;
 (* X_INTERFACE_INFO = "xilinx.com:interface:sc:1.0 M_SC INFO" *)
 output wire [0 : 0] m_sc_info;
 (* X_INTERFACE_INFO = "xilinx.com:interface:sc:1.0 M_SC PAYLD" *)
-output wire [15 : 0] m_sc_payld;
+output wire [71 : 0] m_sc_payld;
 
   sc_node_v1_0_17_top #(
     .C_FAMILY("zynquplus"),
@@ -121,7 +121,7 @@ output wire [15 : 0] m_sc_payld;
     .C_NUM_SI(3),
     .C_NUM_MI(1),
     .C_CHANNEL(4),
-    .C_PAYLD_WIDTH(16),
+    .C_PAYLD_WIDTH(72),
     .C_S_NUM_BYTES_ARRAY(96'H000000400000004000000040),
     .C_M_NUM_BYTES_ARRAY(32'H00000008),
     .C_PRIORITY_ARB_ARRAY(3'B000),
@@ -130,7 +130,7 @@ output wire [15 : 0] m_sc_payld;
     .C_SC_ROUTE_WIDTH(2),
     .C_ID_WIDTH(4),
     .C_ADDR_WIDTH(64),
-    .C_USER_WIDTH(8),
+    .C_USER_WIDTH(64),
     .C_MAX_PAYLD_BYTES(64),
     .C_S_PIPELINE(0),
     .C_M_PIPELINE(0),

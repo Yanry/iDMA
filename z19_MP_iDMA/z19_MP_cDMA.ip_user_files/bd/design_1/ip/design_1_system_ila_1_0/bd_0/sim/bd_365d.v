@@ -47,7 +47,7 @@ module bd_365d
     SLOT_0_AXI_wvalid,
     clk,
     resetn);
-  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARADDR" *) (* X_INTERFACE_MODE = "Monitor SlaveType" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME SLOT_0_AXI, ADDR_WIDTH 34, ARUSER_WIDTH 16, AWUSER_WIDTH 16, BUSER_WIDTH 8, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, DATA_WIDTH 512, FREQ_HZ 266500000, HAS_BRESP 1, HAS_BURST 1, HAS_CACHE 1, HAS_LOCK 1, HAS_PROT 1, HAS_QOS 1, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 32, NUM_READ_OUTSTANDING 8, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 8, NUM_WRITE_THREADS 1, PHASE 0.00, PROTOCOL AXI4, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0" *) input [33:0]SLOT_0_AXI_araddr;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARADDR" *) (* X_INTERFACE_MODE = "Monitor SlaveType" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME SLOT_0_AXI, ADDR_WIDTH 34, ARUSER_WIDTH 64, AWUSER_WIDTH 64, BUSER_WIDTH 64, CLK_DOMAIN design_1_ddr4_0_0_c0_ddr4_ui_clk, DATA_WIDTH 512, FREQ_HZ 266500000, HAS_BRESP 1, HAS_BURST 1, HAS_CACHE 1, HAS_LOCK 1, HAS_PROT 1, HAS_QOS 1, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 32, NUM_READ_OUTSTANDING 8, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 8, NUM_WRITE_THREADS 1, PHASE 0.00, PROTOCOL AXI4, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0" *) input [33:0]SLOT_0_AXI_araddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARBURST" *) input [1:0]SLOT_0_AXI_arburst;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARCACHE" *) input [3:0]SLOT_0_AXI_arcache;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARLEN" *) input [7:0]SLOT_0_AXI_arlen;
@@ -56,7 +56,7 @@ module bd_365d
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARQOS" *) input [3:0]SLOT_0_AXI_arqos;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARREADY" *) input SLOT_0_AXI_arready;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARSIZE" *) input [2:0]SLOT_0_AXI_arsize;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARUSER" *) input [15:0]SLOT_0_AXI_aruser;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARUSER" *) input [63:0]SLOT_0_AXI_aruser;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI ARVALID" *) input SLOT_0_AXI_arvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWADDR" *) input [33:0]SLOT_0_AXI_awaddr;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWBURST" *) input [1:0]SLOT_0_AXI_awburst;
@@ -67,11 +67,11 @@ module bd_365d
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWQOS" *) input [3:0]SLOT_0_AXI_awqos;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWREADY" *) input SLOT_0_AXI_awready;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWSIZE" *) input [2:0]SLOT_0_AXI_awsize;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWUSER" *) input [15:0]SLOT_0_AXI_awuser;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWUSER" *) input [63:0]SLOT_0_AXI_awuser;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI AWVALID" *) input SLOT_0_AXI_awvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI BREADY" *) input SLOT_0_AXI_bready;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI BRESP" *) input [1:0]SLOT_0_AXI_bresp;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI BUSER" *) input [7:0]SLOT_0_AXI_buser;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI BUSER" *) input [63:0]SLOT_0_AXI_buser;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI BVALID" *) input SLOT_0_AXI_bvalid;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI RDATA" *) input [511:0]SLOT_0_AXI_rdata;
   (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 SLOT_0_AXI RLAST" *) input SLOT_0_AXI_rlast;
@@ -95,7 +95,7 @@ module bd_365d
   wire [3:0]SLOT_0_AXI_arqos;
   wire SLOT_0_AXI_arready;
   wire [2:0]SLOT_0_AXI_arsize;
-  wire [15:0]SLOT_0_AXI_aruser;
+  wire [63:0]SLOT_0_AXI_aruser;
   wire SLOT_0_AXI_arvalid;
   wire [33:0]SLOT_0_AXI_awaddr;
   wire [1:0]SLOT_0_AXI_awburst;
@@ -106,11 +106,11 @@ module bd_365d
   wire [3:0]SLOT_0_AXI_awqos;
   wire SLOT_0_AXI_awready;
   wire [2:0]SLOT_0_AXI_awsize;
-  wire [15:0]SLOT_0_AXI_awuser;
+  wire [63:0]SLOT_0_AXI_awuser;
   wire SLOT_0_AXI_awvalid;
   wire SLOT_0_AXI_bready;
   wire [1:0]SLOT_0_AXI_bresp;
-  wire [7:0]SLOT_0_AXI_buser;
+  wire [63:0]SLOT_0_AXI_buser;
   wire SLOT_0_AXI_bvalid;
   wire [511:0]SLOT_0_AXI_rdata;
   wire SLOT_0_AXI_rlast;
@@ -134,7 +134,7 @@ module bd_365d
   wire [3:0]net_slot_0_axi_arqos;
   wire net_slot_0_axi_arready;
   wire [2:0]net_slot_0_axi_arsize;
-  wire [15:0]net_slot_0_axi_aruser;
+  wire [63:0]net_slot_0_axi_aruser;
   wire net_slot_0_axi_arvalid;
   wire [1:0]net_slot_0_axi_aw_cnt;
   wire [1:0]net_slot_0_axi_aw_ctrl;
@@ -147,13 +147,13 @@ module bd_365d
   wire [3:0]net_slot_0_axi_awqos;
   wire net_slot_0_axi_awready;
   wire [2:0]net_slot_0_axi_awsize;
-  wire [15:0]net_slot_0_axi_awuser;
+  wire [63:0]net_slot_0_axi_awuser;
   wire net_slot_0_axi_awvalid;
   wire [1:0]net_slot_0_axi_b_cnt;
   wire [1:0]net_slot_0_axi_b_ctrl;
   wire net_slot_0_axi_bready;
   wire [1:0]net_slot_0_axi_bresp;
-  wire [7:0]net_slot_0_axi_buser;
+  wire [63:0]net_slot_0_axi_buser;
   wire net_slot_0_axi_bvalid;
   wire [1:0]net_slot_0_axi_r_cnt;
   wire [2:0]net_slot_0_axi_r_ctrl;
