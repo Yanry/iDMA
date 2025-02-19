@@ -10,7 +10,7 @@ module axi_xbar_v
 	parameter    LatencyMode	=	10'b1001010010,	// CUT_ALL_AX
 	parameter    PipelineStages	=	32'd0,
 	parameter    AxiSlvIdWidth	=	32'd1,
-    parameter    AxiMstIdWidth  =   AxiSlvIdWidth + $clog2(NoSlvPorts),
+    parameter    AxiMstIdWidth  =   32'd1,
 	parameter    UniqueIds		=	1'b0,
 	parameter    AxiAddrWidth	=	32'd64,
 	parameter    AxiDataWidth	=	32'd64,
@@ -384,6 +384,7 @@ module axi_xbar_v
         .LatencyMode   (LatencyMode),
         .PipelineStages(PipelineStages),
         .AxiSlvIdWidth (AxiSlvIdWidth),
+        .AxiMstIdWidth (AxiMstIdWidth),
         .UniqueIds     (UniqueIds),
         .AxiAddrWidth  (AxiAddrWidth),
         .AxiDataWidth  (AxiDataWidth),

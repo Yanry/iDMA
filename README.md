@@ -13,7 +13,7 @@ This repository includes iDMA IP, DMA hardware example in Vivado project, DMA ha
     * axi_addr_offset: shift axi address by base address
     * axi_cdc: axi cross clock domain
     * axi_id_remap: remap axi id from wider slave id to narrower master id. 
-    * axi_xbar: axi smartconnect. **not work with zynq (maybe because of address map in Vivado)**
+    * axi_xbar: axi smartconnect. **not work with zynq (maybe because of address map in Vivado).** MstIdWidth = SlvIdWidth + log2(NoSlvports)
     * dma: iDMA
     * reg_to_axi: register_interface to axi
     * register_interface

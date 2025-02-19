@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Feb 19 15:14:48 2025
+# Process ID         : 3412828
+# Current directory  : /home/yanry/dma/axi_xbar_test/axi_xbar_test.runs/design_1_axi_addr_offset_v_0_0_synth_1
+# Command line       : vivado -log design_1_axi_addr_offset_v_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_addr_offset_v_0_0.tcl
+# Log file           : /home/yanry/dma/axi_xbar_test/axi_xbar_test.runs/design_1_axi_addr_offset_v_0_0_synth_1/design_1_axi_addr_offset_v_0_0.vds
+# Journal file       : /home/yanry/dma/axi_xbar_test/axi_xbar_test.runs/design_1_axi_addr_offset_v_0_0_synth_1/vivado.jou
+# Running On         : dell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i9-10900X CPU @ 3.70GHz
+# CPU Frequency      : 3700.000 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 20
+# Host memory        : 134762 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 136909 MB
+# Available Virtual  : 127919 MB
+#-----------------------------------------------------------
+source design_1_axi_addr_offset_v_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/yanry/dma/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/data/tools/Xilinx24/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:axi_xbar_v:1.0'. The one found in IP location '/home/yanry/dma/ip_repo/axi_xbar' will take precedence over the same IP in location /home/yanry/dma/ip_repo
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_addr_offset_v_0_0
+Command: synth_design -top design_1_axi_addr_offset_v_0_0 -part xczu19eg-ffvc1760-2-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu19eg'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 3412941
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1875.641 ; gain = 397.859 ; free physical = 84548 ; free virtual = 121026
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'clk_i', assumed default net type 'wire' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:293]
+INFO: [Synth 8-11241] undeclared symbol 'rst_ni', assumed default net type 'wire' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:294]
+WARNING: [Synth 8-10507] attribute 'X_INTERFACE_MODE' is already specified; last one will take precedence [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:162]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_addr_offset_v_0_0' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_v.v:1]
+INFO: [Synth 8-6157] synthesizing module 'axi_addr_offset_sv' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'axi_addr_offset' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'axi_addr_offset' (0#1) [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'axi_addr_offset_sv' (0#1) [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'axi_addr_offset_v' (0#1) [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_v.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_mst_req_aw_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:375]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_mst_req_w_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:381]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_mst_rsp_b_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:386]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_mst_req_ar_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:399]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_mst_rsp_r_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:406]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_slv_req_aw_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:420]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_slv_req_w_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:426]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_slv_rsp_b_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:431]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_slv_req_ar_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:444]
+WARNING: [Synth 8-689] width (1) of port connection 'axi_slv_rsp_r_user' does not match port width (2) of module 'axi_addr_offset_v' [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:451]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_addr_offset_v_0_0' (0#1) [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ip/design_1_axi_addr_offset_v_0_0/synth/design_1_axi_addr_offset_v_0_0.v:53]
+WARNING: [Synth 8-3848] Net clk_i in module/entity axi_addr_offset_sv does not have driver. [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:293]
+WARNING: [Synth 8-3848] Net rst_ni in module/entity axi_addr_offset_sv does not have driver. [/home/yanry/dma/axi_xbar_test/axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src/axi_addr_offset_sv.sv:294]
+WARNING: [Synth 8-7129] Port clk_i in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_ni in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port test_i in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][31] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][30] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][29] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][28] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][27] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][26] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][25] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][24] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][23] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][22] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][21] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][20] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][19] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][18] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][17] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][16] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][15] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][14] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][13] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][12] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][11] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][10] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][9] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][8] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][7] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][6] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][5] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][4] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][3] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][2] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][1] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[idx][0] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][63] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][62] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][61] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][60] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][59] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][58] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][57] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][56] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][55] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][54] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][53] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][52] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][51] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][50] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][49] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][48] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][47] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][46] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][45] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][44] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][43] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][42] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][41] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][40] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][39] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][38] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][37] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][36] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][35] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][34] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][33] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][32] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][31] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][30] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][29] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][28] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][27] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][26] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][25] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][24] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][23] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][22] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][21] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][20] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][19] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][18] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][17] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][16] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][15] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][14] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][13] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][12] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][11] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][10] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][9] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][8] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][7] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][6] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][5] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][4] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][3] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][2] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][1] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr_map_i[end_addr][0] in module axi_addr_offset is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module axi_addr_offset_sv is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1949.609 ; gain = 471.828 ; free physical = 84454 ; free virtual = 120933
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1964.453 ; gain = 486.672 ; free physical = 84454 ; free virtual = 120933
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu19eg-ffvc1760-2-i
+INFO: [Device 21-403] Loading part xczu19eg-ffvc1760-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1981.363 ; gain = 503.582 ; free physical = 84454 ; free virtual = 120933
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1981.363 ; gain = 503.582 ; free physical = 84446 ; free virtual = 120925
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   64 Bit       Adders := 2     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2997.121 ; gain = 1519.340 ; free physical = 83457 ; free virtual = 119936
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2997.121 ; gain = 1519.340 ; free physical = 83457 ; free virtual = 119936
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2997.121 ; gain = 1519.340 ; free physical = 83457 ; free virtual = 119936
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY8 |    16|
+|2     |LUT2   |   256|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------------+-------------------+------+
+|      |Instance                 |Module             |Cells |
++------+-------------------------+-------------------+------+
+|1     |top                      |                   |   272|
+|2     |  inst                   |axi_addr_offset_v  |   272|
+|3     |    i_axi_addr_offset_sv |axi_addr_offset_sv |   272|
+|4     |      i_axi_addr_offset  |axi_addr_offset    |   272|
++------+-------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83418 ; free virtual = 119897
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 183 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.934 ; gain = 1545.152 ; free physical = 83416 ; free virtual = 119895
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3022.941 ; gain = 1545.152 ; free physical = 83416 ; free virtual = 119895
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3048.746 ; gain = 0.000 ; free physical = 83555 ; free virtual = 120035
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3191.906 ; gain = 0.000 ; free physical = 83463 ; free virtual = 119942
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 50876fc8
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 149 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 3191.906 ; gain = 1734.102 ; free physical = 83462 ; free virtual = 119942
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2462.575; main = 2409.317; forked = 272.586
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3911.977; main = 3191.910; forked = 914.852
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3851.039 ; gain = 0.000 ; free physical = 82988 ; free virtual = 119467
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/axi_xbar_test/axi_xbar_test.runs/design_1_axi_addr_offset_v_0_0_synth_1/design_1_axi_addr_offset_v_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3851.039 ; gain = 659.133 ; free physical = 82977 ; free virtual = 119456
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_addr_offset_v_0_0, cache-ID = 86729acce7cbbdf9
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3851.039 ; gain = 0.000 ; free physical = 82967 ; free virtual = 119447
+INFO: [Common 17-1381] The checkpoint '/home/yanry/dma/axi_xbar_test/axi_xbar_test.runs/design_1_axi_addr_offset_v_0_0_synth_1/design_1_axi_addr_offset_v_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_axi_addr_offset_v_0_0_utilization_synth.rpt -pb design_1_axi_addr_offset_v_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 19 15:15:26 2025...

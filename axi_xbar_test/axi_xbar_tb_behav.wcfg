@@ -3,104 +3,224 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="axi_xbar_tb_behav.wdb" id="1">
+      <db_ref path="axi_xbar_test2_behav.wdb" id="1">
          <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
             <top_module name="axi_pkg" />
             <top_module name="axi_vip_pkg" />
-            <top_module name="axi_xbar_tb" />
+            <top_module name="axi_xbar_test2" />
             <top_module name="cf_math_pkg" />
             <top_module name="glbl" />
             <top_module name="idma_pkg" />
             <top_module name="idma_reg64_frontend_reg_pkg" />
             <top_module name="std" />
+            <top_module name="vcomponents" />
             <top_module name="xil_common_vip_pkg" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="399.895 ns"></ZoomStartTime>
-      <ZoomEndTime time="640.896 ns"></ZoomEndTime>
-      <Cursor1Time time="472.495 ns"></Cursor1Time>
+      <ZoomStartTime time="179.770 ns"></ZoomStartTime>
+      <ZoomEndTime time="825.265 ns"></ZoomEndTime>
+      <Cursor1Time time="500.023 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="9" />
-   <wvobject type="logic" fp_name="/axi_xbar_tb/clk">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
+   <WVObjectSize size="13" />
+   <wvobject type="protoinst" fp_name="/axi_xbar_test2/dut/design_2_i/axi_vip_0/M_AXI">
+      <obj_property name="ElementShortName">M_AXI</obj_property>
+      <obj_property name="ObjectShortName">M_AXI</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/axi_xbar_tb/rst_n">
-      <obj_property name="ElementShortName">rst_n</obj_property>
-      <obj_property name="ObjectShortName">rst_n</obj_property>
-   </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/mst0">
+   <wvobject type="protoinst" fp_name="/axi_xbar_test2/dut/design_2_i/axi_bram_ctrl_0/S_AXI">
       <obj_property name="children_use_element_short_name">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
       <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="CustomSignalColor">turquoise</obj_property>
-      <obj_property name="Render_Data">/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/mst0.readWriteSummary</obj_property>
+      <obj_property name="Render_Data">/axi_xbar_test2/dut/design_2_i/axi_bram_ctrl_0/S_AXI.readWriteSummary</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <obj_property name="CellHeight">36</obj_property>
-      <obj_property name="ElementShortName">mst0</obj_property>
-      <obj_property name="ObjectShortName">mst0</obj_property>
-      <obj_property name="isExpanded"></obj_property>
+      <obj_property name="ElementShortName">S_AXI</obj_property>
+      <obj_property name="ObjectShortName">S_AXI</obj_property>
    </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/mst1">
-      <obj_property name="ElementShortName">mst1</obj_property>
-      <obj_property name="ObjectShortName">mst1</obj_property>
-   </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/mst2">
-      <obj_property name="ElementShortName">mst2</obj_property>
-      <obj_property name="ObjectShortName">mst2</obj_property>
-   </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/slv0">
-      <obj_property name="ElementShortName">slv0</obj_property>
-      <obj_property name="ObjectShortName">slv0</obj_property>
-   </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/slv1">
+   <wvobject type="protoinst" fp_name="/axi_xbar_test2/dut/design_2_i/axi_bram_ctrl_1/S_AXI">
       <obj_property name="children_use_element_short_name">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
       <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
       <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
       <obj_property name="UseCustomSignalColor">true</obj_property>
       <obj_property name="CustomSignalColor">turquoise</obj_property>
-      <obj_property name="Render_Data">/axi_xbar_tb/dut/design_1_i/axi_xbar_v_0/slv1.readWriteSummary</obj_property>
+      <obj_property name="Render_Data">/axi_xbar_test2/dut/design_2_i/axi_bram_ctrl_1/S_AXI.readWriteSummary</obj_property>
       <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <obj_property name="CellHeight">36</obj_property>
-      <obj_property name="ElementShortName">slv1</obj_property>
-      <obj_property name="ObjectShortName">slv1</obj_property>
+      <obj_property name="ElementShortName">S_AXI</obj_property>
+      <obj_property name="ObjectShortName">S_AXI</obj_property>
       <obj_property name="isExpanded"></obj_property>
    </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/dma_core_wrap_v_0/axi_mst">
+   <wvobject type="protoinst" fp_name="/axi_xbar_test2/dut/design_2_i/dma_core_wrap_v_0/axi_mst">
+      <obj_property name="children_use_element_short_name">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
+      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">turquoise</obj_property>
+      <obj_property name="Render_Data">/axi_xbar_test2/dut/design_2_i/dma_core_wrap_v_0/axi_mst.readWriteSummary</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CellHeight">36</obj_property>
       <obj_property name="ElementShortName">axi_mst</obj_property>
       <obj_property name="ObjectShortName">axi_mst</obj_property>
-      <obj_property name="children_use_element_short_name">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
-      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
-      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">turquoise</obj_property>
-      <obj_property name="Render_Data">/axi_xbar_tb/dut/design_1_i/dma_core_wrap_v_0/axi_mst.readWriteSummary</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <obj_property name="CellHeight">36</obj_property>
-      <obj_property name="isExpanded"></obj_property>
    </wvobject>
-   <wvobject type="protoinst" fp_name="/axi_xbar_tb/dut/design_1_i/dma_core_wrap_v_0/axi_slv">
-      <obj_property name="children_use_element_short_name">true</obj_property>
-      <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
-      <obj_property name="EnumTransactionColorTable">0=blank 1=#D399FF 2=pink</obj_property>
-      <obj_property name="EnumTransactionValueTable">0=blank;1=Read;2=Write;3=Read/Write</obj_property>
-      <obj_property name="UseCustomSignalColor">true</obj_property>
-      <obj_property name="CustomSignalColor">turquoise</obj_property>
-      <obj_property name="Render_Data">/axi_xbar_tb/dut/design_1_i/dma_core_wrap_v_0/axi_slv.readWriteSummary</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-      <obj_property name="CellHeight">36</obj_property>
+   <wvobject type="protoinst" fp_name="/axi_xbar_test2/dut/design_2_i/dma_core_wrap_v_0/axi_slv">
       <obj_property name="ElementShortName">axi_slv</obj_property>
       <obj_property name="ObjectShortName">axi_slv</obj_property>
-      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_req_i">
+      <obj_property name="ElementShortName">slv_req_i</obj_property>
+      <obj_property name="ObjectShortName">slv_req_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o">
+      <obj_property name="ElementShortName">slv_resp_o</obj_property>
+      <obj_property name="ObjectShortName">slv_resp_o</obj_property>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.aw_ready">
+         <obj_property name="ElementShortName">.aw_ready</obj_property>
+         <obj_property name="ObjectShortName">.aw_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.ar_ready">
+         <obj_property name="ElementShortName">.ar_ready</obj_property>
+         <obj_property name="ObjectShortName">.ar_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.w_ready">
+         <obj_property name="ElementShortName">.w_ready</obj_property>
+         <obj_property name="ObjectShortName">.w_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.b_valid">
+         <obj_property name="ElementShortName">.b_valid</obj_property>
+         <obj_property name="ObjectShortName">.b_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.b">
+         <obj_property name="ElementShortName">.b</obj_property>
+         <obj_property name="ObjectShortName">.b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.r_valid">
+         <obj_property name="ElementShortName">.r_valid</obj_property>
+         <obj_property name="ObjectShortName">.r_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.r">
+         <obj_property name="ElementShortName">.r</obj_property>
+         <obj_property name="ObjectShortName">.r</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.aw_ready">
+         <obj_property name="ElementShortName">.aw_ready</obj_property>
+         <obj_property name="ObjectShortName">.aw_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.ar_ready">
+         <obj_property name="ElementShortName">.ar_ready</obj_property>
+         <obj_property name="ObjectShortName">.ar_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.w_ready">
+         <obj_property name="ElementShortName">.w_ready</obj_property>
+         <obj_property name="ObjectShortName">.w_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.b_valid">
+         <obj_property name="ElementShortName">.b_valid</obj_property>
+         <obj_property name="ObjectShortName">.b_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.b">
+         <obj_property name="ElementShortName">.b</obj_property>
+         <obj_property name="ObjectShortName">.b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.r_valid">
+         <obj_property name="ElementShortName">.r_valid</obj_property>
+         <obj_property name="ObjectShortName">.r_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /slv_resp_o.r">
+         <obj_property name="ElementShortName">.r</obj_property>
+         <obj_property name="ObjectShortName">.r</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_req_o">
+      <obj_property name="ElementShortName">mst_req_o</obj_property>
+      <obj_property name="ObjectShortName">mst_req_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i">
+      <obj_property name="ElementShortName">mst_resp_i</obj_property>
+      <obj_property name="ObjectShortName">mst_resp_i</obj_property>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.aw_ready">
+         <obj_property name="ElementShortName">.aw_ready</obj_property>
+         <obj_property name="ObjectShortName">.aw_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.ar_ready">
+         <obj_property name="ElementShortName">.ar_ready</obj_property>
+         <obj_property name="ObjectShortName">.ar_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.w_ready">
+         <obj_property name="ElementShortName">.w_ready</obj_property>
+         <obj_property name="ObjectShortName">.w_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.b_valid">
+         <obj_property name="ElementShortName">.b_valid</obj_property>
+         <obj_property name="ObjectShortName">.b_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.b">
+         <obj_property name="ElementShortName">.b</obj_property>
+         <obj_property name="ObjectShortName">.b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.r_valid">
+         <obj_property name="ElementShortName">.r_valid</obj_property>
+         <obj_property name="ObjectShortName">.r_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.r">
+         <obj_property name="ElementShortName">.r</obj_property>
+         <obj_property name="ObjectShortName">.r</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.aw_ready">
+         <obj_property name="ElementShortName">.aw_ready</obj_property>
+         <obj_property name="ObjectShortName">.aw_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.ar_ready">
+         <obj_property name="ElementShortName">.ar_ready</obj_property>
+         <obj_property name="ObjectShortName">.ar_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.w_ready">
+         <obj_property name="ElementShortName">.w_ready</obj_property>
+         <obj_property name="ObjectShortName">.w_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.b_valid">
+         <obj_property name="ElementShortName">.b_valid</obj_property>
+         <obj_property name="ObjectShortName">.b_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.b">
+         <obj_property name="ElementShortName">.b</obj_property>
+         <obj_property name="ObjectShortName">.b</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.r_valid">
+         <obj_property name="ElementShortName">.r_valid</obj_property>
+         <obj_property name="ObjectShortName">.r_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_xbar_slv_cross[0].gen_xbar_mst_cross[1].gen_connection.i_axi_multicut_xbar_pipeline /mst_resp_i.r">
+         <obj_property name="ElementShortName">.r</obj_property>
+         <obj_property name="ObjectShortName">.r</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_mst_port_mux[1].i_axi_mux /slv_reqs_i">
+      <obj_property name="ElementShortName">slv_reqs_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reqs_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_mst_port_mux[1].i_axi_mux /slv_resps_o">
+      <obj_property name="ElementShortName">slv_resps_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_resps_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_mst_port_mux[1].i_axi_mux /mst_req_o">
+      <obj_property name="ElementShortName">mst_req_o</obj_property>
+      <obj_property name="ObjectShortName">mst_req_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/axi_xbar_test2/dut/design_2_i/axi_xbar_v_0/inst/i_axi_xbar_sv/i_axi_bar/\gen_mst_port_mux[1].i_axi_mux /mst_resp_i">
+      <obj_property name="ElementShortName">mst_resp_i</obj_property>
+      <obj_property name="ObjectShortName">mst_resp_i</obj_property>
    </wvobject>
 </wave_config>

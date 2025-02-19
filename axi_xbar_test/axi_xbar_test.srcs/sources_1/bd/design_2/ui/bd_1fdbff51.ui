@@ -1,0 +1,44 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.62174",
+   "Default View_TopLeft":"122,24",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -10 -y 620 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x -10 -y 640 -defaultsOSRD
+preplace inst axi_xbar_v_0 -pg 1 -lvl 2 -x 760 -y 330 -defaultsOSRD
+preplace inst dma_core_wrap_v_0 -pg 1 -lvl 1 -x 240 -y 730 -defaultsOSRD
+preplace inst axi_vip_0 -pg 1 -lvl 1 -x 240 -y 880 -defaultsOSRD
+preplace inst addr_rule0 -pg 1 -lvl 1 -x 240 -y 230 -defaultsOSRD
+preplace inst addr_rule1 -pg 1 -lvl 1 -x 240 -y 100 -defaultsOSRD
+preplace inst addr_rule2 -pg 1 -lvl 1 -x 240 -y 390 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -x 1610 -y 120 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -x 1890 -y 120 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 4 -x 1610 -y 400 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 5 -x 1890 -y 390 -defaultsOSRD
+preplace netloc addr_rule0_end_addr 1 1 1 470 210n
+preplace netloc addr_rule0_idx 1 1 1 450 170n
+preplace netloc addr_rule0_start_addr 1 1 1 460 190n
+preplace netloc addr_rule1_end_addr 1 1 1 480 120n
+preplace netloc addr_rule1_idx 1 1 1 510 80n
+preplace netloc addr_rule1_start_addr 1 1 1 490 100n
+preplace netloc addr_rule2_end_addr 1 1 1 470 370n
+preplace netloc addr_rule2_idx 1 1 1 450 330n
+preplace netloc addr_rule2_start_addr 1 1 1 460 350n
+preplace netloc clk_1 1 0 4 20 580 550 580 970 560 1450
+preplace netloc rst_n_1 1 0 4 10 570 560 570 N 570 1470
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 N 110
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 4 1 N 130
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 1750 380n
+preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 4 1 1750 400n
+preplace netloc axi_vip_0_M_AXI 1 1 1 490 410n
+preplace netloc dma_core_wrap_v_0_axi_mst 1 1 1 480 390n
+preplace netloc axi_xbar_v_0_mst1 1 2 2 970 100 NJ
+preplace netloc axi_xbar_v_0_mst2 1 2 2 NJ 320 1460
+preplace netloc axi_xbar_v_0_mst0 1 0 3 30 590 NJ 590 960
+levelinfo -pg 1 -10 240 760 990 1610 1890 2020
+pagesize -pg 1 -db -bbox -sgen -100 -90 2040 1770
+"
+}
+0

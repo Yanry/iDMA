@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:axi_addr_offset_v:1.0
-// IP Revision: 3
+// IP Revision: 4
 
 (* X_CORE_INFO = "axi_addr_offset_v,Vivado 2024.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_axi_addr_offset_v_0_0,axi_addr_offset_v,{}" *)

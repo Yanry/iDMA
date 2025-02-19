@@ -1,0 +1,102 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/cf_math_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/addr_decode.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_atop_filter.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_cut.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_demux.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_err_slv.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_id_prepend.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_multicut.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_mux.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_xbar.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_xbar_sv.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/counter.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/delta_counter.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/fifo_v3.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/lzc.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/rr_arb_tree.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/spill_register.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/spill_register_flushable.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/stream_register.sv" \
+
+verilog xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/85db/src/axi_xbar_v.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_axi_xbar_v_0_0/sim/design_2_axi_xbar_v_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_guard.svh" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/register_interface_assign.svh" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/register_interface_typedef.svh" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_typedef.svh" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/axi_burst_splitter.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/axi_intf.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/axi_lite_to_reg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/axi_to_axi_lite.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/axi_to_reg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/dma_core_wrap.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/dma_core_wrap_sv.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/fall_through_register.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/fifo_v2.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/id_queue.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_axi_lite_transport_layer.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_axi_transport_layer.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_backend.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_buffer.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_channel_coupler.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_error_handler.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_legalizer.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_nd_midend.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_obi_transport_layer.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_2d_frontend_reg_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_2d_frontend.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_2d_frontend_reg_top.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_frontend_reg_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_frontend.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_reg64_frontend_reg_top.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_stream_fifo.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/idma_transfer_id_gen.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/onehot_to_bin.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/popcount.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/prim_subreg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/prim_subreg_arb.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/prim_subreg_ext.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/reg_intf.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/stream_arbiter.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/stream_arbiter_flushable.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/stream_fifo.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/stream_fork.sv" \
+
+verilog xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ipshared/11fb/src/dma_core_wrap_v.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_dma_core_wrap_v_0_0/sim/design_2_dma_core_wrap_v_0_0.v" \
+
+sv xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_axi_vip_0_0/sim/design_2_axi_vip_0_0_pkg.sv" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_axi_vip_0_0/sim/design_2_axi_vip_0_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_0/sim/design_2_xlconstant_0_0.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_1_0/sim/design_2_xlconstant_1_0.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_2_0/sim/design_2_xlconstant_2_0.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_1/sim/design_2_xlconstant_0_1.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_1_1/sim/design_2_xlconstant_1_1.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_2_1/sim/design_2_xlconstant_2_1.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_0_2/sim/design_2_xlconstant_0_2.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_1_2/sim/design_2_xlconstant_1_2.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_xlconstant_2_2/sim/design_2_xlconstant_2_2.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_blk_mem_gen_0_0/sim/design_2_blk_mem_gen_0_0.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/ip/design_2_blk_mem_gen_1_0/sim/design_2_blk_mem_gen_1_0.v" \
+"../../../../axi_xbar_test.ip_user_files/bd/design_2/sim/design_2.v" \
+"../../../../axi_xbar_test.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/85db/src" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_2/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_xbar_test.gen/sources_1/bd/design_1/ipshared/d48e/src" --include "/home/data/tools/Xilinx24/Vivado/2024.2/data/xilinx_vip/include" \
+"../../../../axi_xbar_test.srcs/sim_1/new/axi_xbar_test2.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

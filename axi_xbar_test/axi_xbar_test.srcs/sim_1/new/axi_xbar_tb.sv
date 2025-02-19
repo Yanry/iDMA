@@ -50,12 +50,12 @@ design_1_wrapper dut(
 
 //reg [7:0] data_mem [0:255];
 xil_axi_payload_byte                    data_mem[xil_axi_ulong];
-integer m;
-initial begin
-    for (m = 0; m < 256; m = m + 1) begin
-        data_mem[m] = m + 1;
-    end
-end 
+//integer m;
+//initial begin
+//    for (m = 0; m < 256; m = m + 1) begin
+//        data_mem[m] = m + 1;
+//    end
+//end 
 
 design_1_axi_vip_0_0_mst_t master_agent;
 axi_transaction src_addr_transaction, dst_addr_transaction, byte_num_transaction;
@@ -128,7 +128,8 @@ initial begin
       slave2_agent.rd_driver.get_rd_reactive(rd2_reactive);
       fill_payload(rd1_reactive);
       fill_payload(rd2_reactive);
-    //      fill_beat_delay(rd_reactive);
+      fill_beat_delay(rd1_reactive);
+      fill_beat_delay(rd2_reactive);
       slave1_agent.rd_driver.send(rd1_reactive);
       slave2_agent.rd_driver.send(rd2_reactive);
     end  

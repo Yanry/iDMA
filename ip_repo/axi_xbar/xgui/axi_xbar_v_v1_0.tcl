@@ -1,7 +1,3 @@
-
-# Loading additional proc with user specified bodies to compute parameter values.
-source [file join [file dirname [file dirname [info script]]] gui/axi_xbar_v_v1_0.gtcl]
-
 # Definitional proc to organize widgets for parameters.
 proc init_gui { IPINST } {
   ipgui::add_param $IPINST -name "Component_Name"
@@ -27,20 +23,6 @@ proc init_gui { IPINST } {
 
 }
 
-proc update_PARAM_VALUE.AxiMstIdWidth { PARAM_VALUE.AxiMstIdWidth PARAM_VALUE.AxiSlvIdWidth } {
-	# Procedure called to update AxiMstIdWidth when any of the dependent parameters in the arguments change
-	
-	set AxiMstIdWidth ${PARAM_VALUE.AxiMstIdWidth}
-	set AxiSlvIdWidth ${PARAM_VALUE.AxiSlvIdWidth}
-	set values(AxiSlvIdWidth) [get_property value $AxiSlvIdWidth]
-	set_property value [gen_USERPARAMETER_AxiMstIdWidth_VALUE $values(AxiSlvIdWidth)] $AxiMstIdWidth
-}
-
-proc validate_PARAM_VALUE.AxiMstIdWidth { PARAM_VALUE.AxiMstIdWidth } {
-	# Procedure called to validate AxiMstIdWidth
-	return true
-}
-
 proc update_PARAM_VALUE.AxiAddrWidth { PARAM_VALUE.AxiAddrWidth } {
 	# Procedure called to update AxiAddrWidth when any of the dependent parameters in the arguments change
 }
@@ -56,6 +38,15 @@ proc update_PARAM_VALUE.AxiDataWidth { PARAM_VALUE.AxiDataWidth } {
 
 proc validate_PARAM_VALUE.AxiDataWidth { PARAM_VALUE.AxiDataWidth } {
 	# Procedure called to validate AxiDataWidth
+	return true
+}
+
+proc update_PARAM_VALUE.AxiMstIdWidth { PARAM_VALUE.AxiMstIdWidth } {
+	# Procedure called to update AxiMstIdWidth when any of the dependent parameters in the arguments change
+}
+
+proc validate_PARAM_VALUE.AxiMstIdWidth { PARAM_VALUE.AxiMstIdWidth } {
+	# Procedure called to validate AxiMstIdWidth
 	return true
 }
 

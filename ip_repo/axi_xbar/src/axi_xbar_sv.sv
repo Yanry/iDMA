@@ -12,7 +12,7 @@ module axi_xbar_sv
 	parameter bit [9:0]		 LatencyMode	=	10'b1001010010,	// CUT_ALL_AX
 	parameter int unsigned   PipelineStages	=	32'd0,
 	parameter int unsigned   AxiSlvIdWidth	=	32'd1,
-	parameter int unsigned   AxiMstIdWidth	=	AxiSlvIdWidth + $clog2(NoSlvPorts),
+	parameter int unsigned   AxiMstIdWidth	=	32'd1,
 	parameter bit            UniqueIds		=	1'b0,
 	parameter int unsigned   AxiAddrWidth	=	32'd64,
 	parameter int unsigned   AxiDataWidth	=	32'd64,
